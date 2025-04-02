@@ -1,0 +1,553 @@
+body {
+    margin: 0;
+    min-width: 320px;
+    height: 100dvh;
+    font-family: "Postype Sans-serif KR", Apple SD Gothic Neo, Malgun Gothic, sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color:  #FFFFFF;
+    /* padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom); */
+}
+body {
+    margin: 0;
+    color: #202022;
+    /* font-family: ; */
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    background-color: #FFFFFF;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+.joy-1op0iun {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+@media (min-width: 0px) {
+    .joy-1op0iun {
+        gap: 28px;
+    }
+}
+@media (min-width: 744px) {
+    .joy-1op0iun {
+        gap: 100px;
+    }
+}
+/* 헤더 여기서 부터 */
+.joy-tezs3f {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid;
+    border-color: 118 118 127;
+}
+.joy-4z3nb4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1144px;
+}
+@media (min-width: 0px) {
+    .joy-4z3nb4 {
+        height: 48px;
+        padding: 4px 8px;
+    }
+}
+@media (min-width: 744px) {
+    .joy-4z3nb4 {
+        height: 64px;
+        padding: 12px 32px;
+    }
+}
+.joy-1cig87j {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+@media (min-width: 0px) {
+    .joy-1cig87j {
+        padding-left: 8px;
+    }
+}
+@media (min-width: 744px) {
+    .joy-1cig87j {
+        padding-left: 0px;
+    }
+}
+.joy-orlzs5 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+@media (min-width: 0px) {
+    .joy-orlzs5 {
+        display: none;
+    }
+}
+@media (min-width: 744px) {
+    .joy-orlzs5 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+.joy-1ap5t40 {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: var(--Icon-margin);
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 24px;
+    color: #76767F;
+    width: 128px;
+    height: 24px;
+    color: black;
+}
+.joy-1ccw5g0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+@media (min-width: 0px) {
+    .joy-1ccw5g0 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+@media (min-width: 744px) {
+    .joy-1ccw5g0 {
+        display: none;
+    }
+}
+.joy-194s26x {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: var(--Icon-margin);
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 24px;
+    color: #76767F;
+    width: 95.99994000000001px;
+    height: 18px;
+    color: black;
+}
+@media (min-width: 0px) {
+    .joy-jhsfw2 {
+        display: none;
+    }
+}
+@media (min-width: 744px) {
+    .joy-jhsfw2 {
+        display: block;
+    }
+}
+.joy-1rg69f3 {
+    --Icon-margin: initial;
+    --Icon-color: #76767F;
+    --Icon-fontSize: 20px;
+    --CircularProgress-size: 20px;
+    --CircularProgress-thickness: 2px;
+    --Button-gap: 0.5rem;
+    min-height: 2.25rem;
+    font-size: 14px;
+    padding-block: 0.375rem;
+    padding-inline: 1rem;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    border-radius: 8px;
+    /* margin: var(--Button-margin); */
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-family: "Postype Sans-serif KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    --variant-borderWidth: 1px;
+    color: #202022;
+    border: ipx solid;
+    border-color: #DADADC;
+    font-weight: 500;
+}
+.joy-1rg69f3.MuiButton-sizeMd {
+    min-height: 40px;
+    font-size: 16px;
+}
+/* 헤더 여기까지 */
+
+.joy-yd5exj {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+@media (min-width: 0px) {
+    .joy-yd5exj {
+        padding: 0 16px;
+    }
+}
+@media (min-width: 744px) {
+    .joy-yd5exj {
+        padding: 0;
+    }
+}
+.joy-1c04f01 {
+    width: 100%;
+}
+@media (min-width: 0px) {
+    .joy-1c04f01 {
+        max-width: 100%;
+    }
+}
+@media (min-width: 744px) {
+    .joy-1c04f01 {
+        max-width: 320px;
+    }
+}
+.joy-6r2fzw {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 32px;
+}
+.joy-jvi4ox {
+    --Icon-fontSize: calc(1em* 1.33334);
+    margin: 0px;
+    display: block;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.33334;
+    letter-spacing: -0.025em;
+    color: #202022;
+    font-size: 24px;
+}
+.joy-1hdbc19 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 12px;
+}
+.joy-1bxt4bb {
+    --Icon-margin: initial;
+    --Icon-color: #76767F;
+    --Icon-fontSize: 20px;
+    --CircularProgress-size: 20px;
+    --CircularProgress-thickness: 2px;
+    --Button-gap: 0.5rem;
+    padding-block: 0.375rem;
+    padding-inline: 1rem;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    border-radius: 8px;
+    /* margin: var(--Button-margin); */
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-family: "Postype Sans-serif KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    --variant-borderWidth: 0px;
+    color: #202022;
+    background-color: #F2F2F3;
+    font-weight: 500;
+}
+.joy-1bxt4bb.MuiButton-sizeMd {
+    min-height: 40px;
+    font-size: 16px;
+}
+.joy-zcktug {
+    --Icon-margin: 0 0 0 calc(0.5rem / -2);
+    --CircularProgress-margin: 0 0 0 calc(0.5rem / -2);
+    display: inherit;
+    margin-right: 0.5rem;
+}
+.joy-1v86t8d {
+    --Icon-fontSize: 24px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0 0 0 calc(0.5rem / -2);
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 24px;
+    color: #76767F;
+    width: 1em;
+    height: 1em;
+    color: currentcolor;
+}
+.joy-1v8my8o {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 20px;
+}
+.joy-bco1gb {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 10px;
+}
+.joy-o9hh3a {
+    height: 16px;
+}
+.joy-l3odn9 {
+    --Icon-fontSize: 1rem;
+    --Checkbox-size: 1rem;
+    font-size: 14px;
+    gap: 0.5rem;
+    position: relative;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-family: "Postype Sans-serif KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    line-height: 1rem;
+    color: #202022;
+}
+.joy-12qidki {
+    --Icon-color: #76767F;
+    box-sizing: border-box;
+    border-radius: min(8px, 0.25rem);
+    width: 1rem;
+    height: 1rem;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    --variant-borderWidth: 1px;
+    color: #202022;
+    border: 1px solid;
+    border-color: #DADADC;
+    background-color: #FFFFFF;
+}
+.joy-kit57i {
+    border-radius: var(--Checkbox-actionRadius, inherit);
+    text-align: left;
+    position: absolute;
+    top: calc(-1* 1px);
+    left: calc(-1* 1px);
+    bottom: calc(-1* 1px);
+    right: calc(-1* 1px);
+    z-index: 1;
+}
+.joy-1jj0cvj {
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.joy-1fjtzvx {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 0;
+}
+.joy-w2e6ki {
+    --Divider-thickness: 1px;
+    --Divider-lineColor: rgba(118 118 127 / 0.15);
+    margin: initial;
+    /* margin-inline: var(--_Divider-inset); */
+    margin-block: initial;
+    position: relative;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border: none;
+    list-style: none;
+    background-color: rgba(118 118 127 / 0.15);
+    inline-size: initial;
+    block-size: 1px;
+}
+.joy-zwnr44 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 8px;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.joy-oia4ck {
+    --Icon-fontSize: calc(1em* 1.5);
+    margin: 0px;
+    display: block;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #202022;
+    font-weight: 400;
+    color: #76767F;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+}
+.joy-zpfz47 {
+    --Icon-fontSize: calc(1em* 1.5);
+    margin: 0px;
+    display: block;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #202022;
+    font-weight: 400;
+    color: #76767F;
+}
+.joy-131xqcy {
+    --Icon-fontSize: calc(1em* 1);
+    margin: 0px;
+    display: inline;
+    color: #76767F;
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+}
