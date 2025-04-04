@@ -1,0 +1,261 @@
+/* 2025.04.04 조승찬 */
+body {
+    margin: 0;
+    min-width: 320px;
+    height: 100dvh;
+    font-family: "Postype Sans-serif KR", Apple SD Gothic Neo, Malgun Gothic, sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #ffffff;
+    /* padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom); */
+}
+body {
+    margin: 0;
+    color: #202022;
+    /* font-family: ; */
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    background-color: #ffffff;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+.joy-1op0iun {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+@media (min-width: 0px) {
+    .joy-1op0iun {
+        gap: 28px;
+    }
+}
+@media (min-width: 744px) {
+    .joy-1op0iun {
+        gap: 100px;
+    }
+}
+/* 헤더 여기서 부터 */
+.joy-tezs3f {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid;
+    border-color: 118 118 127;
+}
+.joy-4z3nb4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1144px;
+}
+@media (min-width: 0px) {
+    .joy-4z3nb4 {
+        height: 48px;
+        padding: 4px 8px;
+    }
+}
+@media (min-width: 744px) {
+    .joy-4z3nb4 {
+        height: 64px;
+        padding: 12px 32px;
+    }
+}
+.joy-1cig87j {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+@media (min-width: 0px) {
+    .joy-1cig87j {
+        padding-left: 8px;
+    }
+}
+@media (min-width: 744px) {
+    .joy-1cig87j {
+        padding-left: 0px;
+    }
+}
+.joy-orlzs5 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+@media (min-width: 0px) {
+    .joy-orlzs5 {
+        display: none;
+    }
+}
+@media (min-width: 744px) {
+    .joy-orlzs5 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+.joy-1ap5t40 {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: var(--Icon-margin);
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 24px;
+    color: #76767f;
+    width: 128px;
+    height: 24px;
+    color: black;
+}
+.joy-1ccw5g0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+@media (min-width: 0px) {
+    .joy-1ccw5g0 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+@media (min-width: 744px) {
+    .joy-1ccw5g0 {
+        display: none;
+    }
+}
+.joy-194s26x {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: var(--Icon-margin);
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 24px;
+    color: #76767f;
+    width: 95.99994000000001px;
+    height: 18px;
+    color: black;
+}
+@media (min-width: 0px) {
+    .joy-jhsfw2 {
+        display: none;
+    }
+}
+@media (min-width: 744px) {
+    .joy-jhsfw2 {
+        display: block;
+    }
+}
+.joy-1rg69f3 {
+    --Icon-margin: initial;
+    --Icon-color: #76767f;
+    --Icon-fontSize: 20px;
+    --CircularProgress-size: 20px;
+    --CircularProgress-thickness: 2px;
+    --Button-gap: 0.5rem;
+    min-height: 2.25rem;
+    font-size: 14px;
+    padding-block: 0.375rem;
+    padding-inline: 1rem;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    border-radius: 8px;
+    /* margin: var(--Button-margin); */
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    --variant-borderWidth: 1px;
+    color: #202022;
+    border: ipx solid;
+    border-color: #dadadc;
+    font-weight: 500;
+}
+.joy-1rg69f3.MuiButton-sizeMd {
+    min-height: 40px;
+    font-size: 16px;
+}
+/* 헤더 여기까지 */
