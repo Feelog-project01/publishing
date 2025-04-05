@@ -313,7 +313,6 @@ body {
     display: block;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-weight: 600;
-    font-size: 36px;
     line-height: 1.33334;
     letter-spacing: -0.025em;
     color: #202022;
@@ -366,7 +365,6 @@ body {
     --variant-borderWidth: 0px;
     color: #202022;
     background-color: #f2f2f3;
-    font-weight: 500;
 }
 .joy-1bxt4bb.MuiButton-sizeMd {
     min-height: 40px;
@@ -559,6 +557,11 @@ body {
 .joy-1bxt4bb:hover {
     background-color: #e0e0e2; /* 기존 색상보다 살짝 더 진한 색 */
     color: #1a1a1d; /* 글자 색상도 조금 더 진하게 설정 */
+}
+
+/* 밑줄 hover */
+.joy-oia4ck:hover {
+    text-decoration: underline;
 }
 /* 경고문구 */
 .joy-1jrnmgr {

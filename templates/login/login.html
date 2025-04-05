@@ -1,11 +1,11 @@
-<!-- 2025.04.03. 조승찬 -->
+<!-- 2025.04.05 조승찬 -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../../static/css/join/join.css" />
-        <title>회원 가입</title>
+        <link rel="stylesheet" href="../../static/css/login/login.css" />
+        <title>로그인</title>
     </head>
     <body>
         <div class="MuiStack-root joy-1op0iun">
@@ -108,41 +108,40 @@
                     ></a>
                     <div class="MuiBox-root joy-jhsfw2">
                         <a
-                            href="/login"
-                            class="MuiButton-root MuiButton-variantOutlined MuiButton-colorNeutral MuiButton-sizeMd joy-1rg69f3"
-                            >로그인</a
+                            href="/signup"
+                            class="MuiButton-root MuiButton-variantSolid MuiButton-colorNeutral MuiButton-sizeMd joy-txwi49"
+                            >회원 가입</a
                         >
                     </div>
                 </nav>
             </header>
-
             <main class="MuiStack-root joy-yd5exj">
                 <div class="MuiBox-root joy-1c04f01">
                     <div class="MuiStack-root joy-6r2fzw">
-                        <h1 id=":Rjsv7ql7rlqakq:" class="MuiTypography-root MuiTypography-h1 joy-jvi4ox">
-                            필로그 회원 가입
+                        <h1 id=":R4vf7ql7rlqakq:" class="MuiTypography-root MuiTypography-h1 joy-jvi4ox">
+                            필로그 로그인
                         </h1>
-                        <div class="MuiStack-root joy-1hdbc19" role="listbox" aria-labelledby=":Rjsv7ql7rlqakq:">
+                        <div class="MuiStack-root joy-1hdbc19" role="listbox" aria-labelledby=":R4vf7ql7rlqakq:">
                             <a
-                                href="https://kauth.kakao.com/oauth/authorize?client_id=fae1d8d22225221e075546a8f1f4ac4d&redirect_uri=http://localhost:10000/kakao/login&response_type=code"
+                                href="https://kauth.kakao.com/oauth/authorize?client_id=fae1d8d22225221e075546a8f1f4ac4d&redirect_uri=http://52.78.155.144:10000/kakao/login&response_type=code"
                                 class="MuiButton-root MuiButton-variantSoft MuiButton-colorNeutral MuiButton-sizeMd joy-1bxt4bb"
-                            >
-                                <span class="MuiButton-startDecorator joy-zcktug">
+                                ><span class="MuiButton-startDecorator joy-zcktug">
                                     <img
                                         src="../../static/images/kakao.webp"
                                         width="24"
                                         height="24"
                                         viewBox="0 0 24 24"
                                         class="MuiSvgIcon-root MuiSvgIcon-sizeMd joy-1v86t8d"
-                                    /> </span
-                                >카카오로 회원 가입
-                            </a>
-                            <button
+                                        href="/kakao/login"
+                                    />
+                                </span>
+                                <div class="MuiBox-root joy-79elbk">카카오로 로그인</div></a
+                            ><button
                                 class="MuiButton-root MuiButton-variantSoft MuiButton-colorNeutral MuiButton-sizeMd joy-1bxt4bb"
                                 type="button"
                             >
-                                <span class="MuiButton-startDecorator joy-zcktug">
-                                    <svg
+                                <span class="MuiButton-startDecorator joy-zcktug"
+                                    ><svg
                                         focusable="false"
                                         aria-hidden="true"
                                         viewBox="0 0 24 24"
@@ -155,38 +154,47 @@
                                         <path
                                             d="M4.5 5.875a.627.627 0 0 0-.625.625v.863l6.738 5.532a2.185 2.185 0 0 0 2.778 0l6.734-5.532V6.5a.627.627 0 0 0-.625-.625h-15Zm-.625 3.914V17.5c0 .344.281.625.625.625h15a.627.627 0 0 0 .625-.625V9.79l-5.547 4.554a4.063 4.063 0 0 1-5.156 0L3.875 9.789ZM2 6.5C2 5.121 3.121 4 4.5 4h15C20.879 4 22 5.121 22 6.5v11c0 1.379-1.121 2.5-2.5 2.5h-15A2.502 2.502 0 0 1 2 17.5v-11Z"
                                             fill="currentcolor"
-                                        ></path>
-                                    </svg> </span
-                                >이메일로 회원 가입
+                                        ></path></svg
+                                ></span>
+                                <div class="MuiBox-root joy-79elbk">이메일로 로그인</div>
                             </button>
                         </div>
                         <div class="MuiStack-root joy-1v8my8o">
-                            <div class="MuiStack-root joy-bco1gb">
-                                <div class="MuiBox-root joy-o9hh3a">
-                                    <span
-                                        class="MuiCheckbox-root MuiCheckbox-variantOutlined MuiCheckbox-colorNeutral MuiCheckbox-sizeSm joy-l3odn9"
+                            <span
+                                class="MuiCheckbox-root Mui-checked MuiCheckbox-variantSolid MuiCheckbox-colorPrimary MuiCheckbox-sizeSm joy-n1cxpg"
+                                ><span class="MuiCheckbox-checkbox Mui-checked joy-3p0wzn"
+                                    ><span class="MuiCheckbox-action Mui-checked joy-kit57i"
+                                        ><input
+                                            type="checkbox"
+                                            id=":R1ncvf7ql7rlqakq:"
+                                            class="MuiCheckbox-input joy-1jj0cvj"
+                                            checked="" /></span
+                                    ><svg
+                                        focusable="false"
+                                        aria-hidden="true"
+                                        viewBox="0 0 24 24"
+                                        data-testid="CheckIcon"
+                                        class="MuiSvgIcon-root MuiSvgIcon-sizeMd joy-c6bb0f"
                                     >
-                                        <span class="MuiCheckbox-checkbox joy-12qidki">
-                                            <span class="MuiCheckbox-action joy-kit57i">
-                                                <input
-                                                    type="checkbox"
-                                                    id=":R166tjsv7ql7rlqakq:"
-                                                    class="MuiCheckbox-input joy-1jj0cvj"
-                                                />
-                                            </span>
-                                        </span>
-                                        <label for=":R166tjsv7ql7rlqakq:" class="MuiCheckbox-label joy-1fjtzvx"
-                                            >만 14세 이상입니다.</label
-                                        >
-                                    </span>
-                                </div>
-                            </div>
+                                        <path
+                                            d="M9 16.17 5.53 12.7a.9959.9959 0 0 0-1.41 0c-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41a.9959.9959 0 0 0-1.41 0L9 16.17z"
+                                        ></path></svg></span
+                                ><label for=":R1ncvf7ql7rlqakq:" class="MuiCheckbox-label joy-1fjtzvx"
+                                    >로그인 상태 유지</label
+                                ></span
+                            >
                             <hr class="MuiDivider-root MuiDivider-horizontal joy-w2e6ki" />
                             <div class="MuiStack-root joy-zwnr44" role="listbox" aria-label="퀵 링크">
                                 <a
-                                    href="../login/login.html"
+                                    href="../login/password-issue.html"
                                     class="MuiTypography-root MuiTypography-body-sm joy-oia4ck"
-                                    >로그인</a
+                                    >비밀번호 재설정</a
+                                >
+                                <p role="separator" class="MuiTypography-root MuiTypography-body-sm joy-zpfz47">·</p>
+                                <a
+                                    href="../../templates/join/join.html"
+                                    class="MuiTypography-root MuiTypography-body-sm joy-oia4ck"
+                                    >회원 가입</a
                                 >
                             </div>
                             <hr class="MuiDivider-root MuiDivider-horizontal joy-w2e6ki" />
@@ -196,5 +204,5 @@
             </main>
         </div>
     </body>
-    <script src="../../static/js/join/join-event.js"></script>
+    <script src="../../static/js/login/login-event.js"></script>
 </html>

@@ -23,6 +23,10 @@ document.addEventListener("DOMContentLoaded", () => {
                         p.innerText = "포스타입에 가입하려면 만 14세 이상이어야 해요.";
                         document.querySelector(".MuiStack-root.joy-bco1gb").appendChild(p);
                     }
+                } else {
+                    if (e.target.closest("button.joy-1bxt4bb")) {
+                        window.location.href = "../join/email-join.html";
+                    }
                 }
             });
         });
