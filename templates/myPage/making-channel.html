@@ -4,8 +4,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../../static/css/account/setting-notice.css" />
-        <title>알림 설정</title>
+        <link rel="stylesheet" href="../../static/css/myPage/making-channel.css" />
+        <title>채널 만들기</title>
     </head>
     <body>
         <div class="MuiStack-root joy-91keta">
@@ -84,10 +84,8 @@
                             ></a>
                         </h1>
                         <h2 class="MuiBox-root joy-g8lkuf">
-                            <a
-                                href="/account/settings/profile"
-                                class="MuiTypography-root MuiTypography-title-lg joy-go6dvz"
-                                >설정</a
+                            <a href="/channel/create" class="MuiTypography-root MuiTypography-title-lg joy-go6dvz"
+                                >새 채널 만들기</a
                             >
                         </h2>
                     </div>
@@ -212,7 +210,7 @@
                                     <button
                                         aria-haspopup="menu"
                                         aria-expanded="false"
-                                        aria-controls=""
+                                        aria-controls=":r0:"
                                         tabindex="0"
                                         aria-label="사용자 메뉴"
                                         class="MuiMenuButton-root MuiMenuButton-variantPlain MuiMenuButton-colorNeutral MuiMenuButton-sizeSm joy-t47jog"
@@ -262,229 +260,232 @@
                     <nav class="subnavigation MuiBox-root joy-t8dhj4">
                         <ul
                             class="MuiList-root MuiList-vertical MuiList-variantPlain MuiList-colorNeutral MuiList-sizeMd joy-hq5y8t"
-                        >
-                            <a
-                                class="MuiListItem-root MuiListItem-colorNeutral MuiListItem-variantPlain joy-1t2bmje"
-                                href="/account/settings/profile"
-                                ><p data-first-child="" class="MuiTypography-root MuiTypography-body-md joy-r8ur5l">
-                                    프로필
-                                </p></a
-                            ><a
-                                class="MuiListItem-root MuiListItem-colorNeutral MuiListItem-variantPlain selected joy-yhpm4r"
-                                href="/account/settings/notification"
-                                ><p data-first-child="" class="MuiTypography-root MuiTypography-body-md joy-7rqbdn">
-                                    알림
-                                </p></a
-                            >
-                        </ul>
+                        ></ul>
                     </nav>
-                    <main class="MuiStack-root joy-1v7lmb8">
-                        <form class="MuiStack-root joy-1bmegbw">
-                            <div class="MuiStack-root joy-1hdbc19">
+                    <main class="MuiStack-root joy-4w2mif">
+                        <div class="MuiStack-root joy-1jznhgj">
+                            <form class="MuiStack-root joy-1f2qzn3">
                                 <div
-                                    class="MuiFormControl-root MuiFormControl-horizontal MuiFormControl-sizeMd joy-1a2uomy"
+                                    class="MuiFormControl-root MuiFormControl-vertical MuiFormControl-sizeMd joy-k54e1s"
                                 >
                                     <label
-                                        for=":Rd1cpuuukv9ul7rlqakq:"
-                                        id=":Rd1cpuuukv9ul7rlqakq:-label"
-                                        class="MuiFormLabel-root joy-axov80"
-                                        >댓글</label
+                                        for=":R19ukvf9ul7rlqakq:"
+                                        id=":Rr9ukvf9ul7rlqakq:-label"
+                                        class="MuiFormLabel-root joy-qd6aj"
+                                        >채널 프로필 이미지</label
                                     >
-                                    <div
-                                        class="MuiSwitch-root Mui-checked MuiSwitch-variantSolid MuiSwitch-colorPrimary MuiSwitch-sizeSm joy-1yog6pe"
-                                    >
-                                        <span class="MuiSwitch-track Mui-checked joy-d1fwab"
-                                            ><span class="MuiSwitch-thumb Mui-checked joy-15siac8"></span
-                                        ></span>
-                                        <div class="MuiSwitch-action joy-u74y05">
-                                            <input
-                                                type="checkbox"
-                                                id=":Rd1cpuuukv9ul7rlqakq:"
-                                                role="switch"
-                                                class="MuiSwitch-input joy-q7japm"
-                                                name="allowNotificationComment"
-                                                checked=""
+                                    <div class="MuiStack-root joy-1y3ojfh">
+                                        <div class="MuiBox-root joy-1hxgnwv">
+                                            <img
+                                                src="https://d33pksfia2a94m.cloudfront.net/assets/img/avatar/blog_blank.png"
+                                                alt="channel-profile"
                                             />
+                                        </div>
+                                        <div class="MuiStack-root joy-14xwqq4" data-testid="ImageUpload-data">
+                                            <input
+                                                id=":R19ukvf9ul7rlqakq:"
+                                                accept="image/jpeg, image/png, image/heic, image/heif, image/webp"
+                                                type="file"
+                                                style="display: none"
+                                                name="avatar"
+                                            />
+                                            <div
+                                                class="MuiSheet-root MuiSheet-variantOutlined MuiSheet-colorNeutral joy-3038fr"
+                                            >
+                                                <p class="MuiTypography-root MuiTypography-body-md joy-1dfw2up">
+                                                    파일을 선택해 주세요.
+                                                </p>
+                                                <button
+                                                    type="button"
+                                                    class="MuiButton-root MuiButton-variantOutlined MuiButton-colorNeutral MuiButton-sizeMd joy-cqqedx"
+                                                >
+                                                    파일 선택
+                                                </button>
+                                            </div>
+                                            <div class="MuiStack-root joy-1buwhie">
+                                                <p class="MuiTypography-root MuiTypography-body-sm joy-zpfz47">
+                                                    최대 10MB의 이미지 파일을 올려 주세요.
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="MuiFormHelperText-root joy-7l9mu1">
-                                    내 포스트에 새 댓글이 등록됐을 때 알림을 받아요.
-                                </div>
-                            </div>
-                            <div class="MuiStack-root joy-1hdbc19">
                                 <div
-                                    class="MuiFormControl-root MuiFormControl-horizontal MuiFormControl-sizeMd joy-1a2uomy"
+                                    class="MuiFormControl-root MuiFormControl-vertical MuiFormControl-sizeMd joy-k54e1s"
                                 >
                                     <label
-                                        for=":Rd2cpuuukv9ul7rlqakq:"
-                                        id=":Rd2cpuuukv9ul7rlqakq:-label"
-                                        class="MuiFormLabel-root joy-axov80"
-                                        >댓글 좋아요</label
+                                        for=":R1b9ukvf9ul7rlqakq:"
+                                        id=":R1b9ukvf9ul7rlqakq:-label"
+                                        required=""
+                                        class="MuiFormLabel-root joy-qd6aj"
+                                        >채널 제목<span aria-hidden="true" class="MuiFormLabel-asterisk joy-1d2ou3v"
+                                            > <!-- -->*</span
+                                        ></label
                                     >
-                                    <div
-                                        class="MuiSwitch-root Mui-checked MuiSwitch-variantSolid MuiSwitch-colorPrimary MuiSwitch-sizeSm joy-1yog6pe"
-                                    >
-                                        <span class="MuiSwitch-track Mui-checked joy-d1fwab"
-                                            ><span class="MuiSwitch-thumb Mui-checked joy-15siac8"></span
-                                        ></span>
-                                        <div class="MuiSwitch-action joy-u74y05">
+                                    <div class="MuiBox-root joy-0">
+                                        <div
+                                            class="MuiInput-root MuiInput-variantOutlined MuiInput-colorNeutral MuiInput-sizeMd MuiInput-formControl joy-128w9vm"
+                                        >
                                             <input
-                                                type="checkbox"
-                                                id=":Rd2cpuuukv9ul7rlqakq:"
-                                                role="switch"
-                                                class="MuiSwitch-input joy-q7japm"
-                                                name="allowNotificationCommentLike"
-                                                checked=""
+                                                id=":R1b9ukvf9ul7rlqakq:"
+                                                maxlength="45"
+                                                aria-required="true"
+                                                class="MuiInput-input joy-1u0jcuo"
+                                                name="title"
+                                                aria-describedby=":R1b9ukvf9ul7rlqakq:-helper-text"
                                             />
+                                        </div>
+                                        <div
+                                            class="MuiFormHelperText-root joy-7l9mu1"
+                                            id=":R1b9ukvf9ul7rlqakq:-helper-text"
+                                        >
+                                            채널에 이름을 붙여 주세요. (최대 45자)
                                         </div>
                                     </div>
                                 </div>
-                                <div class="MuiFormHelperText-root joy-7l9mu1">
-                                    내 댓글을 누군가 좋아했을 때 알림을 받아요.
-                                </div>
-                            </div>
-                            <div class="MuiStack-root joy-1hdbc19">
                                 <div
-                                    class="MuiFormControl-root MuiFormControl-horizontal MuiFormControl-sizeMd joy-1a2uomy"
+                                    class="MuiFormControl-root MuiFormControl-vertical MuiFormControl-sizeMd joy-k54e1s"
                                 >
                                     <label
-                                        for=":Rd3cpuuukv9ul7rlqakq:"
-                                        id=":Rd3cpuuukv9ul7rlqakq:-label"
-                                        class="MuiFormLabel-root joy-axov80"
-                                        >좋아요</label
+                                        for=":R1r9ukvf9ul7rlqakq:"
+                                        id=":R1r9ukvf9ul7rlqakq:-label"
+                                        class="MuiFormLabel-root joy-qd6aj"
+                                        >채널 설명</label
                                     >
-                                    <div
-                                        class="MuiSwitch-root Mui-checked MuiSwitch-variantSolid MuiSwitch-colorPrimary MuiSwitch-sizeSm joy-1yog6pe"
-                                    >
-                                        <span class="MuiSwitch-track Mui-checked joy-d1fwab"
-                                            ><span class="MuiSwitch-thumb Mui-checked joy-15siac8"></span
-                                        ></span>
-                                        <div class="MuiSwitch-action joy-u74y05">
-                                            <input
-                                                type="checkbox"
-                                                id=":Rd3cpuuukv9ul7rlqakq:"
-                                                role="switch"
-                                                class="MuiSwitch-input joy-q7japm"
-                                                name="allowNotificationLike"
-                                                checked=""
-                                            />
+                                    <div class="MuiBox-root joy-8atqhb">
+                                        <div
+                                            class="MuiTextarea-root MuiTextarea-variantOutlined MuiTextarea-colorNeutral MuiTextarea-sizeMd MuiTextarea-formControl joy-1pk8xce"
+                                        >
+                                            <textarea
+                                                rows="4"
+                                                style="height: 96px"
+                                                id=":R1r9ukvf9ul7rlqakq:"
+                                                name="description"
+                                                maxlength="255"
+                                                class="MuiTextarea-textarea joy-1qmqn4r"
+                                                aria-describedby=":R1r9ukvf9ul7rlqakq:-helper-text"
+                                            ></textarea
+                                            ><textarea
+                                                aria-hidden="true"
+                                                class="MuiTextarea-textarea joy-1qmqn4r"
+                                                readonly=""
+                                                tabindex="-1"
+                                                style="
+                                                    visibility: hidden;
+                                                    position: absolute;
+                                                    overflow: hidden;
+                                                    height: 0px;
+                                                    top: 0px;
+                                                    left: 0px;
+                                                    transform: translateZ(0px);
+                                                    padding-top: 0px;
+                                                    padding-bottom: 0px;
+                                                    width: 626px;
+                                                "
+                                            ></textarea>
+                                        </div>
+                                        <div
+                                            class="MuiFormHelperText-root joy-7l9mu1"
+                                            id=":R1r9ukvf9ul7rlqakq:-helper-text"
+                                        >
+                                            채널을 더 자세하게 소개해 주세요. (최대 255자)
                                         </div>
                                     </div>
                                 </div>
-                                <div class="MuiFormHelperText-root joy-7l9mu1">
-                                    내 포스트를 누군가 좋아했을 때 알림을 받아요.
-                                </div>
-                            </div>
-                            <div class="MuiStack-root joy-1hdbc19">
                                 <div
-                                    class="MuiFormControl-root MuiFormControl-horizontal MuiFormControl-sizeMd joy-1a2uomy"
+                                    class="MuiFormControl-root MuiFormControl-vertical MuiFormControl-sizeMd joy-k54e1s"
                                 >
                                     <label
-                                        for=":Rd5cpuuukv9ul7rlqakq:"
-                                        id=":Rd5cpuuukv9ul7rlqakq:-label"
-                                        class="MuiFormLabel-root joy-axov80"
-                                        >구독</label
+                                        for=":R2b9ukvf9ul7rlqakq:"
+                                        id=":R2b9ukvf9ul7rlqakq:-label"
+                                        required=""
+                                        class="MuiFormLabel-root joy-qd6aj"
+                                        >채널 URL<span aria-hidden="true" class="MuiFormLabel-asterisk joy-1d2ou3v"
+                                            > <!-- -->*</span
+                                        ></label
                                     >
-                                    <div
-                                        class="MuiSwitch-root Mui-checked MuiSwitch-variantSolid MuiSwitch-colorPrimary MuiSwitch-sizeSm joy-1yog6pe"
-                                    >
-                                        <span class="MuiSwitch-track Mui-checked joy-d1fwab"
-                                            ><span class="MuiSwitch-thumb Mui-checked joy-15siac8"></span
-                                        ></span>
-                                        <div class="MuiSwitch-action joy-u74y05">
+                                    <div class="MuiBox-root joy-0">
+                                        <div
+                                            class="MuiInput-root MuiInput-variantOutlined MuiInput-colorNeutral MuiInput-sizeMd MuiInput-formControl joy-128w9vm"
+                                        >
+                                            <div class="MuiInput-startDecorator joy-18p2gzq">
+                                                <p class="MuiTypography-root MuiTypography-body-md joy-x2uqt8">
+                                                    feelog.com/@
+                                                </p>
+                                            </div>
                                             <input
-                                                type="checkbox"
-                                                id=":Rd5cpuuukv9ul7rlqakq:"
-                                                role="switch"
-                                                class="MuiSwitch-input joy-q7japm"
-                                                name="allowNotificationSubscription"
-                                                checked=""
+                                                id=":R2b9ukvf9ul7rlqakq:"
+                                                placeholder="URL을 입력해 주세요."
+                                                aria-required="true"
+                                                maxlength="45"
+                                                class="MuiInput-input joy-za5rna"
+                                                name="subDomain"
+                                                aria-describedby=":R2b9ukvf9ul7rlqakq:-helper-text"
                                             />
+                                        </div>
+                                        <div
+                                            class="MuiFormHelperText-root joy-7l9mu1"
+                                            id=":R2b9ukvf9ul7rlqakq:-helper-text"
+                                        >
+                                            URL은 영문 소문자, 숫자, 대시(-)만 입력할 수 있어요. (최소 6자, 최대 45자)
                                         </div>
                                     </div>
                                 </div>
-                                <div class="MuiFormHelperText-root joy-7l9mu1">
-                                    내 채널이나 내가 참여한 팀 채널을 누군가 구독했을 때 알림을 받아요.
-                                </div>
-                            </div>
-                            <div class="MuiStack-root joy-1hdbc19">
-                                <div
-                                    class="MuiFormControl-root MuiFormControl-horizontal MuiFormControl-sizeMd joy-1a2uomy"
-                                >
-                                    <label
-                                        for=":Rd7cpuuukv9ul7rlqakq:"
-                                        id=":Rd7cpuuukv9ul7rlqakq:-label"
-                                        class="MuiFormLabel-root joy-axov80"
-                                        >커뮤니티 새 글</label
-                                    >
-                                    <div
-                                        class="MuiSwitch-root Mui-checked MuiSwitch-variantSolid MuiSwitch-colorPrimary MuiSwitch-sizeSm joy-1yog6pe"
-                                    >
-                                        <span class="MuiSwitch-track Mui-checked joy-d1fwab"
-                                            ><span class="MuiSwitch-thumb Mui-checked joy-15siac8"></span
-                                        ></span>
-                                        <div class="MuiSwitch-action joy-u74y05">
-                                            <input
-                                                type="checkbox"
-                                                id=":Rd7cpuuukv9ul7rlqakq:"
-                                                role="switch"
-                                                class="MuiSwitch-input joy-q7japm"
-                                                name="allowNotificationNewCommunity"
-                                                checked=""
-                                            />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="MuiFormHelperText-root joy-7l9mu1">
-                                    내 채널 커뮤니티에 새 글이나 질문이 등록되었을 때 알림을 받아요.
-                                </div>
-                            </div>
-                            <div class="MuiStack-root joy-1hdbc19">
-                                <div
-                                    class="MuiFormControl-root MuiFormControl-horizontal MuiFormControl-sizeMd joy-1a2uomy"
-                                >
-                                    <label
-                                        for=":Rdbcpuuukv9ul7rlqakq:"
-                                        id=":Rdbcpuuukv9ul7rlqakq:-label"
-                                        class="MuiFormLabel-root joy-axov80"
-                                        >메시지</label
-                                    >
-                                    <div
-                                        class="MuiSwitch-root Mui-checked MuiSwitch-variantSolid MuiSwitch-colorPrimary MuiSwitch-sizeSm joy-1yog6pe"
-                                    >
-                                        <span class="MuiSwitch-track Mui-checked joy-d1fwab"
-                                            ><span class="MuiSwitch-thumb Mui-checked joy-15siac8"></span
-                                        ></span>
-                                        <div class="MuiSwitch-action joy-u74y05">
-                                            <input
-                                                type="checkbox"
-                                                id=":Rdbcpuuukv9ul7rlqakq:"
-                                                role="switch"
-                                                class="MuiSwitch-input joy-q7japm"
-                                                name="allowNotificationMessage"
-                                                checked=""
-                                            />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="MuiFormHelperText-root joy-7l9mu1">
-                                    누군가 나에게 메시지를 보냈을 때 알림을 받아요.
-                                </div>
-                            </div>
-                            <div class="MuiBox-root joy-2ertzu">
                                 <button
                                     type="submit"
-                                    class="MuiButton-root MuiButton-variantSolid MuiButton-colorPrimary MuiButton-sizeMd joy-10kto0v"
+                                    class="MuiButton-root MuiButton-variantSolid MuiButton-colorPrimary MuiButton-sizeMd joy-w9fbn"
                                 >
-                                    변경 내용 저장
+                                    새 채널 만들기
                                 </button>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
                     </main>
                 </div>
             </div>
         </div>
+        <div role="presentation" class="MuiModal-root joy-8ijia1" style="display: none">
+            <div aria-hidden="true" open="" class="MuiModal-backdrop joy-qivq4z"></div>
+            <div tabindex="0" data-testid="sentinelStart"></div>
+            <div
+                role="dialog"
+                aria-modal="true"
+                aria-labelledby=":r2:"
+                aria-describedby=":r3:"
+                tabindex="-1"
+                class="MuiModalDialog-root MuiModalDialog-variantOutlined MuiModalDialog-colorNeutral MuiModalDialog-sizeMd MuiModalDialog-layoutAlert joy-1u2eg80"
+            >
+                <h2 id=":r2:" data-first-child="" class="MuiDialogTitle-root MuiDialogTitle-title-lg joy-196uakj">
+                    알림
+                </h2>
+                <button
+                    aria-label="닫기"
+                    class="MuiModalClose-root MuiModalClose-variantPlain MuiModalClose-colorNeutral MuiModalClose-sizeMd joy-18efofp"
+                    type="button"
+                >
+                    <svg
+                        focusable="false"
+                        aria-hidden="true"
+                        viewBox="0 0 24 24"
+                        data-testid="CloseIcon"
+                        class="MuiSvgIcon-root MuiSvgIcon-sizeMd joy-c6bb0f"
+                    >
+                        <path
+                            d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                        ></path>
+                    </svg>
+                </button>
+                <div id=":r3:" class="MuiDialogContent-root joy-1cscwg4"></div>
+                <div data-last-child="" class="MuiDialogActions-root joy-gh62p7">
+                    <button
+                        class="MuiButton-root MuiButton-variantSolid MuiButton-colorPrimary MuiButton-sizeMd joy-10kto0v"
+                        type="button"
+                    >
+                        확인
+                    </button>
+                </div>
+            </div>
+            <div tabindex="0" data-testid="sentinelEnd"></div>
+        </div>
     </body>
-    <script src="../../static/js/account/setting-notice-event.js"></script>
+    <script src="../../static/js/myPage/making-channel-event.js"></script>
 </html>

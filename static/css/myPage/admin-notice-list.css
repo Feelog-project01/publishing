@@ -1,4 +1,4 @@
-/* 2025.04.05 조승찬 */
+/* 2025.04.06 조승찬 */
 body {
     margin: 0;
     min-width: 320px;
@@ -145,28 +145,6 @@ body {
     font-size: 16px;
 }
 
-.joy-10kto0v {
-    margin: initial;
-    color: #FFFFFF;
-    font-size: 14px;
-    min-height: 2.25rem;
-    padding-block: 0.375rem;
-    padding-inline: 1rem;
-    -webkit-tap-highlight-color: transparent;
-    box-sizing: border-box;
-    border-radius: 8px;
-    border: none;
-    background-color: #1976D2;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    text-decoration: none;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    line-height: 1.5;
-    font-weight: 500;
-}
 .joy-o2qig1 {
     cursor: pointer;
     padding: 8px;
@@ -632,8 +610,7 @@ body {
     white-space: nowrap;
 }
 /* 헤더 여기까지 */
-
-/* 2단 헤더 여기부터 */
+/* 2단 헤더 시작 */
 .joy-1j46z6j {
     display: -webkit-box;
     display: -webkit-flex;
@@ -665,12 +642,15 @@ body {
     -ms-flex-align: center;
     align-items: center;
 }
+
 .joy-t8dhj4 {
     width: 100%;
+    position: -webkit-sticky;
     position: sticky;
     background-color: #FFFFFF;
     z-index: 499;
-    border-bottom: 1px solid #DADADC;
+    border-bottom: 1px solid;
+    border-color: rgba(118 118 127 / 0.15);
 }
 @media (min-width: 0px) {
     .joy-t8dhj4 {
@@ -684,25 +664,54 @@ body {
     }
 }
 .joy-hq5y8t {
+    --ListDivider-gap: 0.375rem;
+    --ListItem-minHeight: 2.25rem;
+    --ListItem-paddingY: 0.25rem;
+    --ListItem-paddingX: 0.75rem;
+    --ListItem-gap: 0.625rem;
+    --ListItemDecorator-size: 2.5rem;
+    --Icon-fontSize: 24px;
+    --List-gap: 0px;
+    --List-nestedInsetStart: 0px;
+    --ListItem-paddingLeft: 0.75rem;
+    --ListItem-paddingRight: 0.75rem;
+    --unstable_List-childRadius: calc(max(8px - 12px, min(12px / 2, 8px / 2)) - 0px);
+    --ListItem-radius: calc(max(8px - 12px, min(12px / 2, 8px / 2)) - 0px);
+    --ListItem-startActionTranslateX: calc(0.5 * 0.75rem);
+    --ListItem-endActionTranslateX: calc(-0.5 * 0.75rem);
     margin: initial;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #202022;
+    color: #333333;
     font-weight: 400;
-    padding-block: 0.375rem;
-    padding-inline: 0.75rem;
+    padding-block: 12px;
+    padding-inline: 12px;
     box-sizing: border-box;
     border-radius: 8px;
     list-style: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
     flex-grow: 1;
     position: relative;
+    --variant-borderWidth: 0px;
+    color: #333333;
+    --unstable_List-borderWidth: 0px;
     overflow-x: auto;
     max-width: 1144px;
     margin-inline: auto;
     padding-block: 0px;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     scrollbar-width: none;
 }
 @media (min-width: 0px) {
@@ -725,28 +734,90 @@ body {
         justify-content: center;
     }
 }
-.joy-hq5y8t.MuiList-sizeMd {
-    --ListItem-minHeight: 40px;
+.joy-yhpm4r:not([hidden]) {
+    --_ListItem-display: flex;
 }
-.joy-1t2bmje {    
-    top: -4px;
-    margin-inline: 1.25rem 1.25rem;
-    margin-block: -0.25rem;
+
+.joy-yhpm4r {
+    --ListItemButton-marginInline: calc(-1 * 12px) calc(-1 * 12px);
+    --ListItemButton-marginBlock: calc(-1 * 8px);
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
-    gap: 0.625rem;
+    gap: 10px;
+    margin-inline: 0px;
+    --unstable_actionRadius: calc(8px - 0px);
     box-sizing: border-box;
     display: flex;
+    -webkit-flex: none;
+    -ms-flex: none;
     flex: none;
     list-style-type: disc;
     position: relative;
-    padding-block-start: 0.25rem;
-    padding-block-end: 0.25rem;
-    padding-inline-start: 0.75rem;
-    padding-inline-end: 0.75rem;
+    padding-block-start: 8px;
+    padding-block-end: 8px;
+    -webkit-padding-start: 12px;
+    padding-inline-start: 12px;
+    -webkit-padding-end: 12px;
+    padding-inline-end: 12px;
     margin-block-start: 0px;
-    min-height: 2.25rem;
-    color: #202022;
-    border-bottom: 2px solid #FFFFFF;
+    min-block-size: 36px;
+    --variant-borderWidth: 0px;
+    color: #333333;
+    padding-inline: 4px;
+    border-bottom: 2px solid;
+    border-color: #666666;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+}
+@media (min-width: 0px) {
+    .joy-yhpm4r {
+        height: 48px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-yhpm4r {
+        height: 56px;
+    }
+}
+
+.joy-hq5y8t.MuiList-sizeMd {
+    --ListItem-minHeight: 40px;
+}
+.joy-1t2bmje {
+    --ListItemButton-marginInline: calc(-1 * 12px) calc(-1 * 12px);
+    --ListItemButton-marginBlock: calc(-1 * 8px);
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 10px;
+    margin-inline: 0px;
+    --unstable_actionRadius: calc(8px - 0px);
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    list-style-type: disc;
+    position: relative;
+    padding-block-start: 8px;
+    padding-block-end: 8px;
+    -webkit-padding-start: 12px;
+    padding-inline-start: 12px;
+    -webkit-padding-end: 12px;
+    padding-inline-end: 12px;
+    margin-block-start: 0px;
+    min-block-size: 36px;
+    --variant-borderWidth: 0px;
+    color: #333333;
+    padding-inline: 4px;
+    border-bottom: 2px solid;
+    border-color: #F5F5F5;
+    -webkit-text-decoration: none;
     text-decoration: none;
 }
 @media (min-width: 0px) {
@@ -760,69 +831,36 @@ body {
     }
 }
 .joy-1t2bmje:not([hidden]) {
-    display: flex;
+    --_ListItem-display: flex;
 }
 .joy-r8ur5l {
-    font-size: calc(1em * 1.5);
+    --Icon-fontSize: calc(1em * 1.5);
     margin: 0px;
     display: block;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #A4A4A8;
+    color: #333333;
     font-weight: 400;
+    color: #B3B3B3;
+    -webkit-text-decoration: none;
     text-decoration: none;
     white-space: nowrap;
-}
-
-.joy-yhpm4r {    
-    top: -4px;
-    margin-inline: 1.25rem 1.25rem;
-    margin-block: -0.25rem;
-    align-items: center;
-    gap: 0.625rem;
-    box-sizing: border-box;
-    display: flex;
-    flex: none;
-    list-style-type: disc;
-    position: relative;
-    padding-block-start: 0.25rem;
-    padding-block-end: 0.25rem;
-    padding-inline-start: 0.75rem;
-    padding-inline-end: 0.75rem;
-    margin-block-start: 0px;
-    min-height: 2.25rem;
-    color: #202022;
-    border-bottom: 2px solid #202022;
-    text-decoration: none;
-}
-@media (min-width: 0px) {
-    .joy-yhpm4r {
-        height: 48px;
-    }
-}
-@media (min-width: 744px) {
-    .joy-yhpm4r {
-        height: 56px;
-    }
-}
-.joy-yhpm4r:not([hidden]) {
-    display: flex;
 }
 .joy-7rqbdn {
-    font-size: calc(1em * 1.5);
+    --Icon-fontSize: calc(1em * 1.5);
     margin: 0px;
     display: block;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #202022;
-    font-weight: 700;
+    color: #333333;
     text-decoration: none;
     white-space: nowrap;
+    font-weight: 700;
 }
-/* 2단 헤더 여기까지 */
-.joy-1v7lmb8 {
+/* 2단 헤더 끝 */
+.joy-4w2mif {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -835,11 +873,8 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
 }
-.joy-bxjwt6 {
+.joy-fqp2tg {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -848,21 +883,24 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
-    max-width: 640px;
 }
 @media (min-width: 0px) {
-    .joy-bxjwt6 {
-        gap: 32px;
-        padding: 20px 16px 64px;
+    .joy-fqp2tg {
+        padding-inline: 16px;
     }
 }
 @media (min-width: 744px) {
-    .joy-bxjwt6 {
-        gap: 40px;
-        padding: 40px 0 64px;
+    .joy-fqp2tg {
+        padding-inline: 24px;
     }
 }
-.joy-1f2qzn3 {
+@media (min-width: 992px) {
+    .joy-fqp2tg {
+        max-width: 640px;
+        padding-inline: 0px;
+    }
+}
+.joy-tfgr6w {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -870,35 +908,342 @@ body {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    gap: 40px;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: rgba(118 118 127 / 0.15);
+    margin-top: 9px;
 }
-.joy-bco1gb {
+.joy-cdyo5q {
+    padding: 24px 16px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    gap: 10px;
+    gap: 12px;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
 }
-.joy-qd6aj {
-    font-size: calc(1.25 * 1em);
-    -webkit-tap-highlight-color: transparent;
-    align-self: flex-start;
-    display: flex;
-    gap: 2px;
-    align-items: center;
-    flex-wrap: wrap;
-    user-select: none;
+@media (min-width: 0px) {
+    .joy-cdyo5q {
+        margin-inline: -16px;
+    }
+}
+@media (min-width: 744px) {
+    .joy-cdyo5q {
+        margin-inline: 0px;
+    }
+}
+.joy-k9mukw {
+    --Badge-minHeight: 0.5rem;
+    --Badge-paddingX: 0.25rem;
+    --Badge-ringSize: 2px;
+    --Badge-ring: 0 0 0 2px #F5F5F5;
+    position: relative;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    --Badge-ringSize: 0;
+}
+.joy-l4r8ki {
+    --Icon-fontSize: 1.25em;
+    --Icon-color: currentColor;
+    --CircularProgress-size: 1.25em;
+    --CircularProgress-thickness: 3px;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 16px;
-    font-weight: 700;
     line-height: 1.5;
-    color: #202022;
+    color: rgba(52, 120, 255, 1);
+    font-weight: 400;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    text-decoration-thickness: max(0.08em, 1px);
+    text-underline-offset: 0.15em;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 4px;
+    padding: 0;
+    cursor: pointer;
+    text-decoration-color: rgba(52, 120, 255, 0.72);
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    text-decoration-color: currentColor;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+.joy-1h6s40g {
+    --Icon-color: #666666;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 700;
+    font-size: 18px; /* 48px * 0.375 = 18px */
+    line-height: 1;
+    color: #333333;
+    width: 48px;
+    height: 48px;
+    -webkit-margin-start: 0;
+    margin-inline-start: 0;
+    box-shadow: none;
+    background-color: #E0E0E0;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    --variant-borderWidth: 0px;
+    width: 48px;
+    height: 48px;
+    --Avatar-size: 48px;
+}
+.joy-1hy9t21 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    object-fit: cover;
+    color: transparent;
+    text-indent: 10000px;
+}
+.joy-yhhqut {
+    --Icon-color: currentColor;
+    --Icon-fontSize: calc(1em * 1.5);
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: absolute;
+    box-sizing: border-box;
+    box-shadow: none;
+    line-height: 1.5;
+    padding: 0 calc(4px - 0px);
+    min-height: 8px;
+    min-width: 8px;
+    border-radius: 8px;
+    z-index: 600;
+    background-color: #D32F2F;
+    top: 0;
+    left: 0;
+    -webkit-transform: scale(1) translateX(-50%) translateY(-50%);
+    -moz-transform: scale(1) translateX(-50%) translateY(-50%);
+    -ms-transform: scale(1) translateX(-50%) translateY(-50%);
+    transform: scale(1) translateX(-50%) translateY(-50%);
+    transform-origin: 0% 0%;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFFFFF;
+    --variant-borderWidth: 0px;
+    white-space: nowrap;
+}
+.joy-yhhqut.MuiBadge-invisible {
+    -webkit-transform: scale(0) translateX(-50%) translateY(-50%);
+    -moz-transform: scale(0) translateX(-50%) translateY(-50%);
+    -ms-transform: scale(0) translateX(-50%) translateY(-50%);
+    transform: scale(0) translateX(-50%) translateY(-50%);
+}
+.joy-1ofqig9 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+}
+.joy-1elebcq {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    gap: 12px;
+}
+.joy-x2uqt8 {
+    --Icon-fontSize: calc(1em * 1.5);
+    margin: 0px;
+    display: block;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    font-weight: 400;
+}
+.joy-wm0g0r {
+    --Icon-fontSize: calc(1em * 1.5);
+    margin: 0px;
+    display: inline;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+}
+.joy-b4wpt9 {
+    --Icon-fontSize: calc(1em * 1.5);
+    margin: 0px;
+    display: inline;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #B3B3B3;
+    font-weight: 400;
+    display: inline;
+}
+.joy-1hw29i9 {
+    margin-top: 12px;
+}
+.joy-1iv5odf {
+    --Icon-color: #666666;
+    --ListItem-stickyBackground: #E0E0E0;
+    --Sheet-background: #E0E0E0;
+    --List-radius: calc(10px - 0px);
+    --unstable_actionRadius: calc(10px - 0px);
+    position: relative;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    font-weight: 400;
+    --variant-borderWidth: 0px;
+    background-color: #E0E0E0;
+    max-width: 420px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.joy-g5nfir {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+}
+.joy-ytumd6 {
+    text-decoration: none;
+}
+.joy-1o46p2k {
+    --Icon-fontSize: calc(1em * 1.5);
+    margin: 0px;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #333333;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    white-space: pre-line;
+}
+.joy-11wz921 {
+    --Icon-fontSize: calc(1em * 1.5);
+    --Icon-color: currentColor;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(52, 120, 255, 1);
+    font-weight: 400;
+    margin-top: 4px;
+}
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+.joy-styn74 {
+    display: inline-flex;
+    margin-inline-start: clamp(4px, var(--Typography-gap, 0.375em), 0.75rem);
+}
+.joy-11wz921 .MuiTypography-endDecorator {
     margin: 0px;
 }
-.joy-149sczi {
+.joy-1w4q56z {
+    user-select: none;
+    margin: var(--Icon-margin);
+    display: inline-block;
+    fill: currentcolor;
+    flex-shrink: 0;
+    font-size: var(--Icon-fontSize, var(--joy-fontSize-xl2));
+    width: 16px;
+    height: 16px;
+    color: currentcolor;
+}
+.joy-w2e6ki {
+    --Divider-thickness: 1px;
+    --Divider-lineColor: #E0E0E0;
+    margin: 0;
+    margin-inline: 0;
+    margin-block: 0;
+    position: relative;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border: none;
+    list-style: none;
+    background-color: #E0E0E0;
+    inline-size: initial;
+    block-size: 1px;
+}
+/* 더보기 버튼 */
+.joy-1ht3mas {
+    margin-block: 40px;
+}
+.joy-jmtomr {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -906,343 +1251,60 @@ body {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
+    gap: 6px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.joy-1qzh9tq {
+    --Icon-margin: initial;
+    --Icon-color: #666666;
+    --IconButton-size: 32px;
+    --Icon-fontSize: calc(32px / 1.6);
+    --CircularProgress-size: 20px;
+    --CircularProgress-thickness: 2px;
+    min-width: 32px;
+    min-height: 32px;
+    font-size: 14px;
+    padding-inline: 2px;
+    -webkit-tap-highlight-color: transparent;
+    padding-block: 0;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 500;
+    margin: 0px;
+    border-radius: 6px;
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
     -webkit-align-items: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    gap: 16px;
-}
-.joy-1sliaen {
-    width: 96px;
-    height: 96px;
-    position: relative;
-}
-.joy-79elbk {
-    position: relative;
-}
-.joy-10p5ki6 {
-    margin-inline-start: 0px;
-    box-shadow: none;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    line-height: 1;
-    overflow: hidden;
-    border-radius: 50%;
-    user-select: none;
-    color: #202022;
-    background-color: #F2F2F3;
-    width: 96px;
-    height: 96px;
-}
-.joy-2v1uk4 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-.joy-1ot4wts {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    gap: 6px;
-    overflow: hidden;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    min-width: 0;
-}
-.joy-3038fr {
-    background-color: #FFFFFF;
-    position: relative;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #202022;
-    font-weight: 400;
-    border: 1px solid #DADADC;
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 8px;
-    overflow: hidden;
-}
-.joy-1dfw2up {
-    font-size: calc(1em * 1.5);
-    margin: 0px;
-    display: block;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #A4A4A8;
-    font-weight: 400;
-    padding-left: 12px;
-    overflow: hidden;
-    overflow-wrap: anywhere;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
-}
-.joy-cqqedx {
-    margin: initial;
-    color: #202022;
-    font-size: 14px;
-    min-height: 2.25rem;
-    padding-block: 0.375rem;
-    padding-inline: 1rem;
-    -webkit-tap-highlight-color: transparent;
-    box-sizing: border-box;
-    border-radius: 8px;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
     justify-content: center;
     position: relative;
+    --variant-borderWidth: 0px;
+    color: #333333;
+    background-color: #E0E0E0;
+    -webkit-text-decoration: none;
     text-decoration: none;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    line-height: 1.5;
-    font-weight: 500;
-    border: 1px solid #DADADC;
-    border-right: none;
-    flex-shrink: 0;
+    line-height: normal;
 }
-.joy-cqqedx.MuiButton-sizeMd {
-    min-height: 40px;
-    font-size: 16px;
+.joy-1qzh9tq.MuiIconButton-sizeSm {
+    --Icon-fontSize: calc(32px / 1.6);
+    min-width: 32px;
+    min-height: 32px;
 }
-
-.joy-1ot4wts>.MuiStack-root:last-child {
-    width: 100%;
-}
-.joy-1buwhie {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    color: #A4A4A8;
-}
-.joy-zpfz47 {
-    font-size: calc(1em * 1.5);
-    margin: 0px;
-    display: block;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-    color: #A4A4A8;
-    font-weight: 400;
-}
-.joy-k54e1s {
-    width: 645px;
-    margin: 0.5rem 0;
-    align-self: flex-start;
-    color: #D32F2F;
-    font-size: 14px;
-    line-height: 125%;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    color: #1976D2;
-    font-size: 14px;
-    line-height: 125%;
-}
-.joy-qd6aj {
-    font-size: calc(1.25 * 1em);
-    -webkit-tap-highlight-color: transparent;
-    align-self: flex-start;
-    display: flex;
-    gap: 2px;
-    align-items: center;
-    flex-wrap: wrap;
-    user-select: none;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.5;
-    color: #202022;
-    margin: 0px;
-}
-.joy-1d2ou3v {
-    color: #3478FF;
-}
-.joy-128w9vm {
-    border-radius: 8px;
-    box-sizing: border-box;
-    box-shadow: none;
-    min-width: 0;
-    min-height: 2.25rem;
-    cursor: text;
-    position: relative;
-    display: flex;
-    padding-inline: 0.75rem;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #202022;
-    font-weight: 400;
-    border: 1px solid #DADADC;
-    background-color: #FFFFFF;
-}
-.joy-128w9vm:not([data-skip-inverted-colors]) {
-    border-color: #DADADC;
-}
-.joy-128w9vm.MuiInput-sizeMd {
-    min-height: 40px;
-}
-.joy-1u0jcuo {
-    border: none;
-    min-width: 0;
-    outline: 0;
-    padding: 0;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    color: inherit;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-style: inherit;
-    font-weight: inherit;
-    line-height: inherit;
-    text-overflow: ellipsis;
-}
-.joy-7l9mu1 {
-    font-size: calc(1.5 * 1em);
-    display: flex;
-    align-items: center;
-    gap: 2px;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-    color: #A4A4A8;
-    margin: 0px;
-}
-.joy-1bm8vhn {
-    border-radius: 8px;
-    box-sizing: border-box;
-    box-shadow: none;
-    min-width: 0;
-    min-height: 2.25rem;
-    cursor: text;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding-inline-start: 0.75rem;
-    padding-block: 0.375rem;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #202022;
-    font-weight: 400;
-    border: 1px solid #DADADC;
-    background-color: #F2F2F3;
-}
-.joy-1bm8vhn:not([data-inverted-colors="false"]) {
-    border-color: #DADADC;
-}
-.joy-1bm8vhn.MuiTextarea-variantOutlined {
-    background-color: transparent;
-}
-.joy-1qmqn4r {
-    resize: none;
-    border: none;
-    min-width: 0;
-    outline: 0;
-    padding: 0;
-    padding-inline-end: 0.75rem;
-    flex: auto;
-    align-self: stretch;
-    color: inherit;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-style: inherit;
-    font-weight: inherit;
-    line-height: inherit;
-}
-.joy-1qmqn4r {
-    resize: none;
-    border: none;
-    min-width: 0;
-    outline: 0;
-    padding: 0;
-    padding-inline-end: 0.75rem;
-    flex: auto;
-    align-self: stretch;
-    color: inherit;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-style: inherit;
-    font-weight: inherit;
-    line-height: inherit;
-}
-.joy-7l9mu1 {
-    font-size: calc(1.5 * 1em);
-    display: flex;
-    align-items: center;
-    gap: 2px;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-    color: #A4A4A8;
-    margin: 0px;
-}
-.joy-1bvc4cc {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    -webkit-justify-content: flex-end;
-    justify-content: flex-end;
-}
-.joy-10kto0v {
-    margin: initial;
-    color: #FFFFFF;
-    font-size: 14px;
-    min-height: 2.25rem;
-    padding-block: 0.375rem;
-    padding-inline: 1rem;
-    -webkit-tap-highlight-color: transparent;
-    box-sizing: border-box;
-    border-radius: 8px;
-    border: none;
-    background-color: #1976D2;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    text-decoration: none;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    line-height: 1.5;
-    font-weight: 500;
-}
-.joy-10kto0v.MuiButton-sizeMd {
-    min-height: 40px;
-    font-size: 16px;
-}
-
-/* hover */
-.joy-cqqedx:hover {
-    background-color: #e0e0e2; /* 기존 색상보다 살짝 더 진한 색 */
-    color: #1a1a1d; /* 글자 색상도 조금 더 진하게 설정 */
-}
-
-/* 포커스 일 때 파란색 */
-.joy-128w9vm.Mui-focused,
-.joy-1bm8vhn.Mui-focused {
-    border-color: #3478ff; 
+/* 호버 */
+.joy-1qzh9tq:hover {
+    color: #333333; 
+    background-color: #CCCCCC; 
 }

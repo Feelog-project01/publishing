@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // 2. 파일 선택 → 파일명 표시
     document.getElementById(":R359uuukv9ul7rlqakq:").addEventListener("change", () => {
         if (document.getElementById(":R359uuukv9ul7rlqakq:").files.length > 0) {
-            document.querySelector(".joy-1dfw2up").textContent = `선택된 파일: ${
+            document.querySelector(".joy-1dfw2up").textContent = `${
                 document.getElementById(":R359uuukv9ul7rlqakq:").files[0].name
             }`;
         } else {
@@ -56,5 +56,19 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     document.querySelector("#\\:R759uuukv9ul7rlqakq\\:").addEventListener("blur", (e) => {
         e.target.closest(".joy-1bm8vhn").classList.toggle("Mui-focused");
+    });
+
+    //  버튼 이벤트 :: 서버에서 결과 받아서 뿌리는 거로 변경 필요
+    document.querySelector(".joy-1bvc4cc .joy-10kto0v").addEventListener("click", (e) => {
+        e.preventDefault();
+        document.querySelector(".joy-8ijia1").style.display = "block";
+    });
+
+    // 모달창 확인, x 버튼 클릭 이벤트
+    document.querySelector(".joy-gh62p7 .joy-10kto0v").addEventListener("click", (e) => {
+        document.querySelector(".joy-8ijia1").style.display = "none";
+    });
+    document.querySelector(".joy-c6bb0f").addEventListener("click", (e) => {
+        document.querySelector(".joy-8ijia1").style.display = "none";
     });
 });
