@@ -55,7 +55,7 @@ body {
     -webkit-justify-content: center;
     justify-content: center;
     width: 100%;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 .joy-6fg7h3 {
     display: -webkit-box;
@@ -65,7 +65,7 @@ body {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     width: 100%;
     max-width: 1144px;
     -webkit-flex-direction: row;
@@ -174,13 +174,13 @@ body {
     color: #202022;
     width: 24px;
     height: 24px;
-    color: #1976D2;
+    color: #1976d2;
 }
 .joy-ktyhl0 g > rect {
-    fill: #1976D2;
+    fill: #1976d2;
 }
 .joy-ktyhl0 clipPath rect {
-    fill: #F2F2F3;
+    fill: #f2f2f3;
 }
 .joy-g8lkuf {
     position: absolute;
@@ -262,7 +262,7 @@ body {
     box-sizing: border-box;
     border-radius: 8px;
     border: none;
-    background-color: #F2F2F3;
+    background-color: #f2f2f3;
     cursor: pointer;
     display: inline-flex;
     align-items: center;
@@ -365,7 +365,7 @@ body {
     display: inline-flex;
     vertical-align: middle;
     flex-shrink: 0;
-    box-shadow: 0 0 0 0px #F2F2F3;
+    box-shadow: 0 0 0 0px #f2f2f3;
 }
 .joy-13y1pdr {
     color: currentColor;
@@ -377,21 +377,21 @@ body {
     align-items: center;
     position: absolute;
     box-sizing: border-box;
-    box-shadow: 0 0 0 2px #F2F2F3;
+    box-shadow: 0 0 0 2px #f2f2f3;
     line-height: 1.5;
     padding: 0 calc(0.375rem - 0px);
     min-height: 1.25rem;
     min-width: 1.25rem;
     border-radius: 1.25rem;
     z-index: 1000;
-    background-color: #1976D2;
+    background-color: #1976d2;
     top: 0;
     right: 0;
     transform: scale(1) translateX(50%) translateY(-50%);
     transform-origin: 100% 0%;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 14px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: 500;
     white-space: nowrap;
 }
@@ -402,7 +402,7 @@ body {
     display: inline-flex;
     vertical-align: middle;
     flex-shrink: 0;
-    box-shadow: 0 0 0 0px #F2F2F3;
+    box-shadow: 0 0 0 0px #f2f2f3;
 }
 .joy-cvdrot {
     color: currentColor;
@@ -414,21 +414,21 @@ body {
     align-items: center;
     position: absolute;
     box-sizing: border-box;
-    box-shadow: 0 0 0 2px #F2F2F3;
+    box-shadow: 0 0 0 2px #f2f2f3;
     line-height: 1.5;
     padding: 0 calc(0.375rem - 0px);
     min-height: 1.25rem;
     min-width: 1.25rem;
     border-radius: 1.25rem;
     z-index: 1000;
-    background-color: #D32F2F;
+    background-color: #d32f2f;
     top: 0;
     right: 0;
     transform: scale(1) translateX(50%) translateY(-50%);
     transform-origin: 100% 0%;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 14px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: 500;
     white-space: nowrap;
 }
@@ -439,8 +439,7 @@ body {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex
-;
+    display: flex;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -591,14 +590,14 @@ body {
     align-items: center;
     position: absolute;
     box-sizing: border-box;
-    box-shadow: 0 0 0 2px #F2F2F3;
+    box-shadow: 0 0 0 2px #f2f2f3;
     line-height: 1.5;
     padding: 0 calc(0.375rem - 0px);
     min-height: 1.25rem;
     min-width: 1.25rem;
     border-radius: 1.25rem;
     z-index: 1000;
-    background-color: #1976D2;
+    background-color: #1976d2;
     top: 0;
     right: 0;
     transform: scale(1) translateX(50%) translateY(-50%);
@@ -606,7 +605,7 @@ body {
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-weight: 500;
     font-size: 12px;
-    color: #FFFFFF;
+    color: #ffffff;
     white-space: nowrap;
 }
 /* 헤더 여기까지 */
@@ -647,7 +646,7 @@ body {
     width: 100%;
     position: -webkit-sticky;
     position: sticky;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     z-index: 499;
     border-bottom: 1px solid;
     border-color: rgba(118 118 127 / 0.15);
@@ -816,7 +815,7 @@ body {
     color: #333333;
     padding-inline: 4px;
     border-bottom: 2px solid;
-    border-color: #F5F5F5;
+    border-color: #f5f5f5;
     -webkit-text-decoration: none;
     text-decoration: none;
 }
@@ -842,7 +841,7 @@ body {
     line-height: 1.5;
     color: #333333;
     font-weight: 400;
-    color: #B3B3B3;
+    color: #b3b3b3;
     -webkit-text-decoration: none;
     text-decoration: none;
     white-space: nowrap;
@@ -938,7 +937,7 @@ body {
     --Badge-minHeight: 0.5rem;
     --Badge-paddingX: 0.25rem;
     --Badge-ringSize: 2px;
-    --Badge-ring: 0 0 0 2px #F5F5F5;
+    --Badge-ring: 0 0 0 2px #f5f5f5;
     position: relative;
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -1001,7 +1000,7 @@ body {
     -webkit-margin-start: 0;
     margin-inline-start: 0;
     box-shadow: none;
-    background-color: #E0E0E0;
+    background-color: #e0e0e0;
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1063,7 +1062,7 @@ body {
     min-width: 8px;
     border-radius: 8px;
     z-index: 600;
-    background-color: #D32F2F;
+    background-color: #d32f2f;
     top: 0;
     left: 0;
     -webkit-transform: scale(1) translateX(-50%) translateY(-50%);
@@ -1074,7 +1073,7 @@ body {
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-weight: 500;
     font-size: 12px;
-    color: #FFFFFF;
+    color: #ffffff;
     --variant-borderWidth: 0px;
     white-space: nowrap;
 }
@@ -1131,7 +1130,7 @@ body {
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 14px;
     line-height: 1.5;
-    color: #B3B3B3;
+    color: #b3b3b3;
     font-weight: 400;
     display: inline;
 }
@@ -1140,8 +1139,8 @@ body {
 }
 .joy-1iv5odf {
     --Icon-color: #666666;
-    --ListItem-stickyBackground: #E0E0E0;
-    --Sheet-background: #E0E0E0;
+    --ListItem-stickyBackground: #e0e0e0;
+    --Sheet-background: #e0e0e0;
     --List-radius: calc(10px - 0px);
     --unstable_actionRadius: calc(10px - 0px);
     position: relative;
@@ -1151,7 +1150,7 @@ body {
     color: #333333;
     font-weight: 400;
     --variant-borderWidth: 0px;
-    background-color: #E0E0E0;
+    background-color: #e0e0e0;
     max-width: 420px;
     border-radius: 10px;
     overflow: hidden;
@@ -1196,10 +1195,14 @@ body {
     font-weight: 400;
     margin-top: 4px;
 }
-*, ::before, ::after {
+*,
+::before,
+::after {
     box-sizing: inherit;
 }
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
 .joy-styn74 {
@@ -1222,7 +1225,7 @@ body {
 }
 .joy-w2e6ki {
     --Divider-thickness: 1px;
-    --Divider-lineColor: #E0E0E0;
+    --Divider-lineColor: #e0e0e0;
     margin: 0;
     margin-inline: 0;
     margin-block: 0;
@@ -1235,7 +1238,7 @@ body {
     flex-shrink: 0;
     border: none;
     list-style: none;
-    background-color: #E0E0E0;
+    background-color: #e0e0e0;
     inline-size: initial;
     block-size: 1px;
 }
@@ -1293,7 +1296,7 @@ body {
     position: relative;
     --variant-borderWidth: 0px;
     color: #333333;
-    background-color: #E0E0E0;
+    background-color: #f5f5f5;
     -webkit-text-decoration: none;
     text-decoration: none;
     line-height: normal;
@@ -1305,6 +1308,6 @@ body {
 }
 /* 호버 */
 .joy-1qzh9tq:hover {
-    color: #333333; 
-    background-color: #CCCCCC; 
+    color: #333333;
+    background-color: #cccccc;
 }
