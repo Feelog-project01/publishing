@@ -1,4 +1,4 @@
-/* 2025.04.07 조승찬 */
+/* 2025.04.08 조승찬 */
 body {
     margin: 0;
     min-width: 320px;
@@ -859,8 +859,7 @@ body {
     font-weight: 700;
 }
 /* 2단 헤더 끝 */
-
-.joy-4w2mif {
+.joy-j1k58f {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -869,23 +868,25 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+    max-width: 1144px;
 }
-.sr-only {
-    border: 0;
-    clip: rect(0, 0, 0, 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-    white-space: nowrap;
+@media (min-width: 0px) {
+    .joy-j1k58f {
+        padding: 20px 16px;
+    }
 }
-.joy-fqp2tg {
+@media (min-width: 744px) {
+    .joy-j1k58f {
+        padding: 40px 32px;
+    }
+}
+@media (min-width: 1132px) {
+    .joy-j1k58f {
+        padding: 40px 32px;
+    }
+}
+
+.joy-1rc6207 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -894,348 +895,21 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
 }
 @media (min-width: 0px) {
-    .joy-fqp2tg {
-        padding-inline: 16px;
+    .joy-1rc6207 {
+        gap: 12px;
     }
 }
 @media (min-width: 744px) {
-    .joy-fqp2tg {
-        padding-inline: 24px;
-    }
-}
-@media (min-width: 992px) {
-    .joy-fqp2tg {
-        max-width: 640px;
-        padding-inline: 0px;
-    }
-}
-.joy-17i91y7 {
-    border-radius: 0.25rem;
-    gap: 0.5rem;
-    color: rgba(67, 60, 60, 0.64);
-    opacity: 0.64;
-    min-height: 2.25rem;
-    padding-inline: 0.75rem;
-    font-size: 1.5rem;
-    box-shadow: none;
-    border-radius: 20px;
-    padding-left: 14px;
-    background-color: #f2f2f2;
-}
-@media (min-width: 0px) {
-    .joy-17i91y7 {
-        margin-block: 16px 20px;
-    }
-}
-
-@media (min-width: 744px) {
-    .joy-17i91y7 {
-        height: 40px;
-        margin-block: 40px 32px;
-    }
-}
-.joy-17i91y7:not([data-skip-inverted-colors]) {
-    border-width: 1px;
-    box-shadow: 0px 0px 0px #000, 0px 1px 2px 0px rgba(21, 21, 21, 0.08);
-}
-.joy-17i91y7.MuiInput-sizeMd {
-    min-height: 40px;
-}
-.joy-17i91y7::before {
-    box-sizing: border-box;
-    content: "";
-    display: block;
-    position: absolute;
-    pointer-events: none;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    border-radius: inherit;
-    margin: 0px; /* var(--variant-borderWidth)가 0px일 경우 */
-    box-shadow: inset 0 0 0 0px #0000ff; /* 예를 들어, var(--Input-focusedHighlight)가 #0000FF일 경우 */
-}
-.joy-prz8ey {
-    display: flex; /* inherit 대신 명시적 flex로 변경 */
-    align-items: center;
-    margin-inline-end: 0.5rem;
-}
-.joy-za5rna {
-    margin-left: 2px; /* 왼쪽으로 2px 이동 */
-    border: none; /* 테두리 선 제거 */
-    background-color: #f2f2f2; /* 바탕색 설정 */
-    color: #000000 !important; /* 글자색 설정 */
-    flex: 1;
-    min-width: 90%; /* 부모 요소 보다 작게 */
-    outline: 0;
-    padding: 0;
-    font-family: inherit;
-    font-size: 14px;
-    font-style: inherit;
-    font-weight: 600;
-    line-height: inherit;
-    text-overflow: ellipsis;
-}
-.joy-1w4q56z {
-    color: #111111;
-    margin: 0; /* 불필요한 margin 제거 */
-    width: 16px;
-    height: 16px;
-}
-
-.joy-17i91y7 {
-    display: flex;
-    align-items: center;
-    padding-left: 0.75rem; /* padding을 줄임 */
-    box-shadow: none;
-}
-.joy-sgter1 {
-    width: 100%;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-.joy-1nu1cbz {
-    font-size: 16px;
-    margin: 0px;
-    display: block;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-weight: 700;
-    line-height: 1.5;
-    color: #000000;
-    color: #808080;
-}
-.joy-e3pp4x {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    border-block-width: 1px;
-    border-block-style: solid;
-    border-color: rgba(118 118 127 / 0.15);
-}
-@media (min-width: 0px) {
-    .joy-e3pp4x {
-        margin-top: 14px;
-    }
-}
-@media (min-width: 744px) {
-    .joy-e3pp4x {
-        margin-top: 20px;
-    }
-}
-.joy-32et56 {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-@media (min-width: 0px) {
-    .joy-32et56 {
-        padding-block: 20px;
-    }
-}
-@media (min-width: 744px) {
-    .joy-32et56 {
-        padding-block: 24px;
-    }
-}
-.joy-m21gn6 {
-    display: flex;
-    flex-direction: row;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-}
-@media (min-width: 0px) {
-    .joy-m21gn6 {
+    .joy-1rc6207 {
         gap: 24px;
     }
 }
-@media (min-width: 744px) {
-    .joy-m21gn6 {
-        gap: 32px;
-    }
-}
-.joy-hmj6mk {
-    --Icon-fontSize: 1.25em;
-    --Icon-color: currentColor;
-    --CircularProgress-size: 1.25em;
-    --CircularProgress-thickness: 3px;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: rgba(52 120 255 / 1);
-    font-weight: 400;
-    text-underline-offset: 0.15em;
-    display: inline-flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-tap-highlight-color: transparent;
-    background-color: transparent;
-    outline: 0px;
-    border: 0px;
-    margin: 0px;
-    border-radius: 6px;
-    padding: 0px;
-    cursor: pointer;
-    appearance: none;
-    position: relative;
-    text-decoration: none;
-}
-.joy-1ggfnv {
-    --Icon-fontSize: 1.5em;
-    margin: 0px;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333333;
-    font-weight: 400;
-    overflow: hidden;
-    overflow-wrap: anywhere;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
-}
-.joy-zpfz47 {
-    --Icon-fontSize: 1.5em;
-    margin: 0px;
-    display: block;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-    font-weight: 400;
-    color: #757575;
-}
-.joy-ozngwz {
-    --Icon-margin: initial;
-    --Icon-color: #76767f;
-    --Icon-fontSize: 20px;
-    --CircularProgress-size: 20px;
-    --CircularProgress-thickness: 2px;
-    min-width: 32px;
-    min-height: 32px;
-    font-size: 14px;
-    -webkit-tap-highlight-color: transparent;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-weight: 500;
-    box-sizing: border-box;
-    background-color: transparent;
-    cursor: pointer;
-    display: inline-flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    position: relative;
-    --variant-borderWidth: 0px;
-    color: #202022;
-    --IconButton-size: 32px;
-    margin-right: 8px;
-    padding-inline: 2px;
-    padding-block: 0px;
-    border-radius: 8px;
-    border-width: initial;
-    border-style: none;
-    border-color: initial;
-    border-image: initial;
-}
-.joy-ozngwz.MuiIconButton-sizeSm {
-    --Icon-fontSize: 20px;
-    min-width: 32px;
-    min-height: 32px;
-}
-.joy-s1s0o1 {
-    user-select: none;
-    margin: 0px;
-    display: inline-block;
-    fill: currentcolor;
-    flex-shrink: 0;
-    font-size: 24px;
-    width: 20px;
-    height: 20px;
-    color: currentcolor;
-}
-
-.joy-1ocdcf0 {
-    display: flex;
-    flex-direction: row;
-    -webkit-box-align: center;
-    align-items: center;
-    text-decoration: none;
-}
-@media (min-width: 0px) {
-    .joy-1ocdcf0 {
-        height: 48px;
-    }
-}
-.joy-we6kz3 {
-    --Divider-thickness: 1px;
-    --Divider-lineColor: rgba(118 118 127 / 0.15);
-    margin-top: initial;
-    margin-bottom: initial;
-    margin-left: initial;
-    margin-inline: initial;
-    position: relative;
-    align-self: stretch;
-    flex-shrink: 0;
-    border: none;
-    list-style: none;
-    background-color: rgba(118 118 127 / 0.15);
-    inline-size: 1px;
-    block-size: initial;
-    margin-block: 2px;
-    margin-right: 10px;
-}
-.joy-1fbvmk9 {
-    flex: 1 1 0%;
-    overflow: hidden;
-    max-width: calc(100% - 117.33px);
-}
-.joy-1wgv3md {
-    --Icon-fontSize: 1.5em;
-    margin: 0px;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #202022;
-    overflow: hidden;
-    overflow-wrap: anywhere;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
-    line-clamp: 1;
-}
-.joy-12xt3ao {
-    position: relative;
-    margin-left: 32px;
-    width: 85.33px;
-    height: 48px;
-    border-radius: 8px;
-    overflow: hidden;
-}
-.joy-2dcx4f {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    flex: 1 1 0%;
-}
-.joy-1hw15it {
-    width: 100%;
+.joy-11c9ui0 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1243,24 +917,43 @@ body {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    width: 100%;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-bottom: 15px;
 }
+
+.joy-1rj4v9a {
+    --Icon-fontSize: 1.33334em;
+    margin: 0px;
+    display: block;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33334;
+    letter-spacing: -0.025em;
+    color: #666666;
+}
+
 @media (min-width: 0px) {
-    .joy-1hw15it {
-        gap: 12px;
-        padding-block: 20px;
+    .joy-1rj4v9a {
+        font-size: 16px;
     }
 }
 @media (min-width: 744px) {
-    .joy-1hw15it {
-        gap: 16px;
-        padding-block: 24px;
+    .joy-1rj4v9a {
+        font-size: 24px;
     }
 }
-.joy-1hw15it * {
-    -webkit-text-decoration: none;
-    text-decoration: none;
-}
-.joy-w5a8kp {
+.joy-11ht4d3 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1271,158 +964,141 @@ body {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
-    width: 100%;
+    max-height: 24px;
+    gap: 8px;
+}
+.joy-1pa7qfy {
+    --Grid-columns: 1;
+    --Grid-columnSpacing: 24px;
+    --Grid-rowSpacing: 16px;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    min-width: 0;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: calc(24px / -2) calc(24px / -2);
+}
+@media (min-width: 744px) {
+    .joy-1pa7qfy {
+        --Grid-columns: 2;
+    }
+}
+@media (min-width: 744px) {
+    .joy-1pa7qfy {
+        --Grid-rowSpacing: 24px;
+    }
 }
 @media (min-width: 0px) {
-    .joy-w5a8kp {
+    .joy-1pa7qfy {
+        margin-bottom: 4px;
+    }
+}
+@media (min-width: 744px) {
+    .joy-1pa7qfy {
+        margin-bottom: 14px;
+    }
+}
+.joy-1pngaw6 {
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-basis: auto;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    width: 8.33%;
+    min-width: 0;
+    box-sizing: border-box;
+    padding: 8px 8px;
+    overflow: hidden;
+}
+
+.joy-1rc6207 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+.joy-1pa7qfy {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.joy-1pngaw6 {
+    flex: 0 0 calc(50% - 12px);
+    box-sizing: border-box;
+}
+
+.joy-2l2g8f {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    position: relative;
+    cursor: pointer;
+}
+.joy-1hhcym4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+@media (min-width: 0px) {
+    .joy-1hhcym4 {
         gap: 12px;
     }
 }
 @media (min-width: 744px) {
-    .joy-w5a8kp {
-        gap: 24px;
+    .joy-1hhcym4 {
+        gap: 20px;
     }
 }
-.joy-16yrq9k {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    gap: 8px;
+.joy-1lrlkwu {
     overflow: hidden;
-}
-.joy-1kkt86i {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    gap: 4px;
-}
-.joy-qs45i0 {
-    font-size: 1.125rem;
-    margin: 0px;
-    display: block;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-weight: 700;
-    line-height: 1.25;
-    color: #000000;
-    overflow: hidden;
-    overflow-wrap: anywhere;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    position: relative;
 }
 @media (min-width: 0px) {
-    .joy-qs45i0 {
-        font-size: 1rem;
+    .joy-1lrlkwu {
+        min-width: 72px;
+        width: 72px;
+        height: 96px;
+        border-radius: 8px;
     }
 }
 @media (min-width: 744px) {
-    .joy-qs45i0 {
-        font-size: 1.125rem;
+    .joy-1lrlkwu {
+        min-width: 128px;
+        width: 128px;
+        height: 172px;
+        border-radius: 12px;
     }
 }
-.joy-efnxaq {
-    font-size: 1rem;
-    margin: 0px;
-    display: block;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    line-height: 1.5;
-    color: #000000;
-    font-weight: 400;
-    overflow: hidden;
-    overflow-wrap: anywhere;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-}
-@media (min-width: 0px) {
-    .joy-efnxaq {
-        font-size: 0.875rem;
-    }
-}
-@media (min-width: 744px) {
-    .joy-efnxaq {
-        font-size: 1rem;
-    }
-}
-.joy-i9tg8j {
-    font-size: 1rem;
-    margin: 0px;
-    display: inline;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-weight: 700;
-    line-height: 1.5;
-    color: #000000;
-    color: #808080;
-}
-@media (min-width: 0px) {
-    .joy-i9tg8j {
-        font-size: 0.875rem;
-    }
-}
-@media (min-width: 744px) {
-    .joy-i9tg8j {
-        font-size: 1rem;
-    }
-}
-.joy-1q1zl3i {
-    display: flex;
-    flex-direction: row;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    gap: 4px;
-    row-gap: 8px;
-    column-gap: 4px;
-    width: 100%;
-    overflow: auto;
-    line-height: 28px;
-    scrollbar-width: none;
-    flex-wrap: wrap;
-    overflow-y: hidden;
-}
-@media (min-width: 0px) {
-    .joy-1q1zl3i {
-        height: 20px;
-    }
-}
-@media (min-width: 744px) {
-    .joy-1q1zl3i {
-        height: 24px;
-    }
-}
-.joy-rtjsnx {
+.joy-2v1uk4 {
     position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden;
-    border-radius: 8px;
-    overflow: hidden;
 }
-@media (min-width: 0px) {
-    .joy-rtjsnx {
-        width: 112px;
-        min-width: 112px;
-        height: 64px;
-    }
-}
-@media (min-width: 744px) {
-    .joy-rtjsnx {
-        width: 144px;
-        min-width: 144px;
-        height: 81px;
-    }
-}
-.joy-rtjsnx:after {
+.joy-1lrlkwu:after {
     display: block;
     content: "";
     position: absolute;
@@ -1433,7 +1109,7 @@ body {
     border-radius: inherit;
     border: 1px solid rgba(0, 0, 0, 7.5%);
 }
-.joy-k2m8sx {
+.joy-1bhfep2 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1441,278 +1117,106 @@ body {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
-}
-.joy-1uop93y {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    overflow: hidden;
     width: 100%;
-    position: relative;
+    overflow: hidden;
 }
-.joy-12vg8yv {
-    font-size: 1rem;
-    line-height: 1.5;
-    color: rgba(0, 123, 255, 1); /* Assuming the primary color */
-    font-weight: 400;
+@media (min-width: 0px) {
+    .joy-1bhfep2 {
+        gap: 12px;
+    }
+}
+@media (min-width: 744px) {
+    .joy-1bhfep2 {
+        gap: 13px;
+    }
+}
+@media (min-width: 0px) {
+    .joy-1bhfep2 {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+}
+@media (min-width: 744px) {
+    .joy-1bhfep2 {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+}
+.joy-1q1z7un {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    padding-right: 8px;
+    -webkit-text-decoration: none;
     text-decoration: none;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.15em;
-    display: inline-flex;
-    align-items: center;
-    background-color: transparent;
-    outline: 0;
-    border: 0;
-    margin: 0;
-    border-radius: 0.125rem; /* Small radius */
-    padding: 0;
-    cursor: pointer;
-    text-decoration-color: rgba(0, 123, 255, 0.72); /* Assuming outlined border color */
-    position: relative;
 }
-@media (min-width: 0px) {
-    .joy-12vg8yv {
-        margin-right: 8px;
-    }
-}
-@media (min-width: 744px) {
-    .joy-12vg8yv {
-        margin-right: 12px;
-    }
-}
-.joy-auxif9 {
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-weight: 700;
-    font-size: 1.4rem; /* Calculated as 32px * 0.4375 */
-    line-height: 1;
-    color: #808080;
-    width: 32px;
-    height: 32px;
-    margin-inline-start: 0;
-    box-shadow: none; /* Placeholder if --Avatar-ring is not defined */
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    overflow: hidden;
-    border-radius: 50%;
-    user-select: none;
-    background-color: #f5f5f5;
-}
-.joy-1hy9t21 {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    object-fit: cover;
-    color: transparent;
-    text-indent: 10000px;
-}
-.joy-1n1ctis {
+.joy-y592zx {
+    --Icon-fontSize: 1.5em;
+    margin: 0px;
     display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    overflow: hidden;
-}
-.joy-ux2rns {
-    font-size: 0.875rem;
-    margin: 0px;
-    display: flex;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
     line-height: 1.5;
-    color: #000000;
-    font-weight: 400;
-    overflow: hidden;
-}
-@media (min-width: 0px) {
-    .joy-ux2rns {
-        font-size: 0.75rem;
-    }
-}
-@media (min-width: 744px) {
-    .joy-ux2rns {
-        font-size: 0.875rem;
-    }
-}
-.joy-1w8agmd {
-    font-size: inherit;
-    margin: 0px;
-    display: inline;
-    color: #000000;
+    letter-spacing: -0.025em;
+    color: #202022;
     overflow: hidden;
     overflow-wrap: anywhere;
-    display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
-    word-break: break-all;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
 }
-.joy-1mptf1r {
-    font-size: inherit;
-    margin: 0px;
-    display: inline;
-    color: #808080;
-    padding-inline: 4px;
+
+@media (min-width: 0px) {
+    .joy-y592zx {
+        font-size: 16px;
+    }
 }
-.joy-14ly3d9 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    gap: 10px;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    white-space: nowrap;
-    overflow: auto;
-    padding-right: 10px;
-    scrollbar-width: none;
+@media (min-width: 744px) {
+    .joy-y592zx {
+        font-size: 20px;
+    }
 }
-.joy-ktwjae {
-    font-size: 0.875rem;
+.joy-yvgmvv {
+    --Icon-fontSize: 1.5em;
     margin: 0px;
     display: block;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px;
     line-height: 1.5;
-    color: #000000;
     font-weight: 400;
-    color: #808080;
+    color: #757575;
 }
 @media (min-width: 0px) {
-    .joy-ktwjae {
-        font-size: 0.75rem;
+    .joy-yvgmvv {
+        margin-bottom: 6px;
+        font-size: 14px;
+        overflow: hidden;
+        overflow-wrap: anywhere;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
     }
 }
+
 @media (min-width: 744px) {
-    .joy-ktwjae {
-        font-size: 0.875rem;
+    .joy-yvgmvv {
+        margin-bottom: 8px;
+        font-size: 16px;
+        overflow: hidden;
+        overflow-wrap: anywhere;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        line-clamp: 3;
     }
-}
-.joy-1mhz7hq {
-    font-size: 0.875rem;
-    margin: 0px;
-    display: flex;
-    align-items: center;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    line-height: 1.5;
-    color: #808080;
-    font-weight: 400;
-    gap: 2px;
-}
-@media (min-width: 0px) {
-    .joy-1mhz7hq {
-        font-size: 0.75rem;
-    }
-}
-@media (min-width: 744px) {
-    .joy-1mhz7hq {
-        font-size: 0.875rem;
-    }
-}
-.joy-oqc71l {
-    display: inline-flex;
-    margin-inline-end: clamp(4px, 0.375em, 0.75rem);
-}
-.joy-1f3c280 {
-    user-select: none;
-    margin: 0px;
-    width: 1em;
-    height: 1em;
-    display: inline-block;
-    fill: currentColor;
-    flex-shrink: 0;
-    font-size: 1.5rem;
-    color: #808080;
-    color: currentcolor;
-}
-@media (min-width: 0px) {
-    .joy-1f3c280 {
-        width: 14px;
-        height: 14px;
-    }
-}
-@media (min-width: 744px) {
-    .joy-1f3c280 {
-        width: 16px;
-        height: 16px;
-    }
-}
-.joy-1uop93y:after {
-    content: "";
-    background: linear-gradient(to left, #ffffff, transparent);
-    width: 10px;
-    height: 42px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-.joy-1ja7f1b {
-    font-size: 0.875rem;
-    padding-inline: 2px;
-    padding-block: 0;
-    font-family: sans-serif;
-    font-weight: 500;
-    margin: 0px;
-    border-radius: 0.25rem;
-    border: none;
-    box-sizing: border-box;
-    background-color: transparent;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    color: #333333;
-    min-width: 32px;
-    min-height: 32px;
-}
-.joy-1ja7f1b.MuiIconButton-sizeSm {
-    font-size: 20px;
-    min-width: 32px;
-    min-height: 32px;
-}
-.joy-1i55knr {
-    user-select: none;
-    margin: 0px;
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    fill: currentColor;
-    flex-shrink: 0;
-    font-size: 1.5rem;
-    color: #808080;
-    color: #0094ff; /* Assuming primary color */
-}
-/* 더보기 버튼 */
-.joy-1ht3mas {
-    margin-block: 40px;
 }
 .joy-jmtomr {
     display: -webkit-box;
@@ -1728,11 +1232,11 @@ body {
     -webkit-justify-content: center;
     justify-content: center;
 }
-.joy-1qzh9tq {
+.joy-1ja7f1b {
     --Icon-margin: initial;
-    --Icon-color: #666666;
+    --Icon-color: var(--joy-palette-text-icon);
     --IconButton-size: 32px;
-    --Icon-fontSize: calc(32px / 1.6);
+    --Icon-fontSize: 20px;
     --CircularProgress-size: 20px;
     --CircularProgress-thickness: 2px;
     min-width: 32px;
@@ -1744,38 +1248,95 @@ body {
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-weight: 500;
     margin: 0px;
-    border-radius: 6px;
+    border-radius: 8px;
     border: none;
     box-sizing: border-box;
     background-color: transparent;
     cursor: pointer;
-    display: -webkit-inline-box;
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
     display: inline-flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
     justify-content: center;
     position: relative;
     --variant-borderWidth: 0px;
-    color: #333333;
-    background-color: #f5f5f5;
-    -webkit-text-decoration: none;
-    text-decoration: none;
-    line-height: normal;
+    color: #202022;
+    --IconButton-size: 32px;
 }
-.joy-1qzh9tq.MuiIconButton-sizeSm {
-    --Icon-fontSize: calc(32px / 1.6);
+.joy-1ja7f1b:disabled {
+    pointer-events: none;
+    cursor: default;
+    --Icon-color: currentColor;
+    color: #a4a4a8;
+}
+.joy-1ja7f1b.MuiIconButton-sizeSm {
+    --Icon-fontSize: 20px;
     min-width: 32px;
     min-height: 32px;
 }
-/* 더보기 호버 */
-.joy-1qzh9tq:hover {
-    color: #333333;
-    background-color: #cccccc;
+.joy-1ja7f1b {
+    --Icon-margin: initial;
+    --Icon-color: var(--joy-palette-text-icon);
+    --IconButton-size: 32px;
+    --Icon-fontSize: 20px;
+    --CircularProgress-size: 20px;
+    --CircularProgress-thickness: 2px;
+    min-width: 32px;
+    min-height: 32px;
+    font-size: 14px;
+    padding-inline: 2px;
+    -webkit-tap-highlight-color: transparent;
+    padding-block: 0;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 500;
+    margin: 0px;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    --variant-borderWidth: 0px;
+    color: #202022;
+    --IconButton-size: 32px;
+}
+.joy-1ja7f1b:disabled {
+    pointer-events: none;
+    cursor: default;
+    --Icon-color: currentColor;
+    color: #a4a4a8;
+}
+.joy-179msl4 {
+    --Icon-margin: initial;
+    --Icon-color: var(--joy-palette-text-icon);
+    --IconButton-size: 32px;
+    --Icon-fontSize: 20px;
+    --CircularProgress-size: 20px;
+    --CircularProgress-thickness: 2px;
+    min-width: 32px;
+    min-height: 32px;
+    font-size: 14px;
+    padding-inline: 2px;
+    -webkit-tap-highlight-color: transparent;
+    padding-block: 0;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    background-color: #f2f2f3;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    --variant-borderWidth: 0px;
+    color: #202022;
+}
+.joy-179msl4.MuiIconButton-sizeSm {
+    --Icon-fontSize: 20px;
+    min-width: 32px;
+    min-height: 32px;
 }
