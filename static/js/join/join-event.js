@@ -3,28 +3,30 @@
 document.addEventListener("DOMContentLoaded", () => {
     // 회원가입 버튼 클릭
     document
-        .querySelectorAll(".MuiButton-root.MuiButton-variantSoft.MuiButton-colorNeutral.MuiButton-sizeMd.joy-1bxt4bb")
+        .querySelectorAll(
+            ".FeelogButton-root.FeelogButton-variantSoft.FeelogButton-colorNeutral.FeelogButton-sizeMd.flog-a-13"
+        )
         .forEach((button) => {
             button.addEventListener("click", (e) => {
                 // 만14세 이상 체크하지 않고 회원가입 클릭시 :: 경고문구 보여주기 => 만 14세 이상입니다. 클릭시 삭제
-                if (document.querySelector(".MuiSvgIcon-root.MuiSvgIcon-sizeMd.joy-c6bb0f") == null) {
+                if (document.querySelector(".FeelogSvgIcon-root.FeelogSvgIcon-sizeMd.flog-svg-6") == null) {
                     e.preventDefault();
                     if (
                         document.querySelector(
-                            ".MuiTypography-root.MuiTypography-body-sm.MuiTypography-colorDanger.joy-1jrnmgr"
+                            ".FeelogTypography-root.FeelogTypography-body-sm.FeelogTypography-colorDanger.joy-1jrnmgr"
                         ) == null
                     ) {
                         const p = document.createElement("p");
                         p.setAttribute("aria-live", "assertive");
                         p.setAttribute(
                             "class",
-                            "MuiTypography-root MuiTypography-body-sm MuiTypography-colorDanger joy-1jrnmgr"
+                            "FeelogTypography-root FeelogTypography-body-sm FeelogTypography-colorDanger joy-1jrnmgr"
                         );
                         p.innerText = "포스타입에 가입하려면 만 14세 이상이어야 해요.";
-                        document.querySelector(".MuiStack-root.joy-bco1gb").appendChild(p);
+                        document.querySelector(".FeelogStack-root.flog-div-56").appendChild(p);
                     }
                 } else {
-                    if (e.target.closest("button.joy-1bxt4bb")) {
+                    if (e.target.closest("button.flog-a-13")) {
                         window.location.href = "../join/email-join.html";
                     }
                 }
@@ -32,19 +34,19 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
     // 만14세 이상 체크 :: 클래스 명 변경, svg태그 생성/삭제
-    document.querySelector(".MuiCheckbox-input.joy-1jj0cvj").addEventListener("change", (e) => {
+    document.querySelector(".FeelogCheckbox-input.flog-input-3").addEventListener("change", (e) => {
         // svg 태그가 없으면 클래스명 변경, svg 태그 생성, 14세이상 경고 문구 삭제
         // svg 태그가 있으면 클래스명 원상복구, svg 태그 삭제
-        if (document.querySelector(".MuiSvgIcon-root.MuiSvgIcon-sizeMd.joy-c6bb0f") == null) {
+        if (document.querySelector(".FeelogSvgIcon-root.FeelogSvgIcon-sizeMd.flog-svg-6") == null) {
             // 클래스명 변경
-            document.querySelector(".MuiCheckbox-action.joy-kit57i").className =
-                "MuiCheckbox-action Mui-checked joy-kit57i";
-            document.querySelector(".MuiCheckbox-checkbox.joy-12qidki").className =
-                "MuiCheckbox-checkbox Mui-checked joy-3p0wzn";
+            document.querySelector(".FeelogCheckbox-action.flog-span-8").className =
+                "FeelogCheckbox-action Feelog-checked flog-span-8";
+            document.querySelector(".FeelogCheckbox-checkbox.flog-span-7").className =
+                "FeelogCheckbox-checkbox Feelog-checked flog-span-10";
             document.querySelector(
-                ".MuiCheckbox-root.MuiCheckbox-variantOutlined.MuiCheckbox-colorNeutral.MuiCheckbox-sizeSm.joy-l3odn9"
+                ".FeelogCheckbox-root.FeelogCheckbox-variantOutlined.FeelogCheckbox-colorNeutral.FeelogCheckbox-sizeSm.flog-span-6"
             ).className =
-                "MuiCheckbox-root Mui-checked MuiCheckbox-variantSolid MuiCheckbox-colorPrimary MuiCheckbox-sizeSm joy-n1cxpg";
+                "FeelogCheckbox-root Feelog-checked FeelogCheckbox-variantSolid FeelogCheckbox-colorPrimary FeelogCheckbox-sizeSm flog-span-9";
 
             // <svg> 요소 생성
             const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
@@ -52,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
             svg.setAttribute("aria-hidden", "true");
             svg.setAttribute("viewBox", "0 0 24 24");
             svg.setAttribute("data-testid", "CheckIcon");
-            svg.classList.add("MuiSvgIcon-root", "MuiSvgIcon-sizeMd", "joy-c6bb0f");
+            svg.classList.add("FeelogSvgIcon-root", "FeelogSvgIcon-sizeMd", "flog-svg-6");
 
             // <path> 요소 생성
             const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
@@ -65,32 +67,34 @@ document.addEventListener("DOMContentLoaded", () => {
             svg.appendChild(path);
 
             // <svg>를 추가
-            document.querySelector(".MuiCheckbox-checkbox.Mui-checked.joy-3p0wzn").appendChild(svg);
+            document.querySelector(".FeelogCheckbox-checkbox.Feelog-checked.flog-span-10").appendChild(svg);
 
             // 14세 이상 경고 문구 삭제
             if (
                 document.querySelector(
-                    ".MuiTypography-root.MuiTypography-body-sm.MuiTypography-colorDanger.joy-1jrnmgr"
+                    ".FeelogTypography-root.FeelogTypography-body-sm.FeelogTypography-colorDanger.joy-1jrnmgr"
                 ) != null
             ) {
                 document
-                    .querySelector(".MuiTypography-root.MuiTypography-body-sm.MuiTypography-colorDanger.joy-1jrnmgr")
+                    .querySelector(
+                        ".FeelogTypography-root.FeelogTypography-body-sm.FeelogTypography-colorDanger.joy-1jrnmgr"
+                    )
                     .remove();
             }
         } else {
             // 클래스명 원상복구
-            document.querySelector(".MuiCheckbox-action.Mui-checked.joy-kit57i").className =
-                "MuiCheckbox-action joy-kit57i";
-            document.querySelector(".MuiCheckbox-checkbox.Mui-checked.joy-3p0wzn").className =
-                "MuiCheckbox-checkbox joy-12qidki";
+            document.querySelector(".FeelogCheckbox-action.Feelog-checked.flog-span-8").className =
+                "FeelogCheckbox-action flog-span-8";
+            document.querySelector(".FeelogCheckbox-checkbox.Feelog-checked.flog-span-10").className =
+                "FeelogCheckbox-checkbox flog-span-7";
             document.querySelector(
-                ".MuiCheckbox-root.Mui-checked.MuiCheckbox-variantSolid.MuiCheckbox-colorPrimary.MuiCheckbox-sizeSm.joy-n1cxpg"
+                ".FeelogCheckbox-root.Feelog-checked.FeelogCheckbox-variantSolid.FeelogCheckbox-colorPrimary.FeelogCheckbox-sizeSm.flog-span-9"
             ).className =
-                "MuiCheckbox-root MuiCheckbox-variantOutlined MuiCheckbox-colorNeutral MuiCheckbox-sizeSm joy-l3odn9";
+                "FeelogCheckbox-root FeelogCheckbox-variantOutlined FeelogCheckbox-colorNeutral FeelogCheckbox-sizeSm flog-span-6";
 
             // <svg> 요소 삭제
-            if (document.querySelector(".MuiSvgIcon-root.MuiSvgIcon-sizeMd.joy-c6bb0f") != null) {
-                document.querySelector(".MuiSvgIcon-root.MuiSvgIcon-sizeMd.joy-c6bb0f").remove();
+            if (document.querySelector(".FeelogSvgIcon-root.FeelogSvgIcon-sizeMd.flog-svg-6") != null) {
+                document.querySelector(".FeelogSvgIcon-root.FeelogSvgIcon-sizeMd.flog-svg-6").remove();
             }
         }
     });

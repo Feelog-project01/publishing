@@ -5,48 +5,48 @@ document.addEventListener("DOMContentLoaded", () => {
         passwordFlag = false,
         nickNameFlag = false;
     // 입력창 포커스(커서 위치) 이벤트
-    document.querySelectorAll(".MuiInput-input").forEach((input) => {
-        // 처음 포커스 되었을 때( 에러 문구도 없고, classlist에 Mui-focused도 없을 경우) 파란색으로 창을 표시
+    document.querySelectorAll(".FeelogInput-input").forEach((input) => {
+        // 처음 포커스 되었을 때( 에러 문구도 없고, classlist에 Feelog-focused도 없을 경우) 파란색으로 창을 표시
         input.addEventListener("focus", (e) => {
             if (
-                !e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.contains("Mui-error") &&
-                !e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.contains("Mui-focused")
+                !e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.contains("Feelog-error") &&
+                !e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.contains("Feelog-focused")
             ) {
-                e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.add("Mui-focused");
+                e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.add("Feelog-focused");
             }
         });
 
         // 포커스가 옮겨지고, 입력값이 올바르지 못 할 경우 경우 빨간색 메세지 표시
         input.addEventListener("blur", (e) => {
-            if (!e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.contains("Mui-error")) {
+            if (!e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.contains("Feelog-error")) {
                 const helperTextDiv = document.createElement("div");
                 helperTextDiv.setAttribute("aria-live", "assertive");
-                helperTextDiv.setAttribute("class", "MuiFormHelperText-root Mui-error joy-7l9mu1");
+                helperTextDiv.setAttribute("class", "FeelogFormHelperText-root Feelog-error flog-div-52");
                 if (e.target.id == ":r0:" && !emailFlag) {
                     helperTextDiv.setAttribute("id", ":r0:-helper-text");
                     helperTextDiv.textContent = "이메일을 입력해 주세요.";
-                    e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.remove("Mui-focused");
-                    e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.add("Mui-error");
+                    e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.remove("Feelog-focused");
+                    e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.add("Feelog-error");
                 } else if (e.target.id == ":r1:" && !passwordFlag) {
                     helperTextDiv.setAttribute("id", ":r1:-helper-text");
                     helperTextDiv.textContent = "비밀번호를 입력해 주세요.";
-                    e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.remove("Mui-focused");
-                    e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.add("Mui-error");
+                    e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.remove("Feelog-focused");
+                    e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.add("Feelog-error");
                 } else if (e.target.id == ":r2:" && !nickNameFlag) {
                     helperTextDiv.setAttribute("id", ":r1:-helper-text");
                     helperTextDiv.textContent = "닉네임을 입력해 주세요.";
-                    e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.remove("Mui-focused");
-                    e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.add("Mui-error");
+                    e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.remove("Feelog-focused");
+                    e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.add("Feelog-error");
                 }
 
-                e.target.closest(".joy-k54e1s").appendChild(helperTextDiv);
+                e.target.closest(".flog-div-49").appendChild(helperTextDiv);
             }
         });
     });
 
     // 비밀번호 숨기기 표시하기 버튼 클릭 이벤트
-    const toggleBtn = document.querySelector(".MuiIconButton-root");
-    const input = toggleBtn.closest(".joy-i4zyc6").querySelector("input");
+    const toggleBtn = document.querySelector(".FeelogIconButton-root");
+    const input = toggleBtn.closest(".flog-div-50").querySelector("input");
     const svg = toggleBtn.querySelector("svg");
 
     // 두 상태의 SVG 데이터
@@ -79,40 +79,40 @@ document.addEventListener("DOMContentLoaded", () => {
     // 입력된 이메일 유효성 확인
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     document.querySelector("#\\:r0\\:").addEventListener("keyup", (e) => {
-        // 이메일 정상 입력 :: 이메일 플래그 true, Mui-error,Mui-focused 클래스명 삭제, 에러메세지 삭제(.Mui-error.joy-7l9mu1)
+        // 이메일 정상 입력 :: 이메일 플래그 true, Feelog-error,Feelog-focused 클래스명 삭제, 에러메세지 삭제(.Feelog-error.flog-div-52)
         if (emailRegex.test(document.querySelector("#\\:r0\\:").value)) {
             emailFlag = true;
-            if (e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.contains("Mui-error")) {
-                e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.remove("Mui-error");
+            if (e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.contains("Feelog-error")) {
+                e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.remove("Feelog-error");
             }
-            if (e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.contains("Mui-focused")) {
-                e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.remove("Mui-focused");
+            if (e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.contains("Feelog-focused")) {
+                e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.remove("Feelog-focused");
             }
-            if (e.target.closest(".joy-k54e1s").querySelector(".Mui-error.joy-7l9mu1")) {
-                e.target.closest(".joy-k54e1s").querySelector(".Mui-error.joy-7l9mu1").remove();
+            if (e.target.closest(".flog-div-49").querySelector(".Feelog-error.flog-div-52")) {
+                e.target.closest(".flog-div-49").querySelector(".Feelog-error.flog-div-52").remove();
             }
             // 세가지 입력이 모두 완성된 경우 회원가입 버튼 활성화
             if (passwordFlag && nickNameFlag) {
-                document.querySelector(".joy-1u9v5nm").removeAttribute("disabled");
-                document.querySelector(".joy-1u9v5nm").classList.remove("Mui-disabled");
+                document.querySelector(".flog-button-11").removeAttribute("disabled");
+                document.querySelector(".flog-button-11").classList.remove("Feelog-disabled");
             }
-            // 이메일 비정상 입력 :: 이메일 플래그 false, Mui-error 클래스명 추가, 에러메세지 추가(.Mui-error.joy-7l9mu1)
+            // 이메일 비정상 입력 :: 이메일 플래그 false, Feelog-error 클래스명 추가, 에러메세지 추가(.Feelog-error.flog-div-52)
         } else {
             emailFlag = false;
-            if (!e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.contains("Mui-error")) {
-                e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.add("Mui-error");
+            if (!e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.contains("Feelog-error")) {
+                e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.add("Feelog-error");
             }
-            if (!e.target.closest(".joy-k54e1s").querySelector(".Mui-error.joy-7l9mu1")) {
+            if (!e.target.closest(".flog-div-49").querySelector(".Feelog-error.flog-div-52")) {
                 const helperTextDiv = document.createElement("div");
                 helperTextDiv.setAttribute("aria-live", "assertive");
-                helperTextDiv.setAttribute("class", "MuiFormHelperText-root Mui-error joy-7l9mu1");
+                helperTextDiv.setAttribute("class", "FeelogFormHelperText-root Feelog-error flog-div-52");
                 helperTextDiv.setAttribute("id", ":r0:-helper-text");
                 helperTextDiv.textContent = "이메일을 입력해 주세요.";
-                e.target.closest(".joy-k54e1s").appendChild(helperTextDiv);
+                e.target.closest(".flog-div-49").appendChild(helperTextDiv);
             }
-            if (!document.querySelector(".joy-1u9v5nm").classList.contains("Mui-disabled")) {
-                document.querySelector(".joy-1u9v5nm").classList.add("Mui-disabled");
-                document.querySelector(".joy-1u9v5nm").setAttribute("disabled", "");
+            if (!document.querySelector(".flog-button-11").classList.contains("Feelog-disabled")) {
+                document.querySelector(".flog-button-11").classList.add("Feelog-disabled");
+                document.querySelector(".flog-button-11").setAttribute("disabled", "");
             }
         }
     });
@@ -120,100 +120,100 @@ document.addEventListener("DOMContentLoaded", () => {
     // 입력된 비밀번호 유효성 확인 : 대/소문자, 숫자, 특수문자 중 2가지 이상의 조합으로 공백 없이 10자
     const passwordRegex = /^(?=.*[A-Za-z].*)(?=.*\d.*|.*[\W_].*)[A-Za-z\d\W_]{10,}$/;
     document.querySelector("#\\:r1\\:").addEventListener("keyup", (e) => {
-        // 비번 정상 입력 :: 비번 플래그 true, Mui-error 클래스명 삭제, 에러메세지 삭제(.Mui-error.joy-7l9mu1)
+        // 비번 정상 입력 :: 비번 플래그 true, Feelog-error 클래스명 삭제, 에러메세지 삭제(.Feelog-error.flog-div-52)
         if (passwordRegex.test(document.querySelector("#\\:r1\\:").value)) {
             passwordFlag = true;
-            if (e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.contains("Mui-error")) {
-                e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.remove("Mui-error");
+            if (e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.contains("Feelog-error")) {
+                e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.remove("Feelog-error");
             }
-            if (e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.contains("Mui-focused")) {
-                e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.remove("Mui-focused");
+            if (e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.contains("Feelog-focused")) {
+                e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.remove("Feelog-focused");
             }
-            if (e.target.closest(".joy-k54e1s").querySelector(".Mui-error.joy-7l9mu1")) {
-                e.target.closest(".joy-k54e1s").querySelector(".Mui-error.joy-7l9mu1").remove();
+            if (e.target.closest(".flog-div-49").querySelector(".Feelog-error.flog-div-52")) {
+                e.target.closest(".flog-div-49").querySelector(".Feelog-error.flog-div-52").remove();
             }
             // 세가지 입력이 모두 완성된 경우 회원가입 버튼 활성화
             if (emailFlag && nickNameFlag) {
-                document.querySelector(".joy-1u9v5nm").removeAttribute("disabled");
-                document.querySelector(".joy-1u9v5nm").classList.remove("Mui-disabled");
+                document.querySelector(".flog-button-11").removeAttribute("disabled");
+                document.querySelector(".flog-button-11").classList.remove("Feelog-disabled");
             }
-            // 비번 비정상 입력 :: 비번 플래그 false, Mui-error 클래스명 추가, 에러메세지 추가(.Mui-error.joy-7l9mu1)
+            // 비번 비정상 입력 :: 비번 플래그 false, Feelog-error 클래스명 추가, 에러메세지 추가(.Feelog-error.flog-div-52)
         } else {
             passwordFlag = false;
-            if (!e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.contains("Mui-error")) {
-                e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.add("Mui-error");
+            if (!e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.contains("Feelog-error")) {
+                e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.add("Feelog-error");
             }
-            if (!e.target.closest(".joy-k54e1s").querySelector(".Mui-error.joy-7l9mu1")) {
+            if (!e.target.closest(".flog-div-49").querySelector(".Feelog-error.flog-div-52")) {
                 const helperTextDiv = document.createElement("div");
                 helperTextDiv.setAttribute("aria-live", "assertive");
-                helperTextDiv.setAttribute("class", "MuiFormHelperText-root Mui-error joy-7l9mu1");
+                helperTextDiv.setAttribute("class", "FeelogFormHelperText-root Feelog-error flog-div-52");
                 helperTextDiv.setAttribute("id", ":r1:-helper-text");
                 helperTextDiv.textContent = "비밀번호를 입력해 주세요.";
-                e.target.closest(".joy-k54e1s").appendChild(helperTextDiv);
+                e.target.closest(".flog-div-49").appendChild(helperTextDiv);
             }
-            if (!document.querySelector(".joy-1u9v5nm").classList.contains("Mui-disabled")) {
-                document.querySelector(".joy-1u9v5nm").classList.add("Mui-disabled");
-                document.querySelector(".joy-1u9v5nm").setAttribute("disabled", "");
+            if (!document.querySelector(".flog-button-11").classList.contains("Feelog-disabled")) {
+                document.querySelector(".flog-button-11").classList.add("Feelog-disabled");
+                document.querySelector(".flog-button-11").setAttribute("disabled", "");
             }
         }
     });
 
     // 입력된 닉네임 유효성 확인 : 1자 이상 입력하면 정상
     document.querySelector("#\\:r2\\:").addEventListener("keyup", (e) => {
-        // 닉네님 정상 입력 :: 닉네임 플래그 true, Mui-error 클래스명 삭제, 에러메세지 삭제(.Mui-error.joy-7l9mu1)
+        // 닉네님 정상 입력 :: 닉네임 플래그 true, Feelog-error 클래스명 삭제, 에러메세지 삭제(.Feelog-error.flog-div-52)
         if (e.target.value.length > 0) {
             nickNameFlag = true;
-            if (e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.contains("Mui-error")) {
-                e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.remove("Mui-error");
+            if (e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.contains("Feelog-error")) {
+                e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.remove("Feelog-error");
             }
-            if (e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.contains("Mui-focused")) {
-                e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.remove("Mui-focused");
+            if (e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.contains("Feelog-focused")) {
+                e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.remove("Feelog-focused");
             }
-            if (e.target.closest(".joy-k54e1s").querySelector(".Mui-error.joy-7l9mu1")) {
-                e.target.closest(".joy-k54e1s").querySelector(".Mui-error.joy-7l9mu1").remove();
+            if (e.target.closest(".flog-div-49").querySelector(".Feelog-error.flog-div-52")) {
+                e.target.closest(".flog-div-49").querySelector(".Feelog-error.flog-div-52").remove();
             }
             // 세가지 입력이 모두 완성된 경우 회원가입 버튼 활성화
             if (emailFlag && passwordFlag) {
-                document.querySelector(".joy-1u9v5nm").removeAttribute("disabled");
-                document.querySelector(".joy-1u9v5nm").classList.remove("Mui-disabled");
+                document.querySelector(".flog-button-11").removeAttribute("disabled");
+                document.querySelector(".flog-button-11").classList.remove("Feelog-disabled");
             }
-            // 닉네임 비정상 입력 :: 닉네임 플래그 false, Mui-error 클래스명 추가, 에러메세지 추가(.Mui-error.joy-7l9mu1)
+            // 닉네임 비정상 입력 :: 닉네임 플래그 false, Feelog-error 클래스명 추가, 에러메세지 추가(.Feelog-error.flog-div-52)
         } else {
             nickNameFlag = false;
-            if (!e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.contains("Mui-error")) {
-                e.target.closest(".joy-k54e1s").querySelector(".joy-i4zyc6").classList.add("Mui-error");
+            if (!e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.contains("Feelog-error")) {
+                e.target.closest(".flog-div-49").querySelector(".flog-div-50").classList.add("Feelog-error");
             }
-            if (!e.target.closest(".joy-k54e1s").querySelector(".Mui-error.joy-7l9mu1")) {
+            if (!e.target.closest(".flog-div-49").querySelector(".Feelog-error.flog-div-52")) {
                 const helperTextDiv = document.createElement("div");
                 helperTextDiv.setAttribute("aria-live", "assertive");
-                helperTextDiv.setAttribute("class", "MuiFormHelperText-root Mui-error joy-7l9mu1");
+                helperTextDiv.setAttribute("class", "FeelogFormHelperText-root Feelog-error flog-div-52");
                 helperTextDiv.setAttribute("id", ":r1:-helper-text");
                 helperTextDiv.textContent = "닉네임을 입력해 주세요.";
-                e.target.closest(".joy-k54e1s").appendChild(helperTextDiv);
+                e.target.closest(".flog-div-49").appendChild(helperTextDiv);
             }
-            if (!document.querySelector(".joy-1u9v5nm").classList.contains("Mui-disabled")) {
-                document.querySelector(".joy-1u9v5nm").classList.add("Mui-disabled");
-                document.querySelector(".joy-1u9v5nm").setAttribute("disabled", "");
+            if (!document.querySelector(".flog-button-11").classList.contains("Feelog-disabled")) {
+                document.querySelector(".flog-button-11").classList.add("Feelog-disabled");
+                document.querySelector(".flog-button-11").setAttribute("disabled", "");
             }
         }
     });
 
     // 뒤로가기 버튼 클릭 :: 회원가입 첫 페이지로 이동
-    document.querySelector(".joy-a3xbg1").addEventListener("click", () => {
+    document.querySelector(".flog-p-10").addEventListener("click", () => {
         window.location.href = "../join/join.html";
     });
 
     // 로그인 버튼 이벤트 :: 서버에서 결과 받아서 뿌리는 거로 변경 필요
-    document.querySelector(".joy-1u9v5nm").addEventListener("click", (e) => {
+    document.querySelector(".flog-button-11").addEventListener("click", (e) => {
         e.preventDefault();
-        document.querySelector(".joy-8ijia1").style.display = "block";
+        document.querySelector(".flog-div-40").style.display = "block";
     });
 
     // 모달창 확인, x 버튼 클릭 이벤트
-    document.querySelector(".joy-10kto0v").addEventListener("click", (e) => {
-        document.querySelector(".joy-8ijia1").style.display = "none";
+    document.querySelector(".flog-button-10").addEventListener("click", (e) => {
+        document.querySelector(".flog-div-40").style.display = "none";
     });
-    document.querySelector(".joy-c6bb0f").addEventListener("click", (e) => {
-        document.querySelector(".joy-8ijia1").style.display = "none";
+    document.querySelector(".flog-svg-6").addEventListener("click", (e) => {
+        document.querySelector(".flog-div-40").style.display = "none";
     });
 });

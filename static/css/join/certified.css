@@ -5,10 +5,10 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 /* 헤더 여기부터 */
-.joy-cy0dc6 {
+.flog-header-4 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -19,14 +19,14 @@ body {
     justify-content: center;
     width: 100%;
     border-bottom: 1px solid;
-    border-color: #D1D1D1;
-    background-color: #FFFFFF;
+    border-color: #d1d1d1;
+    background-color: #ffffff;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 500;
 }
-.joy-ds5l4r {
+.flog-div-32 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -34,7 +34,7 @@ body {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     width: 100%;
     max-width: 1144px;
     -webkit-flex-direction: row;
@@ -45,22 +45,22 @@ body {
     justify-content: space-between;
 }
 @media (min-width: 0px) {
-    .joy-ds5l4r {
+    .flog-div-32 {
         padding: 4px 8px;
         height: 48px;
     }
 }
 @media (min-width: 744px) {
-    .joy-ds5l4r {
+    .flog-div-32 {
         padding: 12px 32px;
         height: 64px;
     }
 }
-.joy-1f0r9h6 {
+.flog-a-10 {
     cursor: pointer;
 }
 @media (min-width: 0px) {
-    .joy-1f0r9h6 {
+    .flog-a-10 {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -69,12 +69,12 @@ body {
     }
 }
 @media (min-width: 744px) {
-    .joy-1f0r9h6 {
+    .flog-a-10 {
         display: none;
         padding: 8px;
     }
 }
-.joy-194s26x {
+.flog-svg-4 {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -91,19 +91,19 @@ body {
     color: #666666;
     width: 96px;
     height: 18px;
-    color: #0055AA;
+    color: #0055aa;
 }
-.joy-rwn3c2 {
+.flog-a-11 {
     cursor: pointer;
 }
 @media (min-width: 0px) {
-    .joy-rwn3c2 {
+    .flog-a-11 {
         display: none;
         padding: 11px 8px;
     }
 }
 @media (min-width: 744px) {
-    .joy-rwn3c2 {
+    .flog-a-11 {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -111,7 +111,7 @@ body {
         padding: 8px;
     }
 }
-.joy-x42d7j {
+.flog-svg-1 {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -128,9 +128,9 @@ body {
     color: #666666;
     width: 128px;
     height: 24px;
-    color: #0055AA;
+    color: #0055aa;
 }
-.joy-akorg6 {
+.flog-div-7 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -150,16 +150,16 @@ body {
     align-items: center;
 }
 @media (min-width: 744px) {
-    .joy-1c4f13u {
+    .flog-div-8 {
         display: initial;
     }
 }
 @media (min-width: 0px) {
-    .joy-1c4f13u {
+    .flog-div-8 {
         display: none;
     }
 }
-.joy-t47jog {
+.flog-button-3 {
     --Icon-margin: initial;
     --Icon-color: #666666;
     --Icon-fontSize: 20px;
@@ -200,10 +200,10 @@ body {
     padding-left: 6px;
     padding-right: 6px;
 }
-.joy-t47jog.MuiMenuButton-sizeSm {
+.flog-button-3.FeelogMenuButton-sizeSm {
     min-height: 32px;
 }
-.joy-vl6dak {
+.flog-div-9 {
     --Icon-color: #666666;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-weight: 700;
@@ -241,7 +241,7 @@ body {
     height: 32px;
     cursor: pointer;
 }
-.joy-1hy9t21 {
+.flog-img-1 {
     width: 100%;
     height: 100%;
     text-align: center;
@@ -250,20 +250,20 @@ body {
     text-indent: 10000px;
 }
 @media (min-width: 744px) {
-    .joy-174j8o {
+    .flog-div-10 {
         display: none;
     }
 }
 @media (min-width: 0px) {
-    .joy-174j8o {
+    .flog-div-10 {
         display: initial;
     }
 }
-.joy-k9mukw {
+.flog-span-4 {
     --Badge-minHeight: 0.5rem;
     --Badge-paddingX: 0.25rem;
     --Badge-ringSize: 2px;
-    --Badge-ring: 0 0 0 var(--Badge-ringSize) #F5F5F5;
+    --Badge-ring: 0 0 0 var(--Badge-ringSize) #f5f5f5;
     position: relative;
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -275,7 +275,7 @@ body {
     flex-shrink: 0;
     --Badge-ringSize: 0;
 }
-.joy-18ontzg {
+.flog-button-4 {
     --Icon-fontSize: 1.25em;
     --Icon-color: currentColor;
     --CircularProgress-size: 1.25em;
@@ -315,7 +315,7 @@ body {
     position: relative;
     text-decoration-color: currentColor;
 }
-.joy-dp6dm4 {
+.flog-div-11 {
     --Icon-color: #666666;
     margin-inline-start: 0px;
     box-shadow: none;
@@ -347,7 +347,7 @@ body {
     width: 36px;
     height: 36px;
 }
-.joy-1hy9t21 {
+.flog-img-1 {
     width: 100%;
     height: 100%;
     text-align: center;
@@ -355,7 +355,7 @@ body {
     color: transparent;
     text-indent: 10000px;
 }
-.joy-z2ygw7 {
+.flog-span-5 {
     --Icon-color: currentColor;
     --Icon-fontSize: calc(1em * 1.5);
     display: -webkit-inline-box;
@@ -386,7 +386,7 @@ body {
     min-width: 8px;
     border-radius: 8px;
     z-index: 600;
-    background-color: #D32F2F;
+    background-color: #d32f2f;
     top: 0;
     right: 0;
     -webkit-transform: scale(1) translateX(50%) translateY(-50%);
@@ -397,11 +397,11 @@ body {
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-weight: 500;
     font-size: 12px;
-    color: #FFFFFF;
+    color: #ffffff;
     --variant-borderWidth: 0px;
     white-space: nowrap;
 }
-.joy-z2ygw7.MuiBadge-invisible {
+.flog-span-5.FeelogBadge-invisible {
     -webkit-transform: scale(0) translateX(50%) translateY(-50%);
     -moz-transform: scale(0) translateX(50%) translateY(-50%);
     -ms-transform: scale(0) translateX(50%) translateY(-50%);
@@ -409,7 +409,7 @@ body {
 }
 
 /* 헤더 여기까지 */
-.joy-1mi3tt8 {
+.flog-main-2 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -423,7 +423,7 @@ body {
     align-items: center;
     width: 100%;
 }
-.joy-1bd627x {
+.flog-div-33 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -435,18 +435,18 @@ body {
     gap: 32px;
 }
 @media (min-width: 0px) {
-    .joy-1bd627x {
+    .flog-div-33 {
         padding: 24px 16px 64px;
         max-width: 100%;
     }
 }
 @media (min-width: 744px) {
-    .joy-1bd627x {
+    .flog-div-33 {
         padding: 40px 0 64px;
         max-width: 320px;
     }
 }
-.joy-14xsekm {
+.flog-h1-2 {
     --Icon-fontSize: calc(1em * 1.25);
     margin: 0px;
     display: block;
@@ -457,7 +457,7 @@ body {
     letter-spacing: -0.025em;
     color: #333333;
 }
-.joy-yd8sa2 {
+.flog-div-34 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -467,7 +467,7 @@ body {
     flex-direction: column;
     gap: 16px;
 }
-.joy-14xsekm {
+.flog-h1-2 {
     --Icon-fontSize: calc(1em * 1.25);
     margin: 0px;
     display: block;
@@ -478,7 +478,7 @@ body {
     letter-spacing: -0.025em;
     color: #333333;
 }
-.joy-abqe9u {
+.flog-p-8 {
     --Icon-fontSize: calc(1em * 1.5);
     margin: 0px;
     display: block;
@@ -487,9 +487,9 @@ body {
     line-height: 1.5;
     color: #333333;
     font-weight: 400;
-    color: #B3B3B3;
+    color: #b3b3b3;
 }
-.joy-1x63ibb {
+.flog-a-12 {
     --Icon-fontSize: 1.25em;
     --Icon-color: currentColor;
     --CircularProgress-size: 1.25em;
@@ -525,7 +525,7 @@ body {
     -webkit-text-decoration: underline;
     text-decoration: underline;
 }
-.joy-1bxt4bb {
+.flog-a-13 {
     --Icon-margin: initial;
     --Icon-color: #666666;
     --Icon-fontSize: 24px;
@@ -563,10 +563,10 @@ body {
     line-height: 1.5;
     --variant-borderWidth: 0px;
     color: #333333;
-    background-color: #E0E0E0;
+    background-color: #e0e0e0;
     font-weight: 500;
 }
-.joy-1bxt4bb.MuiButton-sizeMd {
+.flog-a-13.FeelogButton-sizeMd {
     min-height: 40px;
     font-size: 16px;
 }
