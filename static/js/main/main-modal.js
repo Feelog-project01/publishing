@@ -74,7 +74,7 @@
 // avatarBtn.addEventListener("click", toggleProfileMenu);
 // document.addEventListener("click", closeProfileMenu);
 
-fetch("header.html")
+fetch("../../templates/main/header.html")
     .then((res) => res.text())
     .then((html) => {
         const container = document.getElementById("header-container");
