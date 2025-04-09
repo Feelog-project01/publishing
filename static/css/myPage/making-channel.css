@@ -658,7 +658,7 @@ body {
 @media (min-width: 744px) {
     .flog-nav-2 {
         min-height: 56px;
-        top: 88px;
+        top: 56px;
     }
 }
 .flog-ul-1 {
@@ -731,11 +731,17 @@ body {
 }
 @media (min-width: 0px) {
     .flog-div-76 {
+        margin-left: -30px;
+        width: 320px;
+        padding-top: 60px;
         padding-inline: 16px;
     }
 }
 @media (min-width: 744px) {
     .flog-div-76 {
+        margin-left: 0px;
+        width: 100%;
+        padding-top: 80px;
         padding-inline: 0px;
     }
 }

@@ -46,12 +46,14 @@ body {
 }
 @media (min-width: 0px) {
     .flog-div-32 {
+        margin-right: 20px;
         padding: 4px 8px;
         height: 48px;
     }
 }
 @media (min-width: 744px) {
     .flog-div-32 {
+        margin-right: 0px;
         padding: 12px 32px;
         height: 64px;
     }
@@ -91,7 +93,7 @@ body {
     color: #666666;
     width: 96px;
     height: 18px;
-    color: #0055aa;
+    color: black;
 }
 .flog-a-11 {
     cursor: pointer;
@@ -128,7 +130,7 @@ body {
     color: #666666;
     width: 128px;
     height: 24px;
-    color: #0055aa;
+    color: black;
 }
 .flog-div-7 {
     display: -webkit-box;
@@ -437,12 +439,12 @@ body {
 @media (min-width: 0px) {
     .flog-div-33 {
         padding: 24px 16px 64px;
-        max-width: 100%;
+        max-width: 320px;
     }
 }
 @media (min-width: 744px) {
     .flog-div-33 {
-        padding: 40px 0 64px;
+        padding: 40px 0 64px 0;
         max-width: 320px;
     }
 }
@@ -569,4 +571,15 @@ body {
 .flog-a-13.FeelogButton-sizeMd {
     min-height: 40px;
     font-size: 16px;
+}
+
+@media (min-width: 0px) {
+    .flog-a-13.FeelogButton-sizeMd {
+        max-width: 300px;
+    }
+}
+@media (min-width: 744px) {
+    .flog-a-13.FeelogButton-sizeMd {
+        max-width: 100%;
+    }
 }

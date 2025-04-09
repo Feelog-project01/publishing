@@ -9,13 +9,10 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
     background-color: #ffffff;
-    /* padding-top: env(safe-area-inset-top);
-    padding-bottom: env(safe-area-inset-bottom); */
 }
 body {
     margin: 0;
     color: #202022;
-    /* font-family: ; */
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
@@ -653,13 +650,15 @@ body {
 }
 @media (min-width: 0px) {
     .flog-nav-2 {
+        padding-left: 10px;
         top: 48px;
     }
 }
 @media (min-width: 744px) {
     .flog-nav-2 {
+        padding-left: 0px;
         min-height: 56px;
-        top: 88px;
+        top: 56px;
     }
 }
 .flog-ul-1 {
@@ -719,7 +718,7 @@ body {
         gap: 16px;
         -webkit-box-pack: start;
         -ms-flex-pack: start;
-        -webkit-justify-content: flex-start;
+        -webkit-justify-content: center;
         justify-content: flex-start;
     }
 }
@@ -872,17 +871,17 @@ body {
 }
 @media (min-width: 0px) {
     .flog-main-1 {
-        padding: 20px 16px;
+        padding: 65px 16px;
     }
 }
 @media (min-width: 744px) {
     .flog-main-1 {
-        padding: 40px 32px;
+        padding: 85px 32px;
     }
 }
 @media (min-width: 1132px) {
     .flog-main-1 {
-        padding: 40px 32px;
+        padding: 85px 32px;
     }
 }
 
@@ -930,6 +929,16 @@ body {
     justify-content: space-between;
     margin-bottom: 15px;
 }
+@media (min-width: 0px) {
+    .flog-section-2 {
+        gap: 12px;
+    }
+}
+@media (min-width: 744px) {
+    .flog-section-2 {
+        gap: 24px;
+    }
+}
 
 .flog-h2-3 {
     --Icon-fontSize: 1.33334em;
@@ -945,11 +954,13 @@ body {
 
 @media (min-width: 0px) {
     .flog-h2-3 {
+        margin-left: 12px;
         font-size: 16px;
     }
 }
 @media (min-width: 744px) {
     .flog-h2-3 {
+        margin-left: 0px;
         font-size: 24px;
     }
 }
@@ -984,14 +995,23 @@ body {
 }
 @media (min-width: 0px) {
     .flog-div-26 {
+        margin-left: 5px;
         margin-bottom: 4px;
+        gap: 0px;
     }
 }
 @media (min-width: 744px) {
     .flog-div-26 {
+        margin-left: 0px;
         margin-bottom: 14px;
+        gap: 24px;
     }
 }
+.flog-div-26 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .flog-section-3 {
     -webkit-box-flex: 0;
     -webkit-flex-grow: 0;
@@ -1007,21 +1027,23 @@ body {
     overflow: hidden;
 }
 
+@media (min-width: 0px) {
+    .flog-section-3 {
+        flex: 0 0 calc(100% - 12px);
+        box-sizing: border-box;
+    }
+}
+@media (min-width: 744px) {
+    .flog-section-3 {
+        flex: 0 0 calc(50% - 12px);
+        box-sizing: border-box;
+    }
+}
 .flog-section-2 {
     display: flex;
     flex-direction: column;
     gap: 12px;
     width: 100%;
-}
-.flog-div-26 {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-}
-
-.flog-section-3 {
-    flex: 0 0 calc(50% - 12px);
-    box-sizing: border-box;
 }
 
 .flog-div-27 {
@@ -1204,6 +1226,18 @@ body {
         line-clamp: 3;
     }
 }
+.flog-p-7 {
+    --Icon-fontSize: calc(1em * 1.5);
+    margin: 0px;
+    display: block;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: #202022;
+    color: #76767f;
+}
+
 .flog-div-31 {
     display: -webkit-box;
     display: -webkit-flex;

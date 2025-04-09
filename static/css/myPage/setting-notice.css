@@ -678,7 +678,7 @@ body {
 @media (min-width: 744px) {
     .flog-nav-2 {
         min-height: 56px;
-        top: 88px;
+        top: 56px;
     }
 }
 .flog-ul-1 {
@@ -801,7 +801,7 @@ body {
 }
 @media (min-width: 744px) {
     .flog-a-7 {
-        height: 56px;
+        height: 50px;
     }
 }
 .flog-a-7:not([hidden]) {
@@ -851,12 +851,14 @@ body {
 }
 @media (min-width: 0px) {
     .flog-form-2 {
-        padding: 24px 16px 64px;
+        width: 350px;
+        padding-top: 60px;
     }
 }
 @media (min-width: 744px) {
     .flog-form-2 {
-        padding: 40px 0 64px;
+        width: 100%;
+        padding-top: 85px;
     }
 }
 .flog-div-54 {

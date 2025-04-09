@@ -74,7 +74,7 @@
 // avatarBtn.addEventListener("click", toggleProfileMenu);
 // document.addEventListener("click", closeProfileMenu);
 
-fetch("header.html")
+fetch("../../templates/main/header.html")
     .then((res) => res.text())
     .then((html) => {
         const container = document.getElementById("header-container");
@@ -131,10 +131,7 @@ fetch("header.html")
         }
 
         function closeProfileMenu(e) {
-            if (
-                !profileMenu.contains(e.target) &&
-                !avatarBtn.contains(e.target)
-            ) {
+            if (!profileMenu.contains(e.target) && !avatarBtn.contains(e.target)) {
                 profileMenu.classList.add("hidden");
             }
         }
@@ -156,12 +153,8 @@ fetch("header.html")
         const searchCloseBtn = document.querySelector(".search-close-btn");
         const searchFilterBtn = document.querySelector(".search-filterBtn");
         const searchFilterModal = document.querySelector(".search-filter");
-        const searchFilterCloseBtn = document.querySelector(
-            ".search-filterBtn-close"
-        );
-        const searchFilterCloseBtn2 = document.querySelector(
-            ".search-filterBtn-close2"
-        );
+        const searchFilterCloseBtn = document.querySelector(".search-filterBtn-close");
+        const searchFilterCloseBtn2 = document.querySelector(".search-filterBtn-close2");
         const searchBackdrop = document.querySelector(".joy-qivq4z");
 
         // 검색 메인 모달 열기
@@ -189,12 +182,7 @@ fetch("header.html")
         }
 
         // 검색 필터 모달 닫기 (닫기 버튼 클릭)
-        if (
-            searchFilterCloseBtn &&
-            searchFilterModal &&
-            searchFilterCloseBtn2 &&
-            searchBackdrop
-        ) {
+        if (searchFilterCloseBtn && searchFilterModal && searchFilterCloseBtn2 && searchBackdrop) {
             searchFilterCloseBtn.addEventListener("click", () => {
                 searchFilterModal.classList.add("hidden");
                 searchBackdrop.classList.add("hidden");
