@@ -897,8 +897,7 @@ body {
 }
 @media (min-width: 0px) {
     .flog-div-60 {
-        width: 330px;
-        margin-left: -30px;
+        width: 360px;
         padding-inline: 16px;
         padding-top: 50px;
     }

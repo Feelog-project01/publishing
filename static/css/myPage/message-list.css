@@ -994,12 +994,14 @@ body {
 }
 @media (min-width: 0px) {
     .flog-div-69 {
+        width : 360px;
         margin-top: 60px;
         padding-inline: 16px;
     }
 }
 @media (min-width: 744px) {
     .flog-div-69 {
+        width: 100%;
         margin-top: 60px;
         padding-inline: 24px;
     }
@@ -1333,9 +1335,9 @@ body {
 }
 @media (min-width: 0px) {
     .flog-div-90 {
-        margin-left: -20px;
+        margin-left: -10px;
         margin-top: 10px;
-        width: 350px;
+        width: 390px;
         height: min(90%, 800px);
     }
 }
@@ -2251,6 +2253,16 @@ body {
     color: #333333;
     z-index: 1400;
     width: 198px;
+}
+@media (min-width: 0px) {
+    .flog-ul-2 {
+        transform: translate(0%, 110%);
+    }
+}
+@media (min-width: 744px) {
+    .flog-ul-2 {
+        transform: translate(-350%, 110%);
+    }
 }
 .flog-li-1 {
     box-sizing: border-box;

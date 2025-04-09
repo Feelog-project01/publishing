@@ -253,12 +253,12 @@ body {
 }
 @media (min-width: 744px) {
     .flog-div-10 {
-        display: none;
+        display: block;
     }
 }
 @media (min-width: 0px) {
     .flog-div-10 {
-        display: initial;
+        display: none;
     }
 }
 .flog-span-4 {

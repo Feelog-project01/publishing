@@ -989,16 +989,16 @@ body {
 }
 @media (min-width: 0px) {
     .flog-div-16 {
+        width: 360px;
         margin-top: 40px;
-        margin-left: 20px;
         padding-left: 16px;
         padding-right: 16px;
     }
 }
 @media (min-width: 744px) {
     .flog-div-16 {
+        width: 100%;
         margin-top: 40px;
-        margin-left: 0px;
         padding-left: 0;
         padding-right: 0;
     }

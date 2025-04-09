@@ -107,13 +107,13 @@ div {
     gap: 12px;
 }
 
-.flog-button-18.MuiIconButton-sizeMd {
+.footer-button-18.MuiIconButton-sizeMd {
     --Icon-fontSize: calc(40px / 1.667); /* ≈ 24px */
     min-width: 40px;
     min-height: 40px;
 }
 
-.flog-button-18 {
+.footer-button-18 {
     --Icon-margin: initial;
     --Icon-color: #76767f;
     --IconButton-size: 40px;

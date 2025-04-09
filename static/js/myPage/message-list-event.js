@@ -232,10 +232,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 "class",
                 "base-Popper-root FeelogMenu-root Feelog-expanded FeelogMenu-variantPlain FeelogMenu-colorNeutral FeelogMenu-sizeMd flog-ul-2"
             );
-            menuElement.setAttribute(
-                "style",
-                "position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(-680px, 101px);"
-            );
+            menuElement.setAttribute("style", "position: absolute; inset: 0px 0px auto auto; margin: 0px; ");
             menuElement.setAttribute("data-popper-placement", "bottom-end");
             menuElement.innerHTML = `
                 <li
@@ -390,13 +387,23 @@ document.addEventListener("DOMContentLoaded", () => {
             document.body.appendChild(conformModal);
         }
 
-        // 모달창의 네, 아니요, x 버튼 클릭시  이벤트 :: 모달창 삭제
-        if (e.target.closest(".flog-svg-6") || e.target.closest(".flog-div-44")) {
+        // 모달창(메세지창 포함) 의 네, 아니요, x 버튼 클릭시  이벤트  :: 모달창 삭제
+        if (
+            e.target.closest(".flog-svg-6") ||
+            e.target.closest(".flog-div-44") ||
+            e.target.closest(".flog-button-17")
+        ) {
             // 클릭된 모달화면 전체 삭제
             if (e.target.closest(".FeelogModal-root.flog-div-40").style.display) {
                 document.querySelector(".FeelogModal-root.flog-div-40").style.display = "none";
             } else {
                 e.target.closest(".FeelogModal-root.flog-div-40").remove();
+            }
+
+            // 열려있는 케밥 메뉴 삭제
+            if (document.querySelector(".flog-ul-2")) {
+                document.querySelector(".flog-ul-2").remove();
+                document.querySelector(".flog-button-18").classList.remove("expanded");
             }
         }
 

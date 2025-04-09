@@ -851,12 +851,14 @@ body {
 }
 @media (min-width: 0px) {
     .flog-form-3 {
+        width: 360px;
         gap: 32px;
         padding-top: 80px;
     }
 }
 @media (min-width: 744px) {
     .flog-form-3 {
+        width: 100%;
         gap: 40px;
         padding-top: 90px;
     }
@@ -1042,7 +1044,7 @@ body {
     font-weight: 400;
 }
 .flog-div-49 {
-    width: 645px;
+    width: 100%;
     margin: 0.5rem 0;
     align-self: flex-start;
     color: #d32f2f;
@@ -1054,22 +1056,6 @@ body {
     color: #1976d2;
     font-size: 14px;
     line-height: 125%;
-}
-.flog-label-3 {
-    font-size: calc(1.25 * 1em);
-    -webkit-tap-highlight-color: transparent;
-    align-self: flex-start;
-    display: flex;
-    gap: 2px;
-    align-items: center;
-    flex-wrap: wrap;
-    user-select: none;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.5;
-    color: #202022;
-    margin: 0px;
 }
 .flog-label-4 {
     color: #3478ff;
@@ -1151,23 +1137,6 @@ body {
 }
 .flog-div-118.FeelogTextarea-variantOutlined {
     background-color: transparent;
-}
-.flog-textarea-1 {
-    resize: none;
-    border: none;
-    min-width: 0;
-    outline: 0;
-    padding: 0;
-    padding-inline-end: 0.75rem;
-    flex: auto;
-    align-self: stretch;
-    color: inherit;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-style: inherit;
-    font-weight: inherit;
-    line-height: inherit;
 }
 .flog-textarea-1 {
     resize: none;

@@ -885,14 +885,13 @@ body {
 }
 @media (min-width: 0px) {
     .flog-div-60 {
-        margin-left: 13px;
+        width: 360px;
         margin-top: 37px;
         padding-inline: 16px;
     }
 }
 @media (min-width: 744px) {
     .flog-div-60 {
-        margin-left: 0px;
         margin-top: 45px;
         padding-inline: 24px;
     }
