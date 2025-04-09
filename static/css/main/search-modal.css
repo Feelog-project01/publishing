@@ -1,5 +1,5 @@
 .joy-dwtury {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
@@ -17,7 +17,7 @@
     border-radius: 0px;
     align-items: center;
     padding: 0px;
-    overflow: scroll;  
+    overflow: scroll;
     /* 이건맞음 */
     gap: 0px;
 }
@@ -59,7 +59,7 @@
     justify-content: center;
     position: absolute;
     z-index: 1;
-    color: #3E3E43;
+    color: #3e3e43;
     top: 20px;
     right: 20px;
     border-radius: 8px;
@@ -74,10 +74,8 @@
     fill: currentcolor;
     flex-shrink: 0;
     font-size: 24px;
-    color: #76767F;
+    color: #76767f;
 }
-
-
 
 @media (min-width: 0px) {
     .joy-11hai8p {
@@ -136,7 +134,7 @@
     line-height: 1.5;
     color: #202022;
     font-weight: 400;
-    background-color: #F2F2F3;
+    background-color: #f2f2f3;
     box-shadow: none;
     padding-inline: 16px;
     border-radius: 24px;
@@ -152,16 +150,16 @@
     z-index: 1;
     border-radius: inherit;
     margin: 0px;
-    box-shadow: inset 0 0 0 0px #3478FF;
+    box-shadow: inset 0 0 0 0px #3478ff;
 }
 
-.joy-prz8ey {
+.flog-div-121 {
     display: inherit;
     align-items: center;
     padding-block: 0;
     flex-wrap: wrap;
     margin-inline-end: 0.75rem;
-    color: #76767F;
+    color: #76767f;
     cursor: initial;
 }
 
@@ -179,10 +177,10 @@
     -ms-flex-negative: 0;
     flex-shrink: 0;
     font-size: 24px;
-    color: #76767F;
+    color: #76767f;
 }
 
-.joy-za5rna {
+.flog-input-4 {
     border: none;
     min-width: 0px;
     outline: 0px;
@@ -321,7 +319,7 @@
 }
 
 .joy-1540tkf.MuiChip-colorNeutral.MuiChip-variantSoft:not(.Mui-disabled) {
-    color: #76767F;
+    color: #76767f;
 }
 
 .joy-1540tkf {
@@ -370,7 +368,7 @@
     margin: initial;
     text-decoration: none;
     border-radius: inherit;
-    background-color: #F2F2F3;
+    background-color: #f2f2f3;
     color: #202022;
 }
 
@@ -388,13 +386,13 @@
     block-size: 1px;
 }
 
-.joy-1f2qzn3 {
+.flog-form-1 {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.joy-1yh0ndl {
+.flog-a-22 {
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -461,7 +459,8 @@
     margin-inline: -10px;
 }
 
-.slick-list, .slick-slider {
+.slick-list,
+.slick-slider {
     position: relative;
     display: block;
 }
@@ -477,7 +476,8 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-.slick-slider .slick-list, .slick-slider .slick-track {
+.slick-slider .slick-list,
+.slick-slider .slick-track {
     transform: translateZ(0);
 }
 
@@ -496,7 +496,8 @@
     margin-right: auto;
 }
 
-.slick-track:after, .slick-track:before {
+.slick-track:after,
+.slick-track:before {
     display: table;
     content: "";
 }
@@ -631,25 +632,25 @@
 }
 
 @media (min-width: 0px) {
-    .joy-ktwjae {
+    .flog-p-23 {
         font-size: var(--joy-fontSize-xs);
     }
 }
 
 @media (min-width: 744px) {
-    .joy-ktwjae {
+    .flog-p-23 {
         font-size: var(--joy-fontSize-sm);
     }
 }
 
-.joy-ktwjae {
+.flog-p-23 {
     margin: 0px;
     display: block;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 14px;
     line-height: 1.5;
     font-weight: 400;
-    color: #76767F;
+    color: #76767f;
 }
 
 @media (min-width: 0px) {
@@ -686,7 +687,7 @@
 }
 
 .joy-c0nc3d.MuiChip-colorNeutral.MuiChip-variantSoft:not(.Mui-disabled) {
-    color: #76767F;
+    color: #76767f;
 }
 
 @media (min-width: 0px) {
@@ -717,7 +718,7 @@
     box-sizing: border-box;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     line-height: 1.5;
-    background-color: #F2F2F3;
+    background-color: #f2f2f3;
     color: #202022;
     font-size: 14px;
     text-align: center;
@@ -740,7 +741,7 @@
 }
 
 .joy-7upex7.MuiChip-colorNeutral.MuiChip-variantSoft:not(.Mui-disabled) {
-    color: #76767F;
+    color: #76767f;
 }
 
 @media (min-width: 0px) {
@@ -771,7 +772,7 @@
     box-sizing: border-box;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     line-height: 1.5;
-    background-color: #F2F2F3;
+    background-color: #f2f2f3;
     color: #202022;
     font-size: 14px;
     text-align: center;
@@ -830,7 +831,7 @@
     justify-content: center;
     position: relative;
     color: #202022;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 50%;
     box-shadow: 0 0 #000, 0px 2px 8px -2px rgba(21, 21, 21, 0.08), 0px 6px 12px -2px rgba(21, 21, 21, 0.08);
 }
@@ -900,8 +901,8 @@
     box-sizing: border-box;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     line-height: 1.5;
-    background-color: #EBF2FF;
-    color: #145FF5;
+    background-color: #ebf2ff;
+    color: #145ff5;
     font-size: 14px;
     text-align: center;
     min-width: 40px;
@@ -936,8 +937,8 @@
     box-sizing: border-box;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     line-height: 1.5;
-    background-color: #EBF2FF;
-    color: #145FF5;
+    background-color: #ebf2ff;
+    color: #145ff5;
     font-size: 14px;
     text-align: center;
     min-width: 40px;
@@ -951,7 +952,7 @@
 }
 
 .joy-1ovga0x {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
@@ -969,7 +970,7 @@
     max-height: calc(100% - 80px);
     padding: 20px;
     border-radius: 12px;
-    border-color: #DADADC;
+    border-color: #dadadc;
     outline: 0px;
     border-width: 0px;
     gap: 0px;
@@ -1034,7 +1035,7 @@
     position: absolute;
     z-index: 1;
     border-radius: 8px;
-    color: #3E3E43;
+    color: #3e3e43;
     top: 16px;
     right: 16px;
     display: flex;
@@ -1058,7 +1059,7 @@
     z-index: 1;
     column-gap: 20px;
     row-gap: max(2px, calc(0.1875 * 20px));
-    color: #76767F;
+    color: #76767f;
     margin-left: -20px;
     margin-right: -20px;
     flex: 9999 1 0%;
@@ -1087,7 +1088,7 @@
 }
 
 .joy-1rrzdok {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     position: relative;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 16px;
@@ -1100,10 +1101,10 @@
     column-gap: 4px;
     align-items: center;
     min-height: 40px;
-    border-color: #DADADC;
+    border-color: #dadadc;
     border-radius: 8px;
     padding-inline: 7px;
-    border: 1px solid #DADADC;
+    border: 1px solid #dadadc;
 }
 
 .joy-6ieviu {
@@ -1122,8 +1123,8 @@
     box-sizing: border-box;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     line-height: 1.5;
-    background-color: #EBF2FF;
-    color: #145FF5;
+    background-color: #ebf2ff;
+    color: #145ff5;
     font-size: 14px;
     text-align: center;
     min-width: 40px;
@@ -1151,8 +1152,8 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    color: #145FF5;
-    background-color: #EBF2FF;
+    color: #145ff5;
+    background-color: #ebf2ff;
     min-width: 2rem;
     min-height: 2rem;
     font-size: 14px;
@@ -1177,12 +1178,12 @@
     line-height: 1.5;
     color: #202022;
     font-weight: 400;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     box-shadow: none;
     outline-style: none;
     padding-inline: 0.75rem;
     border-radius: 8px;
-    border-color: #DADADC;
+    border-color: #dadadc;
     border-style: none;
 }
 
@@ -1196,7 +1197,7 @@
     z-index: 1;
     border-radius: inherit;
     margin: 0px;
-    box-shadow: inset 0 0 0 0 #3478FF;
+    box-shadow: inset 0 0 0 0 #3478ff;
 }
 
 .joy-1u0jcuo {
@@ -1221,7 +1222,7 @@
     font-size: 14px;
     line-height: 1.5;
     font-weight: 400;
-    color: #76767F;
+    color: #76767f;
     margin-top: 6px;
 }
 
@@ -1286,8 +1287,8 @@
     text-decoration: none;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     line-height: 1.5;
-    color: #FFFFFF;
-    background-color: #3478FF;
+    color: #ffffff;
+    background-color: #3478ff;
     font-weight: 500;
 }
 
@@ -1329,7 +1330,7 @@
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     line-height: 1.5;
     color: #202022;
-    background-color: #F2F2F3;
+    background-color: #f2f2f3;
     font-weight: 500;
 }
 
@@ -1350,87 +1351,3 @@
 .joy-1rrzdok:hover {
     cursor: text;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

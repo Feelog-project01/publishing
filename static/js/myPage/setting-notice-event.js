@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // 체크박스 클릭 이벤트
-    document.querySelectorAll(".joy-q7japm").forEach((checkbox) => {
+    document.querySelectorAll(".flog-input-5").forEach((checkbox) => {
         checkbox.addEventListener("click", (e) => {
             const switchWrapper = e.target.closest(".flog-div-54");
 
@@ -37,14 +37,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (isOn) {
                 // ✅ OFF 상태로 전환
-                switchRoot.classList.remove("Feelog-checked", "FeelogSwitch-colorPrimary", "joy-1yog6pe");
+                switchRoot.classList.remove("Feelog-checked", "FeelogSwitch-colorPrimary", "flog-div-111");
                 switchRoot.classList.add("FeelogSwitch-colorNeutral", "joy-ituqjw");
 
                 switchTrack.classList.remove("Feelog-checked");
                 switchThumb.classList.remove("Feelog-checked");
             } else {
                 // ✅ ON 상태로 전환
-                switchRoot.classList.add("Feelog-checked", "FeelogSwitch-colorPrimary", "joy-1yog6pe");
+                switchRoot.classList.add("Feelog-checked", "FeelogSwitch-colorPrimary", "flog-div-111");
                 switchRoot.classList.remove("FeelogSwitch-colorNeutral", "joy-ituqjw");
 
                 switchTrack.classList.add("Feelog-checked");
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // 변경 내용 저장 버튼 이벤트 :: 서버에서 결과 받아서 뿌리는 거로 변경 필요
-    document.querySelector(".joy-2ertzu .flog-button-10").addEventListener("click", (e) => {
+    document.querySelector(".flog-div-113 .flog-button-10").addEventListener("click", (e) => {
         e.preventDefault();
         document.querySelector(".flog-div-40").style.display = "block";
     });

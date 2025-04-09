@@ -5,7 +5,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 body {
@@ -74,14 +74,12 @@ body {
     }
 }
 
-
-
 .joy-18lu9f5 {
     position: sticky;
     z-index: 499;
     border-bottom: 1px solid;
     border-color: rgba(118, 118, 127, 0.15);
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 @media (min-width: 0px) {
@@ -97,8 +95,6 @@ body {
         padding: 0 24px;
     }
 }
-
-
 
 .joy-1wegxv0 {
     display: -webkit-box;
@@ -143,8 +139,6 @@ body {
     }
 }
 
-
-
 .joy-1xzjzsf {
     --Icon-fontSize: calc(1em * 1.5);
     margin: 0px;
@@ -171,11 +165,15 @@ body {
     background-color: #202022;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
-*, ::before, ::after {
+*,
+::before,
+::after {
     box-sizing: inherit;
 }
 
@@ -209,8 +207,6 @@ body {
     }
 }
 
-
-
 .joy-10c7stv {
     --Icon-fontSize: calc(1em * 1.5);
     margin: 0px;
@@ -218,7 +214,7 @@ body {
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #76767F;
+    color: #76767f;
     font-weight: 400;
     align-items: center;
     padding: 0 4px;
@@ -249,8 +245,6 @@ body {
         max-width: 1080px;
     }
 }
-
-
 
 .joy-11dfn0q {
     display: -webkit-box;
@@ -289,10 +283,8 @@ body {
     }
 }
 
-
-
 .joy-1l8egul {
-    --Icon-color: #76767F;
+    --Icon-color: #76767f;
     --Card-childRadius: max((12px - 1px) - 1rem, min(1rem / 2, (12px - 1px) / 2));
     --AspectRatio-radius: max((12px - 1px) - 1rem, min(1rem / 2, (12px - 1px) / 2));
     --unstable_actionMargin: -1px;
@@ -306,7 +298,7 @@ body {
     gap: 0.75rem 1rem;
     padding: 1rem;
     border-radius: 12px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -317,7 +309,7 @@ body {
     font-weight: 400;
     --variant-borderWidth: 1px;
     border: 1px solid;
-    border-color: #DADADC;
+    border-color: #dadadc;
     height: 172px;
     margin-top: 20px;
 }
@@ -385,8 +377,6 @@ body {
     }
 }
 
-
-
 .joy-eo56yu {
     display: -webkit-box;
     display: -webkit-flex;
@@ -417,10 +407,10 @@ body {
 }
 
 .joy-szbwwm {
-    color: #FFFFFF;
+    color: #ffffff;
     border-width: 1px;
     border-style: solid;
-    border-color: #A4A4A8;
+    border-color: #a4a4a8;
     border-radius: 18.5px;
     padding-left: 15px;
     padding-right: 9px;
@@ -429,8 +419,6 @@ body {
     display: flex;
     align-items: center;
 }
-
-
 
 .joy-o2mt47 {
     --Icon-fontSize: calc(1em * 1.33334);
@@ -441,7 +429,7 @@ body {
     font-size: 24px;
     line-height: 1.33334;
     letter-spacing: -0.025em;
-    color: #FFFFFF;
+    color: #ffffff;
     white-space: pre-line;
 }
 
@@ -453,7 +441,7 @@ body {
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 13px;
     line-height: 1;
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: 500;
     -webkit-text-decoration: none;
     text-decoration: none;
@@ -520,8 +508,6 @@ body {
     }
 }
 
-
-
 .joy-65n013 {
     display: flex;
     flex-direction: row;
@@ -545,8 +531,6 @@ body {
         display: flex;
     }
 }
-
-
 
 .joy-1eriol4 {
     --Icon-fontSize: 1.25em;
@@ -576,7 +560,7 @@ body {
 }
 
 .joy-1stxrp2 {
-    --Icon-color: #76767F;
+    --Icon-color: #76767f;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-weight: 600;
     font-size: calc(40px * 0.4);
@@ -619,7 +603,6 @@ body {
     }
 }
 
-
 @media (min-width: 0px) {
     .joy-17arh4m {
         align-items: flex-start;
@@ -631,8 +614,6 @@ body {
         align-items: center;
     }
 }
-
-
 
 .joy-17arh4m {
     display: flex;
@@ -664,10 +645,8 @@ body {
     }
 }
 
-
-
 .joy-1vomu2x {
-    --Icon-color: #76767F;
+    --Icon-color: #76767f;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-weight: 600;
     font-size: calc(32px * 0.4375); /* = 14px */
@@ -700,7 +679,6 @@ body {
     }
 }
 
-
 @media (min-width: 0px) {
     .joy-v2pzzj {
         flex-direction: column;
@@ -712,7 +690,6 @@ body {
         flex-direction: row;
     }
 }
-
 
 .joy-v2pzzj {
     display: flex;
@@ -753,8 +730,6 @@ body {
         color: #202022;
     }
 }
-
-
 
 .joy-1ry9yvs {
     --Icon-fontSize: calc(1em * 1.5);
@@ -804,7 +779,7 @@ body {
     font-size: 14px;
     line-height: 1.5;
     font-weight: 400;
-    color: #76767F;
+    color: #76767f;
     overflow: hidden;
     overflow-wrap: anywhere;
     display: -webkit-box;
@@ -847,7 +822,7 @@ body {
 
 .joy-1caho3t {
     --Icon-margin: initial;
-    --Icon-color: #76767F;
+    --Icon-color: #76767f;
     --Icon-fontSize: calc(32px / 1.6); /* = 20px */
     --CircularProgress-size: 20px;
     --CircularProgress-thickness: 2px;
@@ -871,7 +846,7 @@ body {
     position: relative;
     --variant-borderWidth: 0px;
     --IconButton-size: 32px;
-    color: #76767F;
+    color: #76767f;
 }
 
 .joy-4rp8fm {
@@ -917,8 +892,6 @@ body {
     }
 }
 
-
-
 .joy-1ka30t1 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -948,8 +921,6 @@ body {
     }
 }
 
-
-
 .joy-63nzw0 {
     --Icon-fontSize: calc(1em * 1.5);
     margin: 0px;
@@ -969,7 +940,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
-    color: #3E3E43;
+    color: #3e3e43;
     overflow: hidden;
     overflow-wrap: anywhere;
     display: -webkit-box;
@@ -989,8 +960,6 @@ body {
     }
 }
 
-
-
 .joy-1r6jpu3 {
     display: flex;
     flex-flow: wrap;
@@ -1000,7 +969,7 @@ body {
 }
 
 .joy-c0nc3d.MuiChip-colorNeutral.MuiChip-variantSoft:not(.Mui-disabled) {
-    color: #76767F;
+    color: #76767f;
 }
 
 .joy-c0nc3d.MuiChip-sizeSm {
@@ -1021,11 +990,15 @@ body {
     }
 }
 
-
-
 .joy-c0nc3d {
-    --Chip-decoratorChildOffset: min(calc(8px - (24px - 2 * 0px - 20px) / 2), 8px); /* = min(calc(8px - 2px), 8px) = min(6px, 8px) = 6px */
-    --Chip-decoratorChildRadius: max(1.5rem - 0px - 2px, min(2px + 0px, 1.5rem / 2)); /* = max(1.5rem - 2px, min(2px, 0.75rem)) */
+    --Chip-decoratorChildOffset: min(
+        calc(8px - (24px - 2 * 0px - 20px) / 2),
+        8px
+    ); /* = min(calc(8px - 2px), 8px) = min(6px, 8px) = 6px */
+    --Chip-decoratorChildRadius: max(
+        1.5rem - 0px - 2px,
+        min(2px + 0px, 1.5rem / 2)
+    ); /* = max(1.5rem - 2px, min(2px, 0.75rem)) */
     --Chip-deleteRadius: var(--Chip-decoratorChildRadius);
     --Chip-deleteSize: 20px;
     --Avatar-radius: var(--Chip-decoratorChildRadius);
@@ -1051,7 +1024,7 @@ body {
     box-sizing: border-box;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     line-height: 1.5;
-    background-color: #F2F2F3;
+    background-color: #f2f2f3;
     --variant-borderWidth: 0px;
     color: #202022;
     font-size: 14px;
@@ -1071,7 +1044,7 @@ body {
 }
 
 .joy-7upex7.MuiChip-colorNeutral.MuiChip-variantSoft:not(.Mui-disabled) {
-    color: #76767F;
+    color: #76767f;
 }
 @media (min-width: 0px) {
     .joy-7upex7 {
@@ -1083,8 +1056,6 @@ body {
         display: flex;
     }
 }
-
-
 
 .joy-7upex7 {
     --Chip-decoratorChildOffset: min(calc(8px - (24px - 2 * 0px - 20px) / 2), 8px); /* = min(6px, 8px) */
@@ -1114,7 +1085,7 @@ body {
     box-sizing: border-box;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     line-height: 1.5;
-    background-color: #F2F2F3;
+    background-color: #f2f2f3;
     --variant-borderWidth: 0px;
     color: #202022;
     font-size: 14px;
@@ -1134,8 +1105,6 @@ body {
         padding-right: 0px;
     }
 }
-
-
 
 .joy-8a80tx {
     position: relative;
@@ -1224,11 +1193,9 @@ body {
     min-height: 48px;
 }
 
-
-
 .joy-1d38qr0 {
     --Icon-margin: initial;
-    --Icon-color: #A4A4A8;
+    --Icon-color: #a4a4a8;
     --Icon-fontSize: calc(48px / 1.571); /* ≈ 30.55px */
     --CircularProgress-size: 28px;
     --CircularProgress-thickness: 4px;
@@ -1253,7 +1220,7 @@ body {
     top: calc(50% - 24px);
     position: absolute;
     border-radius: 50%;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     box-shadow: 0 0 #000, 0px 2px 8px -2px rgba(21, 21, 21, 0.08), 0px 6px 12px -2px rgba(21, 21, 21, 0.08);
     z-index: 1;
     visibility: hidden;
@@ -1279,8 +1246,6 @@ body {
     }
 }
 
-
-
 .joy-dvzf43.MuiIconButton-sizeLg {
     --Icon-fontSize: calc(48px / 1.714); /* ≈ 28px */
     min-width: 48px;
@@ -1289,7 +1254,7 @@ body {
 
 .joy-dvzf43 {
     --Icon-margin: initial;
-    --Icon-color: #A4A4A8;
+    --Icon-color: #a4a4a8;
     --Icon-fontSize: calc(48px / 1.571); /* ≈ 30.55px */
     --CircularProgress-size: 28px;
     --CircularProgress-thickness: 4px;
@@ -1314,7 +1279,7 @@ body {
     top: calc(50% - 24px);
     position: absolute;
     border-radius: 50%;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     box-shadow: 0 0 #000, 0px 2px 8px -2px rgba(21, 21, 21, 0.08), 0px 6px 12px -2px rgba(21, 21, 21, 0.08);
     z-index: 1;
     visibility: visible;
@@ -1333,8 +1298,6 @@ body {
         padding-right: 0px;
     }
 }
-
-
 
 .joy-1ribkjo {
     display: flex;
@@ -1364,12 +1327,12 @@ body {
     font-size: 14px;
     line-height: 1.5;
     font-weight: 400;
-    color: #76767F;
+    color: #76767f;
     --Icon-fontSize: 16px;
     --Typography-gap: 3px;
 }
 
-.joy-oqc71l {
+.flog-span-31 {
     display: inline-flex;
     margin-inline-end: clamp(4px, 0.375em, 0.75rem);
 }
@@ -1382,7 +1345,7 @@ body {
 
 .joy-ashs5q {
     --Icon-margin: initial;
-    --Icon-color: #A4A4A8;
+    --Icon-color: #a4a4a8;
     --Icon-fontSize: calc(32px / 1.6); /* ≈ 20px */
     --CircularProgress-size: 20px;
     --CircularProgress-thickness: 2px;
@@ -1407,7 +1370,7 @@ body {
     --variant-borderWidth: 0px;
     --IconButton-size: 32px;
     z-index: 1;
-    color: #76767F;
+    color: #76767f;
 }
 @media (min-width: 0px) {
     .joy-17wd1bi {
@@ -1421,8 +1384,6 @@ body {
         padding-right: 0px;
     }
 }
-
-
 
 .joy-17wd1bi {
     display: flex;
@@ -1440,8 +1401,8 @@ body {
 
 .joy-oz3twp {
     --Icon-fontSize: calc(0.4 * 24px);
-    --CircularProgress-trackColor: #F2F2F3;
-    --CircularProgress-progressColor: #3478FF;
+    --CircularProgress-trackColor: #f2f2f3;
+    --CircularProgress-progressColor: #3478ff;
     --CircularProgress-percent: 67;
     --CircularProgress-linecap: round;
     --_root-size: 24px;
@@ -1461,7 +1422,7 @@ body {
     align-items: center;
     flex-shrink: 0;
     position: relative;
-    color: #145FF5;
+    color: #145ff5;
     --variant-borderWidth: 0px;
 }
 
@@ -1481,7 +1442,7 @@ body {
     r: calc(12px - 3px / 2 + min(0px, 0px / 2)); /* => 12px - 1.5px + 0px = 10.5px */
     fill: transparent;
     stroke-width: 3px;
-    stroke: #F2F2F3;
+    stroke: #f2f2f3;
 }
 
 .joy-skc48w {
@@ -1492,7 +1453,7 @@ body {
     r: 10.5px;
     fill: transparent;
     stroke-width: 3px;
-    stroke: #3478FF;
+    stroke: #3478ff;
     stroke-linecap: round;
     stroke-dasharray: 65.9734px;
     stroke-dashoffset: calc(65.9734px - 67 * 65.9734px / 100); /* ≒ 21.771px */
@@ -1520,7 +1481,7 @@ body {
     border-radius: 8px;
     margin: var(--Button-margin);
     border: none;
-    background-color: #F2F2F3;
+    background-color: #f2f2f3;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -1547,8 +1508,6 @@ body {
     }
 }
 
-
-
 .joy-8cxh2n {
     /* display: flex; */
     flex-direction: column;
@@ -1557,7 +1516,7 @@ body {
     padding-top: 75px;
     padding-bottom: 32px;
     padding-left: 40px;
-    border-left: 1px solid #E5E5EA;
+    border-left: 1px solid #e5e5ea;
 }
 
 .joy-1myle5f {
@@ -1578,7 +1537,7 @@ body {
     gap: 0.75rem 1rem;
     padding: 1rem;
     border-radius: 8px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -1587,7 +1546,7 @@ body {
     line-height: 1.5;
     color: #323232;
     font-weight: 500;
-    border: 1px solid #DDE3E8;
+    border: 1px solid #dde3e8;
     height: 172px;
 }
 @media (min-width: 0px) {
@@ -1600,8 +1559,6 @@ body {
         gap: 12px;
     }
 }
-
-
 
 .joy-sa8ghx {
     display: -webkit-box;
@@ -1625,7 +1582,7 @@ body {
     font-size: 24px;
     line-height: 1.25;
     letter-spacing: -0.025em;
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
     white-space: pre-line;
 }
@@ -1658,7 +1615,13 @@ body {
     --Icon-color: currentColor;
     --CircularProgress-size: 1.25em;
     --CircularProgress-thickness: 3px;
-    font-family: var(--joy-fontFamily-body, "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif);
+    font-family: var(
+        --joy-fontFamily-body,
+        "Postype Sans-serif KR",
+        "Apple SD Gothic Neo",
+        "Malgun Gothic",
+        sans-serif
+    );
     font-size: var(--joy-fontSize-sm);
     line-height: var(--joy-lineHeight-md);
     color: var(--variant-plainColor, rgba(var(--joy-palette-primary-mainChannel) / 1));
@@ -1683,7 +1646,10 @@ body {
     border-radius: var(--joy-radius-xs);
     padding: 0;
     cursor: pointer;
-    text-decoration-color: var(--variant-outlinedBorder, rgba(var(--joy-palette-primary-mainChannel) / var(--Link-underlineOpacity, 0.72)));
+    text-decoration-color: var(
+        --variant-outlinedBorder,
+        rgba(var(--joy-palette-primary-mainChannel) / var(--Link-underlineOpacity, 0.72))
+    );
     -moz-appearance: none;
     -webkit-appearance: none;
     position: relative;
@@ -1721,7 +1687,7 @@ body {
     color: #202022;
 }
 
-.joy-s1s0o1 {
+.flog-svg-7 {
     user-select: none;
     margin: 0;
     display: inline-block;
@@ -1796,9 +1762,9 @@ body {
     align-items: center;
 }
 
-.joy-1fpbmdi {
+.flog-div-75 {
     margin-inline-start: 0;
-    box-shadow: 0 0 0 2px #FFF;
+    box-shadow: 0 0 0 2px #fff;
     position: relative;
     display: flex;
     align-items: center;
@@ -1861,7 +1827,7 @@ body {
     position: relative;
     border-radius: inherit;
     height: 0;
-    padding-bottom: calc(var(--AspectRatio-paddingBottom) - 2* 0px);
+    padding-bottom: calc(var(--AspectRatio-paddingBottom) - 2 * 0px);
     overflow: hidden;
     -webkit-transition: inherit;
     transition: inherit;
@@ -1871,7 +1837,7 @@ body {
     color: #656667; /* Adjusted based on --joy-palette-neutral-softColor */
     font-weight: 400; /* Adjusted based on --joy-fontWeight-sm */
     --variant-borderWidth: 0px;
-    background-color: #F2F2F3; /* Adjusted based on --joy-palette-neutral-softBg */
+    background-color: #f2f2f3; /* Adjusted based on --joy-palette-neutral-softBg */
 }
 
 .joy-1h16 [data-first-child] {
@@ -1927,7 +1893,6 @@ body {
     margin: 0 auto;
 }
 
-
 .feelog-header-mainHeader {
     position: -webkit-sticky;
     position: sticky;
@@ -1962,8 +1927,6 @@ body {
     position: fixed;
     z-index: 11111;
 }
-
-
 
 /* *************************시계**************************** */
 
@@ -2010,33 +1973,3 @@ body {
     right: -11px;
     font-size: 25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

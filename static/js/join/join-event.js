@@ -13,14 +13,14 @@ document.addEventListener("DOMContentLoaded", () => {
                     e.preventDefault();
                     if (
                         document.querySelector(
-                            ".FeelogTypography-root.FeelogTypography-body-sm.FeelogTypography-colorDanger.joy-1jrnmgr"
+                            ".FeelogTypography-root.FeelogTypography-body-sm.FeelogTypography-colorDanger.flog-p-24"
                         ) == null
                     ) {
                         const p = document.createElement("p");
                         p.setAttribute("aria-live", "assertive");
                         p.setAttribute(
                             "class",
-                            "FeelogTypography-root FeelogTypography-body-sm FeelogTypography-colorDanger joy-1jrnmgr"
+                            "FeelogTypography-root FeelogTypography-body-sm FeelogTypography-colorDanger flog-p-24"
                         );
                         p.innerText = "포스타입에 가입하려면 만 14세 이상이어야 해요.";
                         document.querySelector(".FeelogStack-root.flog-div-56").appendChild(p);
@@ -72,12 +72,12 @@ document.addEventListener("DOMContentLoaded", () => {
             // 14세 이상 경고 문구 삭제
             if (
                 document.querySelector(
-                    ".FeelogTypography-root.FeelogTypography-body-sm.FeelogTypography-colorDanger.joy-1jrnmgr"
+                    ".FeelogTypography-root.FeelogTypography-body-sm.FeelogTypography-colorDanger.flog-p-24"
                 ) != null
             ) {
                 document
                     .querySelector(
-                        ".FeelogTypography-root.FeelogTypography-body-sm.FeelogTypography-colorDanger.joy-1jrnmgr"
+                        ".FeelogTypography-root.FeelogTypography-body-sm.FeelogTypography-colorDanger.flog-p-24"
                     )
                     .remove();
             }

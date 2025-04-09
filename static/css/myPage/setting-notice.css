@@ -380,7 +380,7 @@ body {
         display: flex;
     }
 }
-.joy-1ejuko2 {
+.flog-span-15 {
     min-height: 1.25rem;
     padding-inline: 0.375rem;
     position: relative;
@@ -389,7 +389,7 @@ body {
     flex-shrink: 0;
     box-shadow: 0 0 0 0px #f2f2f3;
 }
-.joy-13y1pdr {
+.flog-span-16 {
     color: currentColor;
     font-size: calc(1em * 1.5);
     display: inline-flex;
@@ -602,7 +602,7 @@ body {
     appearance: none;
     position: relative;
 }
-.joy-p6k0bu {
+.flog-span-18 {
     color: currentColor;
     font-size: calc(1em * 1.5);
     display: inline-flex;
@@ -820,7 +820,7 @@ body {
     white-space: nowrap;
 }
 /* 2단 헤더 여기까지 */
-.joy-1v7lmb8 {
+.flog-main-5 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -837,7 +837,7 @@ body {
     -ms-flex: 1;
     flex: 1;
 }
-.joy-1bmegbw {
+.flog-form-2 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -850,12 +850,12 @@ body {
     gap: 40px;
 }
 @media (min-width: 0px) {
-    .joy-1bmegbw {
+    .flog-form-2 {
         padding: 24px 16px 64px;
     }
 }
 @media (min-width: 744px) {
-    .joy-1bmegbw {
+    .flog-form-2 {
         padding: 40px 0 64px;
     }
 }
@@ -869,7 +869,7 @@ body {
     flex-direction: column;
     gap: 12px;
 }
-.joy-1a2uomy {
+.flog-div-110 {
     margin: 0.5rem 0;
     display: flex;
     position: relative;
@@ -879,7 +879,7 @@ body {
     font-weight: 500;
     color: #d32f2f;
 }
-.joy-axov80 {
+.flog-label-5 {
     font-size: calc(1.25 * 1em);
     -webkit-tap-highlight-color: transparent;
     align-self: center;
@@ -897,11 +897,11 @@ body {
     width: 100%;
     cursor: pointer;
 }
-.joy-1a2uomy > label ~ .FeelogSwitch-root {
+.flog-div-110 > label ~ .FeelogSwitch-root {
     margin: 0 0 0 auto;
 }
 
-.joy-1yog6pe {
+.flog-div-111 {
     color: currentColor;
     border-width: 0px;
     border-radius: 16px;
@@ -920,17 +920,17 @@ body {
     position: relative;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
 }
-.joy-1yog6pe.Feelog-checked {
+.flog-div-111.Feelog-checked {
     background-color: #1976d2;
     color: #ffffff;
     border-color: currentColor;
 }
-.joy-1yog6pe.FeelogSwitch-sizeSm {
+.flog-div-111.FeelogSwitch-sizeSm {
     width: 40px;
     height: 20px;
     border-radius: 10px;
 }
-.joy-d1fwab {
+.flog-span-26 {
     position: relative;
     color: #ffffff;
     height: 20px;
@@ -947,7 +947,7 @@ body {
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 12px;
 }
-.joy-d1fwab.Feelog-checked {
+.flog-span-26.Feelog-checked {
     position: relative;
     color: #ffffff;
     height: 16px;
@@ -964,7 +964,7 @@ body {
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 12px;
 }
-.joy-15siac8 {
+.flog-span-27 {
     font-size: calc(10px * 0.75);
     display: inline-flex;
     justify-content: center;
@@ -981,10 +981,10 @@ body {
     background-color: #ffffff;
     transition: width 0.2s, left 0.2s;
 }
-.joy-15siac8.Feelog-checked {
+.flog-span-27.Feelog-checked {
     left: calc(50% + 13px);
 }
-.joy-u74y05 {
+.flog-div-112 {
     border-radius: 16px;
     position: absolute;
     top: 0;
@@ -992,7 +992,7 @@ body {
     bottom: 0;
     right: 0;
 }
-.joy-q7japm {
+.flog-input-5 {
     margin: 0;
     height: 100%;
     width: 100%;
@@ -1050,7 +1050,7 @@ body {
     margin: 0px;
 }
 @media (hover: hover) {
-    .joy-1yog6pe.Feelog-checked:hover {
+    .flog-div-111.Feelog-checked:hover {
         background-color: #1565c0;
         border-color: currentColor;
         color: #1565c0;

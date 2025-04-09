@@ -5,7 +5,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 body {
@@ -27,11 +27,10 @@ body {
     -moz-osx-font-smoothing: auto;
     overflow-x: hidden;
     overflow-y: auto;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding-top: env(safe-area-inset-top);
     padding-bottom: env(safe-area-inset-bottom);
 }
-
 
 .joy-1k8t7d9 {
     display: -webkit-box;
@@ -51,7 +50,7 @@ body {
     left: 0px;
     right: 0px;
     z-index: 500;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 @media (min-width: 0px) {
@@ -123,7 +122,7 @@ body {
 
 .joy-1ja7f1b {
     --Icon-margin: initial;
-    --Icon-color: #76767F;
+    --Icon-color: #76767f;
     --Icon-fontSize: 20px;
     --CircularProgress-size: 20px;
     --CircularProgress-thickness: 2px;
@@ -198,7 +197,7 @@ body {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.5;
-    color: #3E3E43;
+    color: #3e3e43;
     --Typography-gap: 0;
 }
 
@@ -233,7 +232,7 @@ body {
 
 .joy-rntywo {
     --Icon-margin: initial;
-    --Icon-color: #76767F;
+    --Icon-color: #76767f;
     --Icon-fontSize: 26.67px;
     --CircularProgress-size: 20px;
     --CircularProgress-thickness: 2px;
@@ -294,7 +293,7 @@ body {
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     line-height: 1.5;
     --variant-borderWidth: 0px;
-    color: #FFFFFF;
+    color: #ffffff;
     background-color: #202022;
     font-weight: 500;
 }
@@ -352,7 +351,7 @@ body {
     pointer-events: none;
     cursor: default;
     --Icon-color: currentColor;
-    color: #A4A4A8;
+    color: #a4a4a8;
 }
 
 .joy-1s98pom {
@@ -377,24 +376,27 @@ body {
 }
 
 .joy-1mupuz9:not([data-inverted-colors="false"]) {
-    --Select-focusedHighlight: #3478FF;
+    --Select-focusedHighlight: #3478ff;
 }
 
 .joy-1mupuz9 {
     --Select-radius: 8px;
     --Select-gap: 0.5rem;
     --Select-placeholderOpacity: 0.64;
-    --Select-decoratorColor: #76767F;
+    --Select-decoratorColor: #76767f;
     --Select-focusedThickness: 2px;
-    --Select-focusedHighlight: #3478FF;
-    --Select-indicatorColor: #76767F;
+    --Select-focusedHighlight: #3478ff;
+    --Select-indicatorColor: #76767f;
     --Select-minHeight: 2rem;
     --Select-paddingInline: 0.5rem;
     --Select-decoratorChildHeight: min(1.5rem, 2rem);
     --Icon-fontSize: 20px;
     --Select-decoratorChildOffset: min(calc(0.5rem - (2rem - 2 * 0px - min(1.5rem, 2rem)) / 2), 0.5rem);
     --_Select-paddingBlock: max((2rem - 2 * 0px - min(1.5rem, 2rem)) / 2, 0px);
-    --Select-decoratorChildRadius: max(8px - 0px - var(--_Select-paddingBlock), min(var(--_Select-paddingBlock) + 0px, 4px));
+    --Select-decoratorChildRadius: max(
+        8px - 0px - var(--_Select-paddingBlock),
+        min(var(--_Select-paddingBlock) + 0px, 4px)
+    );
     --Button-minHeight: min(1.5rem, 2rem);
     --Button-paddingBlock: 0px;
     --IconButton-size: min(1.5rem, 2rem);
@@ -408,7 +410,7 @@ body {
     align-items: center;
     border-radius: 8px;
     cursor: pointer;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding-block: 2px;
     padding-inline: 0.5rem;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
@@ -483,7 +485,7 @@ body {
 
 .joy-zasklh {
     --Icon-fontSize: 18px;
-    --Icon-color: #76767F;
+    --Icon-color: #76767f;
     display: inherit;
     -webkit-box-align: center;
     align-items: center;
@@ -496,24 +498,27 @@ body {
 }
 
 .joy-1pr8u0m:not([data-inverted-colors="false"]) {
-    --Select-focusedHighlight: #3478FF;
+    --Select-focusedHighlight: #3478ff;
 }
 
 .joy-1pr8u0m {
     --Select-radius: 8px;
     --Select-gap: 0.5rem;
     --Select-placeholderOpacity: 0.64;
-    --Select-decoratorColor: #76767F;
+    --Select-decoratorColor: #76767f;
     --Select-focusedThickness: 2px;
-    --Select-focusedHighlight: #3478FF;
-    --Select-indicatorColor: #76767F;
+    --Select-focusedHighlight: #3478ff;
+    --Select-indicatorColor: #76767f;
     --Select-minHeight: 2rem;
     --Select-paddingInline: 0.5rem;
     --Select-decoratorChildHeight: min(1.5rem, 2rem);
     --Icon-fontSize: 20px;
     --Select-decoratorChildOffset: min(calc(0.5rem - (2rem - 2 * 0px - min(1.5rem, 2rem)) / 2), 0.5rem);
     --_Select-paddingBlock: max((2rem - 2 * 0px - min(1.5rem, 2rem)) / 2, 0px);
-    --Select-decoratorChildRadius: max(8px - 0px - var(--_Select-paddingBlock), min(var(--_Select-paddingBlock) + 0px, 4px));
+    --Select-decoratorChildRadius: max(
+        8px - 0px - var(--_Select-paddingBlock),
+        min(var(--_Select-paddingBlock) + 0px, 4px)
+    );
     --Button-minHeight: min(1.5rem, 2rem);
     --Button-paddingBlock: 0px;
     --IconButton-size: min(1.5rem, 2rem);
@@ -527,7 +532,7 @@ body {
     align-items: center;
     border-radius: 8px;
     cursor: pointer;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding-block: 2px;
     padding-inline: 0.5rem;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
@@ -559,15 +564,19 @@ body {
     display: flex;
 }
 
-*, ::before, ::after {
+*,
+::before,
+::after {
     box-sizing: inherit;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
-.joy-s1s0o1 {
+.flog-svg-7 {
     user-select: none;
     margin: initial;
     display: inline-block;
@@ -585,7 +594,7 @@ body {
     bottom: 0px;
     right: 0px;
     width: 36px;
-    background: linear-gradient(to left, #FFFFFF, transparent);
+    background: linear-gradient(to left, #ffffff, transparent);
     pointer-events: none;
 }
 
@@ -605,7 +614,8 @@ body {
     block-size: 1px;
 }
 
-.post-content, .post-content div.fr-view {
+.post-content,
+.post-content div.fr-view {
     color: #202022;
     font-weight: 400;
     font-size: 16px;
@@ -613,7 +623,8 @@ body {
 }
 
 @media (min-width: 744px) {
-    .post-content, .post-content div.fr-view {
+    .post-content,
+    .post-content div.fr-view {
         font-size: 18px;
         line-height: 1.75;
     }
@@ -632,10 +643,10 @@ body {
 }
 
 .joy-olnjwl {
-    --Icon-color: #76767F;
-    --ListItem-stickyBackground: #FFFFFF;
-    --Sheet-background: #FFFFFF;
-    background-color: #FFFFFF;
+    --Icon-color: #76767f;
+    --ListItem-stickyBackground: #ffffff;
+    --Sheet-background: #ffffff;
+    background-color: #ffffff;
     position: relative;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 16px;
@@ -686,7 +697,7 @@ body {
 }
 
 .joy-18drzqh:not([data-inverted-colors="false"]) {
-    --Textarea-focusedHighlight: #3478FF;
+    --Textarea-focusedHighlight: #3478ff;
 }
 
 @media (min-width: 0px) {
@@ -704,16 +715,19 @@ body {
 .joy-18drzqh {
     --Textarea-radius: 8px;
     --Textarea-gap: 0.5rem;
-    --Textarea-decoratorColor: #76767F;
+    --Textarea-decoratorColor: #76767f;
     --Textarea-focused: 0;
-    --Textarea-focusedHighlight: #3478FF;
+    --Textarea-focusedHighlight: #3478ff;
     --Textarea-minHeight: 2.25rem;
     --Textarea-paddingBlock: calc(0.375rem - 0px);
     --Textarea-paddingInline: 0.75rem;
     --Textarea-decoratorChildHeight: min(1.75rem, 2.25rem);
     --Icon-fontSize: 24px;
     --_Textarea-paddingBlock: max((2.25rem - 2 * 0px - min(1.75rem, 2.25rem)) / 2, 0px);
-    --Textarea-decoratorChildRadius: max(8px - 0px - var(--_Textarea-paddingBlock), min(var(--_Textarea-paddingBlock) + 0px, 4px));
+    --Textarea-decoratorChildRadius: max(
+        8px - 0px - var(--_Textarea-paddingBlock),
+        min(var(--_Textarea-paddingBlock) + 0px, 4px)
+    );
     --Button-minHeight: min(1.75rem, 2.25rem);
     --Button-paddingBlock: 0px;
     --IconButton-size: min(1.75rem, 2.25rem);
@@ -732,9 +746,9 @@ body {
     font-size: 16px;
     color: #202022;
     --variant-borderWidth: 0px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     box-shadow: none;
-    --Textarea-placeholderColor: #76767F;
+    --Textarea-placeholderColor: #76767f;
     --Textarea-placeholderOpacity: 1;
     flex: 1 1 0%;
     font-weight: 600;
@@ -755,10 +769,10 @@ body {
     z-index: 1;
     border-radius: inherit;
     margin: 0px;
-    box-shadow: inset 0 0 0 calc(0 * 0) #3478FF;
+    box-shadow: inset 0 0 0 calc(0 * 0) #3478ff;
 }
 
-.joy-1qmqn4r {
+.flog-textarea-1 {
     resize: none;
     border: none;
     min-width: 0px;
@@ -781,22 +795,25 @@ body {
 }
 
 .joy-f1gulv:not([data-inverted-colors="false"]) {
-    --Textarea-focusedHighlight: #3478FF;
+    --Textarea-focusedHighlight: #3478ff;
 }
 
 .joy-f1gulv {
     --Textarea-radius: 8px;
     --Textarea-gap: 0.5rem;
-    --Textarea-decoratorColor: #76767F;
+    --Textarea-decoratorColor: #76767f;
     --Textarea-focused: 0;
-    --Textarea-focusedHighlight: #3478FF;
+    --Textarea-focusedHighlight: #3478ff;
     --Textarea-minHeight: 2.25rem;
     --Textarea-paddingBlock: calc(0.375rem - 0px);
     --Textarea-paddingInline: 0.75rem;
     --Textarea-decoratorChildHeight: min(1.75rem, 2.25rem);
     --Icon-fontSize: 24px;
     --_Textarea-paddingBlock: max((2.25rem - 2 * 0px - min(1.75rem, 2.25rem)) / 2, 0px);
-    --Textarea-decoratorChildRadius: max(8px - 0px - var(--_Textarea-paddingBlock), min(var(--_Textarea-paddingBlock) + 0px, 4px));
+    --Textarea-decoratorChildRadius: max(
+        8px - 0px - var(--_Textarea-paddingBlock),
+        min(var(--_Textarea-paddingBlock) + 0px, 4px)
+    );
     --Button-minHeight: min(1.75rem, 2.25rem);
     --Button-paddingBlock: 0px;
     --IconButton-size: min(1.75rem, 2.25rem);
@@ -814,9 +831,9 @@ body {
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     color: #202022;
     --variant-borderWidth: 0px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     box-shadow: none;
-    --Textarea-placeholderColor: #76767F;
+    --Textarea-placeholderColor: #76767f;
     --Textarea-placeholderOpacity: 1;
     flex: 1 1 0%;
     font-size: 18px;
@@ -838,7 +855,7 @@ body {
     z-index: 1;
     border-radius: inherit;
     margin: 0px;
-    box-shadow: inset 0 0 0 0 #3478FF;
+    box-shadow: inset 0 0 0 0 #3478ff;
 }
 
 @media (min-width: 0px) {
@@ -891,7 +908,8 @@ div.fr-toolbar.fr-basic {
     display: none;
 }
 
-.fr-toolbar.fr-bottom, .fr-toolbar.fr-top {
+.fr-toolbar.fr-bottom,
+.fr-toolbar.fr-top {
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
@@ -930,10 +948,10 @@ div.fr-toolbar.fr-basic {
     -moz-osx-font-smoothing: grayscale;
     line-height: 1.2;
     padding-bottom: 0;
-    -webkit-transition: padding-bottom .5s;
-    -moz-transition: padding-bottom .5s;
-    -ms-transition: padding-bottom .5s;
-    -o-transition: padding-bottom .5s;
+    -webkit-transition: padding-bottom 0.5s;
+    -moz-transition: padding-bottom 0.5s;
+    -ms-transition: padding-bottom 0.5s;
+    -o-transition: padding-bottom 0.5s;
 }
 
 .fr-toolbar .fr-newline {
@@ -944,10 +962,10 @@ div.fr-toolbar.fr-basic {
     margin-right: 9px;
     background: #efefef;
     height: 1px;
-    -webkit-transition: height .5s;
-    -moz-transition: height .5s;
-    -ms-transition: height .5s;
-    -o-transition: height .5s;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    -ms-transition: height 0.5s;
+    -o-transition: height 0.5s;
 }
 
 .fr-box.fr-basic .fr-wrapper {
@@ -983,11 +1001,12 @@ div.fr-toolbar.fr-basic {
     -webkit-user-select: auto;
 }
 
-.fr-element, .fr-element:focus {
+.fr-element,
+.fr-element:focus {
     outline: 0 solid transparent;
 }
 
-.fr-basic .fr-element>:first-child {
+.fr-basic .fr-element > :first-child {
     margin-top: 0 !important;
 }
 
@@ -997,17 +1016,17 @@ div.fr-toolbar.fr-basic {
 }
 
 @media (min-width: 744px) {
-    .fr-element>* {
+    .fr-element > * {
         margin-top: 18px;
     }
 }
 
-.fr-element>* {
+.fr-element > * {
     margin-top: 16px;
     margin-bottom: 0;
 }
 
-.post-content div.fr-view>:last-child {
+.post-content div.fr-view > :last-child {
     margin-bottom: 0;
 }
 
@@ -1019,7 +1038,7 @@ div.fr-toolbar.fr-basic {
 .fr-wrapper .fr-placeholder {
     position: absolute;
     font-size: 14px;
-    color: #76767F;
+    color: #76767f;
     font-family: sans-serif;
     z-index: 1;
     display: none;
@@ -1062,7 +1081,8 @@ div.fr-toolbar.fr-basic {
     -o-transform: scale(1);
 }
 
-.file .inner:not(.btn), .post-content a:not(.btn) {
+.file .inner:not(.btn),
+.post-content a:not(.btn) {
     color: inherit;
 }
 
@@ -1070,7 +1090,8 @@ div.fr-toolbar.fr-basic {
     text-decoration: underline;
 }
 
-.post-content a:not([href]), .post-content a[href=""] {
+.post-content a:not([href]),
+.post-content a[href=""] {
     color: currentColor !important;
     text-decoration: none !important;
     cursor: auto !important;
@@ -1086,7 +1107,7 @@ div.fr-toolbar.fr-basic {
     background-clip: padding-box;
     height: 40px;
     width: 40px;
-    background: #FFFFFF;
+    background: #ffffff;
     color: #202022;
     -webkit-transition: background 0.2s ease 0s, color 0.2s ease 0s, transform 0.2s ease 0s;
     -moz-transition: background 0.2s ease 0s, color 0.2s ease 0s, transform 0.2s ease 0s;
@@ -1124,7 +1145,8 @@ div.fr-toolbar.fr-basic {
     height: 24px;
 }
 
-.fr-box a.fr-floating-btn i, .fr-box a.fr-floating-btn svg {
+.fr-box a.fr-floating-btn i,
+.fr-box a.fr-floating-btn svg {
     font-size: 14px;
     line-height: 40px;
 }
@@ -1178,7 +1200,7 @@ div.fr-toolbar.fr-basic {
     fill: #202022;
 }
 
-.fr-box a.fr-floating-btn.fr-btn+.fr-btn {
+.fr-box a.fr-floating-btn.fr-btn + .fr-btn {
     margin-left: 10px;
 }
 
@@ -1251,7 +1273,7 @@ div.fr-toolbar.fr-basic {
 
 .joy-1g4jath {
     --Icon-margin: initial;
-    --Icon-color: #76767F;
+    --Icon-color: #76767f;
     --Icon-fontSize: calc(48px / 1.571);
     --CircularProgress-size: 28px;
     --CircularProgress-thickness: 4px;
@@ -1276,7 +1298,7 @@ div.fr-toolbar.fr-basic {
     --variant-borderWidth: 0px;
     color: #202022;
     --IconButton-size: 48px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 50%;
     box-shadow: 0px 2px 8px -2px rgba(21, 21, 21, 0.08), 0px 6px 12px -2px rgba(21, 21, 21, 0.08);
     pointer-events: auto;
@@ -1331,65 +1353,3 @@ div.fr-toolbar.fr-basic {
     margin-left: 20px;
     margin-right: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

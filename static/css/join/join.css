@@ -545,14 +545,6 @@ body {
     font-weight: 400;
     color: #76767f;
 }
-.joy-131xqcy {
-    --Icon-fontSize: calc(1em * 1);
-    margin: 0px;
-    display: inline;
-    color: #76767f;
-    -webkit-text-decoration: underline;
-    text-decoration: underline;
-}
 /* hover */
 .flog-a-13:hover {
     background-color: #e0e0e2; /* 기존 색상보다 살짝 더 진한 색 */
@@ -564,7 +556,7 @@ body {
     text-decoration: underline;
 }
 /* 경고문구 */
-.joy-1jrnmgr {
+.flog-p-24 {
     --Icon-fontSize: calc(1em * 1.5);
     --Icon-color: currentColor;
     margin: 0px;

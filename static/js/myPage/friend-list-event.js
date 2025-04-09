@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
     // 구독중 버튼 이벤트
-    document.querySelectorAll(".joy-8czzlu").forEach((button, inded) => {
+    document.querySelectorAll(".flog-button-13").forEach((button, inded) => {
         button.addEventListener("click", (e) => {
             e.preventDefault();
             document.querySelector(".flog-div-40").style.display = "block";
