@@ -218,7 +218,7 @@ document.addEventListener("DOMContentLoaded", () => {
             e.preventDefault();
 
             if (e.target.closest(".flog-button-18").classList.contains("expanded")) {
-                document.querySelector(".joy-1pphr02").remove();
+                document.querySelector(".flog-ul-2").remove();
                 e.target.closest(".flog-button-18").classList.remove("expanded");
                 return;
             }
@@ -230,11 +230,11 @@ document.addEventListener("DOMContentLoaded", () => {
             menuElement.setAttribute("id", ":r19:");
             menuElement.setAttribute(
                 "class",
-                "base-Popper-root FeelogMenu-root Feelog-expanded FeelogMenu-variantPlain FeelogMenu-colorNeutral FeelogMenu-sizeMd joy-1pphr02"
+                "base-Popper-root FeelogMenu-root Feelog-expanded FeelogMenu-variantPlain FeelogMenu-colorNeutral FeelogMenu-sizeMd flog-ul-2"
             );
             menuElement.setAttribute(
                 "style",
-                "position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(-270px, 101px);"
+                "position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(-680px, 101px);"
             );
             menuElement.setAttribute("data-popper-placement", "bottom-end");
             menuElement.innerHTML = `
@@ -243,7 +243,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     id=":r79:"
                     role="menuitem"
                     data-first-child=""
-                    class="FeelogMenuItem-root FeelogMenuItem-colorNeutral FeelogMenuItem-variantPlain joy-ax57yv"
+                    class="FeelogMenuItem-root FeelogMenuItem-colorNeutral FeelogMenuItem-variantPlain flog-li-1"
                 >
                     메시지 차단
                 </li>
@@ -252,7 +252,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     id=":r7b:"
                     role="menuitem"
                     data-last-child=""
-                    class="FeelogMenuItem-root FeelogMenuItem-colorNeutral FeelogMenuItem-variantPlain joy-16nydwy"
+                    class="FeelogMenuItem-root FeelogMenuItem-colorNeutral FeelogMenuItem-variantPlain flog-li-2"
                 >
                     대화방 삭제
                 </li>`;
@@ -263,11 +263,11 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         // 메세지 차단 클릭 이벤트
-        if (e.target.classList.contains("joy-ax57yv")) {
+        if (e.target.classList.contains("flog-li-1")) {
             e.preventDefault();
 
             // 케밥 메뉴 삭제
-            document.querySelector(".joy-1pphr02").remove();
+            document.querySelector(".flog-ul-2").remove();
             document.querySelector(".flog-button-18").classList.remove("expanded");
 
             // 확인 모달창 생성
@@ -327,11 +327,11 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         // 대화방 삭제 클릭 이벤트
-        if (e.target.classList.contains("joy-16nydwy")) {
+        if (e.target.classList.contains("flog-li-2")) {
             e.preventDefault();
 
             // 케밥 메뉴 삭제
-            document.querySelector(".joy-1pphr02").remove();
+            document.querySelector(".flog-ul-2").remove();
             document.querySelector(".flog-button-18").classList.remove("expanded");
 
             // 확인 모달창 생성

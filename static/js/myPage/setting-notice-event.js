@@ -38,14 +38,14 @@ document.addEventListener("DOMContentLoaded", () => {
             if (isOn) {
                 // ✅ OFF 상태로 전환
                 switchRoot.classList.remove("Feelog-checked", "FeelogSwitch-colorPrimary", "flog-div-111");
-                switchRoot.classList.add("FeelogSwitch-colorNeutral", "joy-ituqjw");
+                switchRoot.classList.add("FeelogSwitch-colorNeutral", "flog-div-000");
 
                 switchTrack.classList.remove("Feelog-checked");
                 switchThumb.classList.remove("Feelog-checked");
             } else {
                 // ✅ ON 상태로 전환
                 switchRoot.classList.add("Feelog-checked", "FeelogSwitch-colorPrimary", "flog-div-111");
-                switchRoot.classList.remove("FeelogSwitch-colorNeutral", "joy-ituqjw");
+                switchRoot.classList.remove("FeelogSwitch-colorNeutral", "flog-div-000");
 
                 switchTrack.classList.add("Feelog-checked");
                 switchThumb.classList.add("Feelog-checked");

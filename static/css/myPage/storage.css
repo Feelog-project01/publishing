@@ -1375,31 +1375,6 @@ body {
         font-size: 1rem;
     }
 }
-.joy-1q1zl3i {
-    display: flex;
-    flex-direction: row;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    gap: 4px;
-    row-gap: 8px;
-    column-gap: 4px;
-    width: 100%;
-    overflow: auto;
-    line-height: 28px;
-    scrollbar-width: none;
-    flex-wrap: wrap;
-    overflow-y: hidden;
-}
-@media (min-width: 0px) {
-    .joy-1q1zl3i {
-        height: 20px;
-    }
-}
-@media (min-width: 744px) {
-    .joy-1q1zl3i {
-        height: 24px;
-    }
-}
 .flog-a-32 {
     position: relative;
     width: 100%;
@@ -1698,7 +1673,7 @@ body {
     min-width: 32px;
     min-height: 32px;
 }
-.joy-1i55knr {
+.flog-svg-11 {
     user-select: none;
     margin: 0px;
     width: 20px;

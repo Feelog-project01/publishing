@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (e.target.closest(".flog-button-6").querySelector(".flog-svg-10")) {
                 // 스크랩 설정
                 e.target.closest(".flog-button-6").innerHTML = `
-                <svg focusable="false" aria-hidden="true" viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" class="FeelogSvgIcon-root FeelogSvgIcon-sizeMd joy-1i55knr">
+                <svg focusable="false" aria-hidden="true" viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" class="FeelogSvgIcon-root FeelogSvgIcon-sizeMd flog-svg-11">
                     <path d="M4.5 3.875v17.176a.95.95 0 0 0 1.496.777L12 17.625l6.004 4.203a.95.95 0 0 0 1.496-.777V3.875C19.5 2.84 18.66 2 17.625 2H6.375C5.34 2 4.5 2.84 4.5 3.875Z" fill="currentcolor"></path>
                 </svg>`;
             } else {

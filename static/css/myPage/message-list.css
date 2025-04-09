@@ -2205,13 +2205,13 @@ body {
     color: #ffffff;
 }
 .flog-a-13:hover,
-.joy-ax57yv:hover,
-.joy-16nydwy:hover {
+.flog-li-1:hover,
+.flog-li-2:hover {
     background-color: #d6d6d6;
     color: #333333;
 }
 /* 메세지 차단, 대화방 삭제 */
-.joy-1pphr02 {
+.flog-ul-2 {
     margin: initial;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 16px;
@@ -2234,7 +2234,7 @@ body {
     z-index: 1400;
     width: 198px;
 }
-.joy-ax57yv {
+.flog-li-1 {
     box-sizing: border-box;
     position: relative;
     font: inherit;
@@ -2259,7 +2259,7 @@ body {
     min-inline-size: 0px;
     color: #333333;
 }
-.joy-16nydwy {
+.flog-li-2 {
     box-sizing: border-box;
     position: relative;
     display: flex;

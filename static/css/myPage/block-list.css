@@ -1007,31 +1007,6 @@ body {
     font-size: 12px;
     font-weight: 700;
 }
-.joy-l8zeog {
-    --Divider-thickness: 1px;
-    --Divider-lineColor: #e0e0e0;
-    margin: 0;
-    margin-inline: 0;
-    margin-block: 0;
-    position: relative;
-    align-self: stretch;
-    flex-shrink: 0;
-    border: none;
-    list-style: none;
-    background-color: #e0e0e0;
-    inline-size: initial;
-    block-size: 1px;
-}
-@media (min-width: 0px) {
-    .joy-l8zeog {
-        margin-inline: 16px;
-    }
-}
-@media (min-width: 744px) {
-    .joy-l8zeog {
-        margin-inline: 0px;
-    }
-}
 /* 더보기 버튼 */
 .flog-div-68 {
     margin-block: 40px;

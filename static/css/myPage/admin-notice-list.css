@@ -1179,22 +1179,6 @@ body {
     -webkit-line-clamp: 4;
     white-space: pre-line;
 }
-.joy-11wz921 {
-    --Icon-fontSize: calc(1em * 1.5);
-    --Icon-color: currentColor;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-    color: rgba(52, 120, 255, 1);
-    font-weight: 400;
-    margin-top: 4px;
-}
 *,
 ::before,
 ::after {
@@ -1205,23 +1189,16 @@ body {
 *::after {
     box-sizing: inherit;
 }
-.joy-styn74 {
-    display: inline-flex;
-    margin-inline-start: clamp(4px, var(--Typography-gap, 0.375em), 0.75rem);
-}
-.joy-11wz921 .FeelogTypography-endDecorator {
-    margin: 0px;
-}
 .flog-svg-8 {
     user-select: none;
-    margin: var(--Icon-margin);
-    display: inline-block;
+    margin: initial; /* Icon-margin이 명시되지 않았으므로 초기값 */
+    display: inline-flex;
     fill: currentcolor;
     flex-shrink: 0;
-    font-size: var(--Icon-fontSize, var(--joy-fontSize-xl2));
+    font-size: 2rem;
     width: 16px;
     height: 16px;
-    color: currentcolor;
+    color: #76767f;
 }
 .flog-hr-2 {
     --Divider-thickness: 1px;
