@@ -573,3 +573,11 @@ button, html [type="button"], [type="reset"], [type="submit"] {
 .Section_header__NDYxN{
     margin-bottom: 15px;
 }
+
+.title-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1024px;
+}
+

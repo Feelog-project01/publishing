@@ -3,52 +3,62 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>관리자페이지</title>
+        <title>자주 묻는 질문 목록</title>
         <link rel="stylesheet" href="../../static/css/admin/admin-all.css" />
         <link rel="stylesheet" href="../../static/css/admin/aside-var.css" />
-        <link rel="stylesheet" href="../../static/css/admin/admin-main.css" />
-        <style>
-            @font-face {
-                font-family: "pickers";
-                src: url(/css/admin/NotoSansKR-VariableFont_wght.ttf)
-                    format("ttf");
-            }
-        </style>
+        <link rel="stylesheet" href="../../static/css/admin/button.css" />
+        <link rel="stylesheet" href="../../static/css/admin/notice.css" />
+        <link rel="stylesheet" href="../../static/css/admin/notice-modal.css" />
     </head>
     <body>
         <div id="root">
-            <div id="AppLayout_Container" class="AppLayout_container">
-                <div class="AppGNBbar_container" id="AppLayout_AppGNBbar">
-                    <div class="AppGNBbar_flex">
-                        <div class="StudioLogo_container">
+            <div id="AppLayout_Container" class="AppLayout_container_adminList">
+                <div
+                    class="AppGNBbar_container_adminList"
+                    id="AppLayout_AppGNBbar"
+                >
+                    <div class="AppGNBbar_flex_adminList">
+                        <div class="StudioLogo_container_adminList">
                             <button
-                                class="StudioLogo_logo_button"
+                                class="StudioLogo_logo_adminList"
                                 type="button"
                                 onclick="window.location.href='/'"
                                 aria-label="로고 버튼"
                             ></button>
                         </div>
 
-                        <div class="StudioStatus_stateBox"></div>
+                        <div class="StudioStatus_stateBox_adminList">
+                            <span class="Badge_container"></span>
+                        </div>
                     </div>
-                    <div class="AppGNBbar_flex AppGNBbar_rightBox">
-                        <div class="PreviewExitButtons_container">
-                            <div id="logout-section">
-                                <button
-                                    class="PreviewExitButtons_button"
-                                    type="submit"
-                                >
-                                    <span
-                                        ><span class="Button_children"
-                                            >나가기</span
-                                        ></span
+                    <div
+                        class="AppGNBbar_flex_adminList AppGNBbar_rightBox_adminList"
+                    >
+                        <div class="PreviewExitButtons_container_adminList">
+                            <form
+                                id="logoutForm"
+                                action="/admin/logout"
+                                method="post"
+                                style="display: inline"
+                            >
+                                <div id="logout-section" class="">
+                                    <button
+                                        class="Button_button_adminList PreviewExitButtons_button_adminList"
+                                        type="submit"
                                     >
-                                </button>
-                            </div>
+                                        <span
+                                            ><span
+                                                class="Button_children_feelog2"
+                                                >나가기</span
+                                            ></span
+                                        >
+                                    </button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
-                <div class="AppLayout_main">
+                <div class="AppLayout_main_adminList">
                     <nav
                         id="AppNavbarLayout_Nav"
                         class="AppNavbarLayout_container AppNavbarLayout_expand AppNavbarLayout_scroll"
@@ -343,143 +353,321 @@
                                     <div class="FundingPage_content_section">
                                         <div class="Funding_wrapper">
                                             <div
-                                                class="FundingLayout_container"
+                                                class="admin-Wrapper section-Container"
+                                                style="
+                                                    opacity: 1;
+                                                    display: block;
+                                                "
                                             >
-                                                <div
-                                                    class="FundingLayout_contents"
+                                                <div class="">
+                                                    <h3>자주 묻는 질문 목록</h3>
+                                                </div>
+                                                <button class="noticeRegistBtn">
+                                                    질문 등록
+                                                </button>
+                                                <ul
+                                                    class="NoticePage__NoticeListWrapper"
                                                 >
                                                     <div
-                                                        class="Funding_listContainer"
+                                                        class="mainNoticeListDiv noticeList"
                                                     >
-                                                        <ul>
-                                                            <li
-                                                                class="FundingPageMenuList_card FundingPageMenuList_feelogColor"
-                                                            >
-                                                                <div
-                                                                    class="FundingPageMenuList_container"
-                                                                >
-                                                                    <div
-                                                                        class="FundingPageMenuList_name"
-                                                                    >
-                                                                        회원
-                                                                        관리
-                                                                    </div>
-                                                                    <a
-                                                                        class="FundingPageMenuList_buttonWrapper"
-                                                                        href=""
-                                                                        ><span
-                                                                            >회원
-                                                                            목록</span
-                                                                        ></a
-                                                                    >
-                                                                </div>
-                                                            </li>
-                                                            <li
-                                                                class="FundingPageMenuList_card FundingPageMenuList_feelogColor"
-                                                            >
-                                                                <div
-                                                                    class="FundingPageMenuList_container"
-                                                                >
-                                                                    <div
-                                                                        class="FundingPageMenuList_name"
-                                                                    >
-                                                                        신고
-                                                                        목록
-                                                                    </div>
-                                                                    <a
-                                                                        class="FundingPageMenuList_buttonWrapper reportList"
-                                                                        ><span
-                                                                            >신고
-                                                                            목록</span
-                                                                        ></a
-                                                                    >
-                                                                </div>
-                                                            </li>
-                                                            <li
-                                                                class="FundingPageMenuList_card FundingPageMenuList_feelogColor"
-                                                            >
-                                                                <div
-                                                                    class="FundingPageMenuList_container"
-                                                                >
-                                                                    <div
-                                                                        class="FundingPageMenuList_name"
-                                                                    >
-                                                                        공지
-                                                                        등록
-                                                                    </div>
-                                                                    <a
-                                                                        class="FundingPageMenuList_buttonWrapper adminNoticeInput"
-                                                                        ><span
-                                                                            >작성
-                                                                            하기</span
-                                                                        ></a
-                                                                    >
-                                                                </div>
-                                                            </li>
-                                                            <li
-                                                                class="FundingPageMenuList_card FundingPageMenuList_feelogColor"
-                                                            >
-                                                                <div
-                                                                    class="FundingPageMenuList_container"
-                                                                >
-                                                                    <div
-                                                                        class="FundingPageMenuList_name"
-                                                                    >
-                                                                        챌린지
-                                                                    </div>
-                                                                    <a
-                                                                        class="FundingPageMenuList_buttonWrapper"
-                                                                        href="/admin/add-course"
-                                                                        ><span
-                                                                            >추가
-                                                                            하기</span
-                                                                        ></a
-                                                                    >
-                                                                </div>
-                                                            </li>
-                                                            <li
-                                                                class="FundingPageMenuList_card FundingPageMenuList_feelogColor"
-                                                            >
-                                                                <div
-                                                                    class="FundingPageMenuList_container"
-                                                                >
-                                                                    <div
-                                                                        class="FundingPageMenuList_name"
-                                                                    >
-                                                                        관리자
-                                                                        목록
-                                                                    </div>
-                                                                    <a
-                                                                        class="FundingPageMenuList_buttonWrapper"
-                                                                        href="/admin/manage-admin-list"
-                                                                        ><span
-                                                                            >관리자
-                                                                            목록</span
-                                                                        ></a
-                                                                    >
-                                                                </div>
-                                                            </li>
-                                                        </ul>
+                                                        <div
+                                                            class="noticeIdDiv"
+                                                        >
+                                                            번호
+                                                        </div>
+                                                        <div
+                                                            class="noticeTitleDiv"
+                                                        >
+                                                            제목
+                                                        </div>
+                                                        <div
+                                                            class="moreDiv"
+                                                        ></div>
+                                                        <div
+                                                            class="createdDateDiv"
+                                                        >
+                                                            생성날짜
+                                                        </div>
+                                                        <div
+                                                            class="adminNameDiv"
+                                                        >
+                                                            관리자
+                                                        </div>
                                                     </div>
                                                     <div
-                                                        class="Funding_submitButtonWrapper__OGRkZ"
+                                                        class="noticeList-container"
                                                     >
-                                                        <button
-                                                            class="Funding_button"
-                                                            type="button"
-                                                            disabled=""
-                                                        >
-                                                            <span
-                                                                ><span
-                                                                    class="Button_children_feelog"
-                                                                    onclick="window.location.href='/'"
-                                                                    >FEELOG로
-                                                                    이동</span
-                                                                ></span
+                                                        <li>
+                                                            <div
+                                                                class="noticeListDiv"
                                                             >
-                                                        </button>
+                                                                <div
+                                                                    class="noticeIdDiv"
+                                                                >
+                                                                    21
+                                                                </div>
+                                                                <div
+                                                                    class="noticeTitleDiv"
+                                                                >
+                                                                    자주묻는질문
+                                                                </div>
+                                                                <span
+                                                                    class="noMore"
+                                                                ></span>
+                                                                <div
+                                                                    class="createdDateDiv"
+                                                                >
+                                                                    2025-03-28
+                                                                    10:51:13
+                                                                </div>
+                                                                <div
+                                                                    class="adminNameDiv"
+                                                                >
+                                                                    jfk1
+                                                                </div>
+                                                                <div
+                                                                    class="adminIdDiv"
+                                                                    style="
+                                                                        display: none;
+                                                                    "
+                                                                >
+                                                                    2
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div
+                                                                class="noticeListDiv"
+                                                            >
+                                                                <div
+                                                                    class="noticeIdDiv"
+                                                                >
+                                                                    2
+                                                                </div>
+                                                                <div
+                                                                    class="noticeTitleDiv"
+                                                                >
+                                                                    자주묻는질문
+                                                                </div>
+                                                                <span
+                                                                    class="noMore"
+                                                                ></span>
+                                                                <div
+                                                                    class="createdDateDiv"
+                                                                >
+                                                                    2025-03-27
+                                                                    19:32:43
+                                                                </div>
+                                                                <div
+                                                                    class="adminNameDiv"
+                                                                >
+                                                                    jake
+                                                                </div>
+                                                                <div
+                                                                    class="adminIdDiv"
+                                                                    style="
+                                                                        display: none;
+                                                                    "
+                                                                >
+                                                                    1
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div
+                                                                class="noticeListDiv"
+                                                            >
+                                                                <div
+                                                                    class="noticeIdDiv"
+                                                                >
+                                                                    1
+                                                                </div>
+                                                                <div
+                                                                    class="noticeTitleDiv"
+                                                                >
+                                                                    자주묻는질문
+                                                                </div>
+                                                                <span
+                                                                    class="noMore"
+                                                                ></span>
+                                                                <div
+                                                                    class="createdDateDiv"
+                                                                >
+                                                                    2025-03-27
+                                                                    19:30:53
+                                                                </div>
+                                                                <div
+                                                                    class="adminNameDiv"
+                                                                >
+                                                                    jake
+                                                                </div>
+                                                                <div
+                                                                    class="adminIdDiv"
+                                                                    style="
+                                                                        display: none;
+                                                                    "
+                                                                >
+                                                                    1
+                                                                </div>
+                                                            </div>
+                                                        </li>
                                                     </div>
-                                                </div>
+                                                </ul>
+                                                <footer
+                                                    class="footer-wrapper"
+                                                    style="display: inline"
+                                                >
+                                                    <div
+                                                        class="button-container"
+                                                    >
+                                                        <div
+                                                            class="button_hover left-button-wrap"
+                                                        >
+                                                            <button
+                                                                data-index="1"
+                                                                width="40px"
+                                                                height="40px"
+                                                                font-size="18px"
+                                                                disabled="true"
+                                                                class="left_end_button status-none start-page"
+                                                            >
+                                                                <img
+                                                                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E %3Cg fill='none' fill-rule='evenodd'%3E %3Cpath fill='%23FFF' fill-opacity='0' fill-rule='nonzero' d='M0 0h40v40H0z'/%3E %3Cpath stroke='%23DDD' stroke-width='1.5' d='M16 16l4 4-4 4M21 16l4 4-4 4'/%3E %3C/g%3E %3C/svg%3E"
+                                                                    class="img_left_end start-img"
+                                                                /></button
+                                                            ><button
+                                                                data-index="0"
+                                                                width="40px"
+                                                                height="40px"
+                                                                font-size="18px"
+                                                                disabled="true"
+                                                                class="left_end_button status-none left-button"
+                                                            >
+                                                                <img
+                                                                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E %3Cg fill='none' fill-rule='evenodd'%3E %3Cpath fill='none' d='M0 0h40v40H0z'/%3E %3Cpath stroke='%23DDD' stroke-width='1.5' d='M18 16l4 4-4 4'/%3E %3C/g%3E %3C/svg%3E"
+                                                                    class="img_left_end left-img"
+                                                                />
+                                                            </button>
+                                                        </div>
+                                                        <div id="button-wrap">
+                                                            <button
+                                                                data-index="1"
+                                                                width="40px"
+                                                                height="40px"
+                                                                color="#3397ff"
+                                                                font-size="18px"
+                                                                font-weight="bold"
+                                                                class="left_end_button emphasis buttonAll thisButton"
+                                                            >
+                                                                1
+                                                            </button>
+                                                            <button
+                                                                data-index="1"
+                                                                width="40px"
+                                                                height="40px"
+                                                                color="#3397ff"
+                                                                font-size="18px"
+                                                                font-weight="bold"
+                                                                class="left_end_button emphasis buttonAll anotherButton"
+                                                            >
+                                                                2
+                                                            </button>
+                                                        </div>
+                                                        <div
+                                                            class="right_button right-button-wrap"
+                                                        >
+                                                            <button
+                                                                data-index="2"
+                                                                width="40px"
+                                                                height="40px"
+                                                                font-size="18px"
+                                                                class="left_end_button right-button status-on"
+                                                                disabled="true"
+                                                            >
+                                                                <img
+                                                                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E %3Cg fill='none' fill-rule='evenodd'%3E %3Cpath d='M18 0H0v18h18z'/%3E %3Cpath stroke='%23000' stroke-width='1.5' d='M7 5l4 4-4 4'/%3E %3C/g%3E %3C/svg%3E"
+                                                                    class="right-img"
+                                                                /></button
+                                                            ><button
+                                                                data-index="1"
+                                                                width="40px"
+                                                                height="40px"
+                                                                font-size="18px"
+                                                                class="left_end_button last-page status-on"
+                                                                disabled="true"
+                                                            >
+                                                                <img
+                                                                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E %3Cg fill='none' fill-rule='evenodd'%3E %3Crect width='40' height='40' fill='%23FFF' fill-opacity='0' fill-rule='nonzero' rx='20'/%3E %3Cg stroke='%23000' stroke-width='1.5'%3E %3Cpath d='M16 16l4 4-4 4M21 16l4 4-4 4'/%3E %3C/g%3E %3C/g%3E %3C/svg%3E"
+                                                                    class="last-img"
+                                                                />
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="search-container"
+                                                    >
+                                                        <input
+                                                            type="hidden"
+                                                            name="page"
+                                                            class="courseList"
+                                                            value="1"
+                                                        />
+                                                        <div class="fields">
+                                                            <div class="field">
+                                                                <div
+                                                                    id="searchWrap"
+                                                                >
+                                                                    <select
+                                                                        name="type"
+                                                                        class="custom-select"
+                                                                    >
+                                                                        <option
+                                                                            value=""
+                                                                        >
+                                                                            검색
+                                                                            기준
+                                                                        </option>
+                                                                        <option
+                                                                            value="tc"
+                                                                        >
+                                                                            전
+                                                                            체
+                                                                        </option>
+                                                                        <option
+                                                                            value="t"
+                                                                        >
+                                                                            Title
+                                                                        </option>
+                                                                        <option
+                                                                            value="c"
+                                                                        >
+                                                                            Content
+                                                                        </option>
+                                                                    </select>
+                                                                    <input
+                                                                        type="text"
+                                                                        name="keyWord"
+                                                                        class="search-input"
+                                                                    />
+                                                                    <button
+                                                                        type="button"
+                                                                        class="search button primary icon solid fa-noticeSearch search-button"
+                                                                    >
+                                                                        검색
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <select
+                                                            name="type"
+                                                            class="custom-select"
+                                                            style="
+                                                                visibility: hidden;
+                                                            "
+                                                        ></select>
+                                                    </div>
+                                                </footer>
                                             </div>
                                         </div>
                                     </div>
@@ -496,7 +684,9 @@
                 </div>
             </div>
         </div>
-        <div class="admin-modal-body"></div>
+        <div class="admin-modal-body" style="display: none"></div>
     </body>
     <script src="../../static/js/admin/admin.js"></script>
+    <script src="../../static/js/admin/question-layout.js"></script>
+    <script src="../../static/js/admin/question-event.js"></script>
 </html>

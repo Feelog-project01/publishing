@@ -942,7 +942,6 @@ body {
     color: #202022;
 }
 
-
 @media (min-width: 0px) {
     .joy-63nzw0 {
         font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
@@ -951,20 +950,7 @@ body {
         line-height: 1.33334;
         color: #202022;
     }
-
-.joy-63nzw0 {
-    --Icon-fontSize: calc(1em * 1.5);
-    margin: 0px;
-    display: inline;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.5;
-    letter-spacing: -0.025em;
-    color: #202022;
-
 }
-
 @media (min-width: 744px) {
     .joy-63nzw0 {
         font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
@@ -975,7 +961,6 @@ body {
         color: #202022;
     }
 }
-
 
 .joy-bxmlpm {
     --Icon-fontSize: calc(1em * 1.5);
@@ -2299,4 +2284,40 @@ body {
     width: 1em;
     height: 1em;
     color: #3478ff;
+}
+
+.emotion-wrap{
+    margin-top: 10px;
+
+}
+
+.emotion-text{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: -0.025em;
+    color: #202022;
+}
+
+.emotion-emoticon {
+    width: 20px;
+}
+
+.ai-container{
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    border: 1px solid #DDE3E8;
+    height: 100px;
+    width: 93%;
+    padding: 20px;
+}
+
+.ai-think{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.comment-wrap{
+    margin: 20px;
 }
