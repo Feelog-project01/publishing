@@ -358,7 +358,7 @@ body {
         display: flex;
     }
 }
-.joy-1ejuko2 {
+.flog-span-15 {
     min-height: 1.25rem;
     padding-inline: 0.375rem;
     position: relative;
@@ -367,7 +367,7 @@ body {
     flex-shrink: 0;
     box-shadow: 0 0 0 0px #f2f2f3;
 }
-.joy-13y1pdr {
+.flog-span-16 {
     color: currentColor;
     font-size: calc(1em * 1.5);
     display: inline-flex;
@@ -580,7 +580,7 @@ body {
     appearance: none;
     position: relative;
 }
-.joy-p6k0bu {
+.flog-span-18 {
     color: currentColor;
     font-size: calc(1em * 1.5);
     display: inline-flex;
@@ -659,7 +659,7 @@ body {
 @media (min-width: 744px) {
     .flog-nav-2 {
         min-height: 56px;
-        top: 88px;
+        top: 56px;
     }
 }
 .flog-ul-1 {
@@ -885,16 +885,22 @@ body {
 }
 @media (min-width: 0px) {
     .flog-div-60 {
+        width: 360px;
+        padding-top: 60px;
         padding-inline: 16px;
     }
 }
 @media (min-width: 744px) {
     .flog-div-60 {
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 80px;
         padding-inline: 24px;
     }
 }
 @media (min-width: 992px) {
     .flog-div-60 {
+        padding-top: 80px;
         max-width: 640px;
         padding-inline: 0px;
     }
@@ -923,7 +929,7 @@ body {
     flex-direction: column;
 }
 
-.joy-gqp8yp {
+.flog-a-21 {
     position: relative;
     width: 100%;
     height: 100%;
@@ -937,19 +943,19 @@ body {
 }
 
 @media (min-width: 0px) {
-    .joy-gqp8yp {
+    .flog-a-21 {
         width: 48px;
         height: 48px;
     }
 }
 @media (min-width: 744px) {
-    .joy-gqp8yp {
+    .flog-a-21 {
         width: 64px;
         height: 64px;
     }
 }
 
-.joy-1jtdcl4 {
+.flog-div-73 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -957,7 +963,7 @@ body {
     flex: 1;
     overflow: hidden;
 }
-.joy-zrudzv {
+.flog-div-74 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -968,7 +974,7 @@ body {
     overflow: hidden;
     margin-right: 12px;
 }
-.joy-1yh0ndl {
+.flog-a-22 {
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -993,7 +999,7 @@ body {
     appearance: none;
     position: relative;
 }
-.joy-v79ndt {
+.flog-div-72 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1010,14 +1016,14 @@ body {
     -ms-flex-align: center;
     align-items: center;
 }
-.joy-1vpjpt8 {
+.flog-span-14 {
     margin: 0px;
     display: inline;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
-    color: #000000; /* Assuming var(--joy-palette-text-primary) resolves to black */
+    color: #000000;
     overflow: hidden;
     overflow-wrap: anywhere;
     display: -webkit-box;
@@ -1025,13 +1031,13 @@ body {
     -webkit-line-clamp: 1;
     line-clamp: 1;
 }
-.joy-hxfe4t {
+.flog-p-15 {
     margin: 0px;
     display: -webkit-box;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 14px;
     line-height: 1.5;
-    color: #666666; /* Assuming var(--joy-palette-text-secondary) resolves to #666666 */
+    color: #666666;
     font-weight: 400;
     overflow: hidden;
     overflow-wrap: anywhere;
@@ -1042,16 +1048,16 @@ body {
 }
 
 @media (min-width: 0px) {
-    .joy-hxfe4t {
+    .flog-p-15 {
         display: none;
     }
 }
 @media (min-width: 744px) {
-    .joy-hxfe4t {
+    .flog-p-15 {
         display: -webkit-box;
     }
 }
-.joy-1fpbmdi {
+.flog-div-75 {
     margin-inline-start: 0px;
     box-shadow: none; /* Assuming var(--Avatar-ring) is not defined */
     position: relative;
@@ -1063,12 +1069,12 @@ body {
     overflow: hidden;
     border-radius: 50%;
     user-select: none;
-    color: #333333; /* Assuming var(--joy-palette-neutral-800) resolves to #333333 */
-    background-color: #f5f5f5; /* Assuming var(--joy-palette-neutral-100) resolves to #f5f5f5 */
+    color: #333333;
+    background-color: #f5f5f5;
     width: 20px;
     height: 20px;
 }
-.joy-1donc9z {
+.flog-a-23 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1129,16 +1135,16 @@ body {
     height: 48px;
     --Avatar-size: 48px;
 }
-.joy-1hk5q36 {
+.flog-p-16 {
     margin: 0px;
     display: block;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 14px;
     line-height: 1.5;
-    color: #000000; /* Assuming var(--joy-palette-text-primary) resolves to black */
+    color: #000000;
     font-weight: 400;
 }
-.joy-8czzlu {
+.flog-button-13 {
     min-height: 2rem;
     font-size: 14px;
     padding-block: 0.25rem;
@@ -1155,14 +1161,14 @@ body {
     justify-content: center;
     position: relative;
     text-decoration: none;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; /* Assuming var(--joy-fontFamily-body) resolves to this */
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-weight: 500;
     line-height: 1.5;
-    color: #333333; /* Assuming var(--joy-palette-neutral-800) resolves to #333333 */
-    background-color: #f5f5f5; /* Assuming var(--joy-palette-neutral-100) resolves to #f5f5f5 */
+    color: #333333;
+    background-color: #f5f5f5;
     flex-shrink: 0;
 }
-.joy-8czzlu.FeelogButton-sizeSm {
+.flog-button-13.FeelogButton-sizeSm {
     min-height: 32px;
     font-size: 14px;
 }
@@ -1175,7 +1181,7 @@ body {
     flex-shrink: 0;
     border: none;
     list-style: none;
-    background-color: #e0e0e0; /* Assuming var(--joy-palette-divider) resolves to #e0e0e0 */
+    background-color: #e0e0e0;
     inline-size: initial;
     block-size: 1px;
 }
@@ -1186,10 +1192,10 @@ body {
     padding-inline: 2px;
     padding-block: 0;
     -webkit-tap-highlight-color: transparent;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; /* Assuming var(--joy-fontFamily-body) resolves to this */
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-weight: 500;
-    margin: 0px; /* Assuming var(--IconButton-margin) resolves to 0px */
-    border-radius: 4px; /* Assuming var(--joy-radius-sm) resolves to 4px */
+    margin: 0px;
+    border-radius: 4px;
     border: none;
     box-sizing: border-box;
     background-color: transparent;
@@ -1198,12 +1204,12 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    color: #333333; /* Assuming var(--joy-palette-neutral-800) resolves to #333333 */
+    color: #333333;
 }
 .flog-button-6:disabled {
     pointer-events: none;
     cursor: default;
-    color: #bfbfbf; /* Assuming var(--joy-palette-neutral-400) resolves to #bfbfbf */
+    color: #bfbfbf;
 }
 .flog-button-6.FeelogIconButton-sizeSm {
     min-width: 32px;
@@ -1265,31 +1271,6 @@ body {
     min-height: 32px;
     font-size: 12px;
     font-weight: 700;
-}
-.joy-l8zeog {
-    --Divider-thickness: 1px;
-    --Divider-lineColor: #e0e0e0;
-    margin: 0;
-    margin-inline: 0;
-    margin-block: 0;
-    position: relative;
-    align-self: stretch;
-    flex-shrink: 0;
-    border: none;
-    list-style: none;
-    background-color: #e0e0e0;
-    inline-size: initial;
-    block-size: 1px;
-}
-@media (min-width: 0px) {
-    .joy-l8zeog {
-        margin-inline: 16px;
-    }
-}
-@media (min-width: 744px) {
-    .joy-l8zeog {
-        margin-inline: 0px;
-    }
 }
 /* 더보기 버튼 */
 .flog-div-68 {
@@ -1357,7 +1338,7 @@ body {
 }
 /* 호버 */
 .flog-a-20:hover,
-.joy-8czzlu:hover {
+.flog-button-13:hover {
     color: #333333;
     background-color: #cccccc;
 }

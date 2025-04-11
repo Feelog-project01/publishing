@@ -5,7 +5,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 body {
@@ -45,7 +45,9 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; */
+    position: fixed;
     width: 100%;
+    z-index: 10000;
 }
 
 .feelog-header-mainHeader {
@@ -151,11 +153,15 @@ h1 {
     white-space: nowrap;
 }
 
-*, ::before, ::after {
+*,
+::before,
+::after {
     box-sizing: inherit;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
@@ -324,7 +330,7 @@ h1 {
     font-weight: 600;
     line-height: 1.5;
     color: #202022;
-    background-color: #F2F2F3;
+    background-color: #f2f2f3;
     font-weight: 500;
 }
 
@@ -474,7 +480,7 @@ h1 {
     min-width: 1.25rem;
     border-radius: 1.25rem;
     z-index: 1;
-    background-color: #3478FF;
+    background-color: #3478ff;
     top: 0;
     right: 0;
     -webkit-transform: scale(1) translateX(50%) translateY(-50%);
@@ -484,7 +490,7 @@ h1 {
     transform-origin: 100% 0%;
     /* font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; */
     font-size: 14px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: 500;
     white-space: nowrap;
 }
@@ -717,7 +723,7 @@ h1 {
     height: 24px;
 }
 
-.joy-p6k0bu {
+.flog-span-18 {
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
@@ -746,7 +752,7 @@ h1 {
     min-width: 1rem;
     border-radius: 1rem;
     z-index: 1;
-    background-color: #3478FF;
+    background-color: #3478ff;
     top: 0;
     right: 0;
     -webkit-transform: scale(1) translateX(50%) translateY(-50%);
@@ -757,7 +763,7 @@ h1 {
     /* font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; */
     font-weight: 500;
     font-size: 12px;
-    color: #FFFFFF;
+    color: #ffffff;
     white-space: nowrap;
 }
 
@@ -811,7 +817,7 @@ animation-os2n7p animation {
     max-width: 100%;
     padding: 20px;
     border-radius: 8px;
-    border-color: #DADADC;
+    border-color: #dadadc;
     outline: 0px;
     border-width: 0px;
     gap: 0px;
@@ -877,7 +883,7 @@ animation-os2n7p animation {
     position: absolute;
     z-index: 1;
     border-radius: 8px;
-    color: #3E3E43;
+    color: #3e3e43;
     top: 16px;
     left: none;
     right: 16px;
@@ -893,7 +899,7 @@ animation-os2n7p animation {
     fill: currentcolor;
     flex-shrink: 0;
     font-size: 24px;
-    color: #76767F;
+    color: #76767f;
 }
 
 .feelog-header-mdl-ul01.feelog-header-menuUi {
@@ -1070,8 +1076,8 @@ animation-os2n7p animation {
     box-sizing: border-box;
     /* font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; */
     line-height: 1.5;
-    background-color: #EBF2FF;
-    color: #145FF5;
+    background-color: #ebf2ff;
+    color: #145ff5;
     font-size: 14px;
     text-align: center;
     min-width: 40px;
@@ -1128,7 +1134,7 @@ animation-os2n7p animation {
     position: relative;
     box-shadow: 0 0 #000, 0px 2px 8px -2px rgba(21, 21, 21, 0.08), 0px 6px 12px -2px rgba(21, 21, 21, 0.08);
     z-index: 1000;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #202022;
     width: 338px;
     max-width: 338px;
@@ -1212,11 +1218,11 @@ animation-os2n7p animation {
 .feelog-header-topDiv05 {
     /* font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; */
     font-weight: 600;
-    font-size: 16px; 
+    font-size: 16px;
     line-height: 1;
     color: #202022;
     margin-inline-start: 0;
-    box-shadow: none; 
+    box-shadow: none;
     position: relative;
     display: flex;
     align-items: center;
@@ -1301,7 +1307,7 @@ animation-os2n7p animation {
     flex-grow: 1;
     position: relative;
     border-radius: 12px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #202022;
     box-shadow: 0 0 #000, 0px 2px 8px -2px rgba(21, 21, 21, 0.08), 0px 6px 12px -2px rgba(21, 21, 21, 0.08);
     z-index: 1000;
@@ -1311,7 +1317,7 @@ animation-os2n7p animation {
     padding: 0px;
     overflow: auto;
 }
-  
+
 .menu-ui01.feelog-header-menuUi {
     --ListItem-minHeight: 48px;
 }
@@ -1332,7 +1338,7 @@ animation-os2n7p animation {
     position: relative;
     color: #202022;
 }
-  
+
 .menu-li01:not([hidden]) {
     display: flex;
 }
@@ -1352,7 +1358,7 @@ animation-os2n7p animation {
     color: #202022;
     padding: 8px 16px;
 }
-  
+
 .menu-01-btn {
     /* font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; */
     font-size: 16px;
@@ -1377,7 +1383,7 @@ animation-os2n7p animation {
     position: relative;
     gap: 12px;
 }
-  
+
 .feelog-header-topDiv05 {
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-weight: 600;
@@ -1399,7 +1405,7 @@ animation-os2n7p animation {
     width: 40px;
     height: 40px;
 }
-  
+
 .feelog-header-topImages {
     width: 100%;
     height: 100%;
@@ -1430,7 +1436,7 @@ animation-os2n7p animation {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
 }
-  
+
 .joy-qh7pez {
     user-select: none;
     margin: 0px;
@@ -1443,7 +1449,7 @@ animation-os2n7p animation {
     height: 18px;
     color: currentcolor;
 }
-  
+
 .feelog-header-topDiv07 {
     display: flex;
     flex-direction: column;
@@ -1471,7 +1477,7 @@ animation-os2n7p animation {
     padding: 0px;
     display: none;
 }
-  
+
 .feelog-header-top1stp {
     margin: 0px;
     display: block;
@@ -1479,11 +1485,11 @@ animation-os2n7p animation {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.5;
-    color: #76767F;
+    color: #76767f;
     padding: 4px 16px;
-  }
-  
-  .feelog-header-top-multipleLi {
+}
+
+.feelog-header-top-multipleLi {
     -webkit-align-items: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -1507,8 +1513,8 @@ animation-os2n7p animation {
     margin-block-start: 0px;
     min-block-size: 44px;
     color: #202022;
-  }
-  
+}
+
 .feelog-header-profileMenu > .feelog-header-topDiv08 {
     --unstable_ListItem-flex: 1 0 0%;
 }
@@ -1539,8 +1545,8 @@ animation-os2n7p animation {
     justify-content: space-between;
     padding: 0px;
   } */
-  
-  .feelog-header-topDiv08 {
+
+.feelog-header-topDiv08 {
     -webkit-tap-highlight-color: transparent;
     box-sizing: border-box;
     position: relative;
@@ -1556,7 +1562,7 @@ animation-os2n7p animation {
     border-radius: 12px;
     color: #202022;
     width: 100%; /* ← 핵심 */
-  }
+}
 
 .feelog-header-topA01 {
     display: flex;
@@ -1585,7 +1591,7 @@ animation-os2n7p animation {
     width: 24px;
     height: 24px;
     cursor: pointer;
-  }
+}
 
 .feelog-header-top2ndp {
     /* font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; */
@@ -1599,13 +1605,13 @@ animation-os2n7p animation {
     -webkit-line-clamp: 1;
     margin-left: 12px;
     overflow: hidden;
-  }
-  
+}
+
 .menu-02-btn.feelog-header-menuBtns {
     min-width: 32px;
     min-height: 32px;
 }
-  
+
 .menu-02-btn {
     min-width: 32px;
     min-height: 32px;
@@ -1622,7 +1628,7 @@ animation-os2n7p animation {
     justify-content: center;
     position: relative;
     color: #202022;
-    background-color: #F2F2F3;
+    background-color: #f2f2f3;
     /* margin-right: 16px; */
     padding-inline: 2px;
     padding-block: 0px;
@@ -1648,12 +1654,11 @@ animation-os2n7p animation {
     flex-shrink: 0;
     font-size: 24px;
     color: currentcolor;
-  }
+}
 
 .feelog-header-profileMenu > .joy-1l9tf61 {
     --unstable_ListItem-flex: 1 0 0%;
 }
-
 
 .joy-1l9tf61 {
     -webkit-tap-highlight-color: transparent;
@@ -1678,8 +1683,7 @@ animation-os2n7p animation {
     min-inline-size: 0px;
     color: #202022;
     padding: 8px 16px;
-  }
-
+}
 
 .feelog-header-topDivs {
     display: flex;
@@ -1688,13 +1692,11 @@ animation-os2n7p animation {
     align-items: center;
 }
 
-
 .feelog-header-topDivs-01 {
     display: flex;
     margin-left: -1px;
-    color: #76767F;
-  }
-  
+    color: #76767f;
+}
 
 .feelog-header-top2ndp {
     /* font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; */
@@ -1708,8 +1710,7 @@ animation-os2n7p animation {
     -webkit-line-clamp: 1;
     margin-left: 12px;
     overflow: hidden;
-  }
-
+}
 
 .joy-ivlxwj {
     padding: 8px 16px 16px;
@@ -1719,7 +1720,6 @@ animation-os2n7p animation {
     --Alert-decoratorChildHeight: 32px;
     --Alert-padding: 12px;
 }
-
 
 .joy-1ue8tpi {
     gap: 8px;
@@ -1731,7 +1731,7 @@ animation-os2n7p animation {
     /* font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; */
     color: #202022;
     border-radius: 12px;
-    background-color: #F9F9FA;
+    background-color: #f9f9fa;
     -webkit-box-pack: justify;
     justify-content: space-between;
     overflow: auto;
@@ -1739,8 +1739,7 @@ animation-os2n7p animation {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-  }
-  
+}
 
 .joy-1nw1ybu {
     display: flex;
@@ -1755,7 +1754,6 @@ animation-os2n7p animation {
     align-items: center;
 }
 
-
 .joy-1ydly9a {
     user-select: none;
     margin: 0px;
@@ -1765,8 +1763,8 @@ animation-os2n7p animation {
     font-size: 24px;
     width: 12px;
     height: 12px;
-    color: #FFFFFF;
-  }
+    color: #ffffff;
+}
 
 .joy-cvqmdk {
     user-select: none;
@@ -1775,11 +1773,11 @@ animation-os2n7p animation {
     fill: currentcolor;
     flex-shrink: 0;
     font-size: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     width: 58px;
     height: 10px;
-  }
-  
+}
+
 .joy-1bgk1a3 {
     display: flex;
     flex-direction: row;
@@ -1789,7 +1787,8 @@ animation-os2n7p animation {
     text-align: right;
 }
 
-.swiper-autoheight, .swiper-autoheight .swiper-slide {
+.swiper-autoheight,
+.swiper-autoheight .swiper-slide {
     height: auto;
 }
 
@@ -1813,11 +1812,13 @@ animation-os2n7p animation {
     transition-property: transform, height;
 }
 
-.swiper-vertical>.swiper-wrapper {
+.swiper-vertical > .swiper-wrapper {
     flex-direction: column;
 }
 
-.swiper-android .swiper-slide, .swiper-ios .swiper-slide, .swiper-wrapper {
+.swiper-android .swiper-slide,
+.swiper-ios .swiper-slide,
+.swiper-wrapper {
     transform: translateZ(0);
 }
 
@@ -1830,8 +1831,7 @@ animation-os2n7p animation {
     transition-property: transform;
     transition-timing-function: initial;
     box-sizing: content-box;
-  }
-  
+}
 
 .swiper-backface-hidden .swiper-slide {
     transform: translateZ(0);
@@ -1847,12 +1847,11 @@ animation-os2n7p animation {
     font-size: 14px;
     line-height: 1.42858;
     color: #202022;
-  }
-  
+}
+
 .menu-ui02.feelog-header-menuUi {
     --ListItem-minHeight: 48px;
 }
-
 
 .menu-ui02 {
     padding: 0px;
@@ -1869,12 +1868,11 @@ animation-os2n7p animation {
     flex-grow: 1;
     position: relative;
     color: #202022;
-  }
-  
+}
+
 .menu-ui03.feelog-header-menuUi {
     --ListItem-minHeight: 48px;
 }
-
 
 .menu-ui03 {
     margin-inline-start: 0px;
@@ -1891,8 +1889,8 @@ animation-os2n7p animation {
     padding: 0px;
     -webkit-box-flex: 0;
     flex-grow: 0;
-  }
-  
+}
+
 .menu-li02:not([hidden]) {
     display: flex;
 }
@@ -1944,10 +1942,9 @@ animation-os2n7p animation {
     width: 100%;
     overflow: hidden;
     height: 100%;
-  }
-  
+}
 
-  .feelog-header-topDiv10 {
+.feelog-header-topDiv10 {
     display: block;
     flex-grow: initial;
     flex-basis: initial;
@@ -1959,10 +1956,9 @@ animation-os2n7p animation {
     margin-right: 12px;
     overflow: hidden;
     border-radius: 6px;
-  }
-  
+}
 
-  .feelog-header-topDiv11 {
+.feelog-header-topDiv11 {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -1978,11 +1974,10 @@ animation-os2n7p animation {
     line-height: 1.5;
     color: #202022;
     font-weight: 400;
-    background-color: #F2F2F3;
-  }
-  
+    background-color: #f2f2f3;
+}
 
-  .feelog-header-topDiv11 [data-first-child] {
+.feelog-header-topDiv11 [data-first-child] {
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -1999,24 +1994,20 @@ animation-os2n7p animation {
     object-fit: cover;
     margin: 0;
     padding: 0;
-  }
-  
+}
 
-
-  .feelog-header-topDiv12 {
+.feelog-header-topDiv12 {
     position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
 
-
-.feelog-header-topDiv11 [data-first-child]>img {
+.feelog-header-topDiv11 [data-first-child] > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
 
 .feelog-header-topSpan05 {
     margin: 0px;
@@ -2030,7 +2021,7 @@ animation-os2n7p animation {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
-  }
+}
 
 .feelog-header-topDiv13 {
     display: flex;
@@ -2043,7 +2034,7 @@ animation-os2n7p animation {
     min-height: 32px;
     font-size: 14px;
 }
-  
+
 .joy-ubyl7c {
     min-height: 32px;
     font-size: 14px;
@@ -2065,39 +2056,37 @@ animation-os2n7p animation {
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     line-height: 1.5;
     color: #202022;
-    background-color: #F2F2F3;
+    background-color: #f2f2f3;
     font-weight: 500;
-  }
+}
 
-
-  .joy-179msl4.feelog-header-menuBtns {
+.joy-179msl4.feelog-header-menuBtns {
     min-width: 32px;
     min-height: 32px;
-  }
-
+}
 
 .joy-179msl4 {
-  min-width: 32px;
-  min-height: 32px;
-  font-size: 14px;
-  padding-inline: 2px;
-  -webkit-tap-highlight-color: transparent;
-  padding-block: 0px;
-  font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-  font-weight: 500;
-  margin: 0px;
-  border-radius: 8px;
-  border: none;
-  box-sizing: border-box;
-  cursor: pointer;
-  display: inline-flex;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  position: relative;
-  color: #202022;
-  background-color: #F2F2F3;
+    min-width: 32px;
+    min-height: 32px;
+    font-size: 14px;
+    padding-inline: 2px;
+    -webkit-tap-highlight-color: transparent;
+    padding-block: 0px;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 500;
+    margin: 0px;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    color: #202022;
+    background-color: #f2f2f3;
 }
 
 .menu-li03 {
@@ -2116,10 +2105,9 @@ animation-os2n7p animation {
     margin-block-end: 8px; */
     margin-left: 16px;
     margin-right: 16px;
-  }
-  
+}
 
-  .feelog-header-profileMenu > .feelog-header-top-as {
+.feelog-header-profileMenu > .feelog-header-top-as {
     --unstable_ListItem-flex: 1 0 0%;
 }
 
@@ -2150,9 +2138,9 @@ animation-os2n7p animation {
     height: 40px;
     width: 100%;
     /* padding: 8px 16px; */
-  }
-  
-  .feelog-header-top-ps {
+}
+
+.feelog-header-top-ps {
     display: block;
     /* font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; */
     font-size: 16px;
@@ -2160,12 +2148,11 @@ animation-os2n7p animation {
     color: #202022;
     font-weight: 400;
     margin-left: 12px;
-  }
-  
+}
 
-  .feelog-header-topDiv14.feelog-header-topDiv14 {
+.feelog-header-topDiv14.feelog-header-topDiv14 {
     min-width: 0px;
-  }
+}
 
 .feelog-header-topDiv14.feelog-header-menuAlert {
     --Chip-paddingInline: 6px;
@@ -2174,7 +2161,6 @@ animation-os2n7p animation {
     font-size: 14px;
     min-width: 24px;
 }
-
 
 .feelog-header-topDiv14 {
     gap: 3px;
@@ -2194,15 +2180,15 @@ animation-os2n7p animation {
     box-sizing: border-box;
     /* font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; */
     line-height: 1;
-    background-color: #3478FF;
-    color: #FFFFFF;
+    background-color: #3478ff;
+    color: #ffffff;
     font-size: 14px;
     text-align: center;
     min-width: 40px;
     font-weight: 400;
-  }
-  
-  .feelog-header-topSpan06 {
+}
+
+.feelog-header-topSpan06 {
     display: inline-block;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -2223,14 +2209,13 @@ ul {
     margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 0px !important; 
+    padding-inline-start: 0px !important;
     unicode-bidi: isolate;
 }
 
 .hidden {
     display: none !important;
 }
-
 
 @media (min-width: 744px) {
     .feelog-header-login-div {
@@ -2294,7 +2279,7 @@ ul {
 
 .login-a01 {
     --Icon-margin: initial;
-    --Icon-color: #76767F;
+    --Icon-color: #76767f;
     --Icon-fontSize: 20px;
     --CircularProgress-size: 20px;
     --CircularProgress-thickness: 2px;
@@ -2328,16 +2313,14 @@ ul {
     --variant-borderWidth: 1px;
     color: #202022;
     border: 1px solid;
-    border-color: #DADADC;
+    border-color: #dadadc;
     min-width: max-content;
 }
-
 
 .joy-vzer23.MuiButton-sizeSm {
     min-height: 32px;
     font-size: 14px;
 }
-
 
 @media (min-width: 744px) {
     .joy-vzer23 {
@@ -2388,7 +2371,7 @@ ul {
     font-weight: 500;
     line-height: 1.5;
     --variant-borderWidth: 0px;
-    color: #FFFFFF;
+    color: #ffffff;
     background-color: #202022;
     min-width: max-content;
 }
@@ -2447,10 +2430,11 @@ ul {
     font-weight: 500;
     line-height: 1.5;
     --variant-borderWidth: 0px;
-    color: #FFFFFF;
+    color: #ffffff;
     background-color: #202022;
     min-width: max-content;
 }
+
 
 .joy-1xfmk7u {
     margin: initial;
@@ -2854,6 +2838,7 @@ ul {
     height: 100%;
     overflow: hidden;
 }
+
 
 
 

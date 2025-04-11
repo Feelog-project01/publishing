@@ -16,36 +16,38 @@
                 fetch("../main/header.html")
                     .then((response) => response.text())
                     .then((data) => {
-                        document.getElementById("header-container").innerHTML =
-                            data;
+                        document.getElementById("header-container").innerHTML = data;
                     })
-                    .catch((error) =>
-                        console.error("Error loading header:", error)
-                    );
+                    .catch((error) => console.error("Error loading header:", error));
             </script>
             <!-- 헤더 넣을 곳 -->
             <div class="joy-1j46z6j">
                 <nav class="MuiBox-root joy-18lu9f5">
                     <ul class="subnavigation joy-1wegxv0">
                         <li class="joy-6u9hs2">
-                            <a
-                                href="/"
-                                class="MuiTypography-root MuiTypography-body-md joy-1xzjzsf"
-                                >피드</a
-                            >
+                            <a href="/" class="MuiTypography-root MuiTypography-body-md joy-1xzjzsf">피드</a>
                         </li>
                         <li class="joy-hrba6h">
+                            <a href="/request" class="MuiTypography-root MuiTypography-body-md joy-10c7stv">리퀘스트</a>
+                        </li>
+                        <li class="joy-hrba6h">
+                            <a href="/store" class="MuiTypography-root MuiTypography-body-md joy-10c7stv">스토어</a>
+
                             <a
                                 href="/request"
                                 class="MuiTypography-root MuiTypography-body-md joy-10c7stv"
                                 >마음일기</a
                             >
+
                         </li>
                     </ul>
                 </nav>
                 <div class="MuiBox-root joy-1yxq76r">
                     <div class="joy-fvjjjv">
                         <main class="joy-11dfn0q" id="main-content">
+
+                            <div class="MuiBox-root flog-div-82">
+
                             <nav
                                 class="MuiSheet-root MuiSheet-variantPlain MuiSheet-colorNeutral joy-3ys6m0"
                             >
@@ -75,6 +77,7 @@
                                 </ul>
                             </nav>
                             <div class="MuiBox-root joy-0">
+
                                 <div class="joy-j7qwjs">
                                     <div class="joy-16vwv4v">
                                         <article
@@ -112,21 +115,24 @@
                                                                 class="MuiAvatar-img joy-1hy9t21"
                                                             />
                                                         </div>
+
+                                                        <div class="joy-v2pzzj">
+                                                            <div class="joy-1r9kwv0">
+
                                                         <div
                                                             class="MuiStack-root joy-v2pzzj"
                                                         >
                                                             <div
                                                                 class="MuiStack-root joy-1r9kwv0"
                                                             >
+
                                                                 <p
                                                                     class="MuiTypography-root MuiTypography-title-md joy-1ry9yvs"
                                                                 >
                                                                     팜파그라스
                                                                 </p>
                                                             </div>
-                                                            <div
-                                                                class="MuiBox-root joy-0"
-                                                            >
+                                                            <div class="MuiBox-root flog-div-82">
                                                                 <a
                                                                     class="MuiLink-root MuiLink-colorPrimary MuiLink-body-md MuiLink-underlineNone joy-151y3tr"
                                                                     href="/@pampa234"
@@ -134,9 +140,11 @@
                                                                         class="MuiTypography-root MuiTypography-body-sm joy-1iqmx8b"
                                                                         ><time
                                                                             class="MuiTypography-root MuiTypography-inherit joy-1g74u8a"
+
                                                                             >2025.
                                                                             3.
                                                                             10.</time
+
                                                                         ><span
                                                                             class="MuiTypography-root MuiTypography-inherit joy-hke6pf"
                                                                             >&nbsp;·&nbsp;</span
@@ -147,9 +155,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div
-                                                        class="MuiBox-root joy-1rr4qq7"
-                                                    ></div>
+                                                    <div class="MuiBox-root joy-1rr4qq7"></div>
                                                     <button
                                                         tabindex="0"
                                                         aria-haspopup="menu"
@@ -183,6 +189,7 @@
                                                     >
                                                         <a
                                                             class="MuiLink-root MuiLink-colorPrimary MuiLink-body-md MuiLink-underlineNone joy-151y3tr"
+
                                                             href="/@pampa234/post/18985410"
                                                             ><h2
                                                                 class="MuiTypography-root MuiTypography-h4 joy-63nzw0"
@@ -191,6 +198,7 @@
                                                                 사람이라면
                                                                 필수로 알아야 할
                                                                 맞춤법 10가지
+
                                                             </h2></a
                                                         >
                                                         <h3
@@ -200,6 +208,10 @@
                                                             수 있는 맞춤법 팁
                                                         </h3>
                                                     </div>
+
+                                                    <p class="MuiTypography-root MuiTypography-body-md joy-bxmlpm"></p>
+                                                    <div class="joy-1r6jpu3">
+
                                                     <p
                                                         class="MuiTypography-root MuiTypography-body-md joy-bxmlpm"
                                                     >
@@ -253,6 +265,7 @@
                                                     <div
                                                         class="MuiStack-root joy-1r6jpu3"
                                                     >
+
                                                         <a
                                                             class="MuiChip-root MuiChip-colorNeutral MuiChip-sizeMd MuiChip-variantSoft joy-7upex7"
                                                             href="/search?keyword=소설"
@@ -264,15 +277,16 @@
                                                         >
                                                     </div>
                                                 </div>
-                                                <div
-                                                    class="MuiBox-root joy-8a80tx"
-                                                >
+                                                <div class="MuiBox-root joy-8a80tx">
                                                     <div
                                                         class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden"
                                                         style="width: 100%"
                                                     >
                                                         <div
                                                             class="swiper-wrapper"
+
+                                                            style="cursor: grab; transform: translate3d(0px, 0px, 0px)"
+
                                                             style="
                                                                 transform: translate3d(
                                                                     0px,
@@ -280,12 +294,11 @@
                                                                     0px
                                                                 );
                                                             "
+
                                                         >
                                                             <div
                                                                 class="swiper-slide swiper-slide-active"
-                                                                style="
-                                                                    margin-right: 12px;
-                                                                "
+                                                                style="margin-right: 12px"
                                                             >
                                                                 <img
                                                                     class="MuiBox-root joy-1hn5ivd"
@@ -349,8 +362,7 @@
                                                             <p
                                                                 class="MuiTypography-root MuiTypography-body-sm joy-1e395op"
                                                             >
-                                                                <span
-                                                                    class="MuiTypography-startDecorator joy-oqc71l"
+                                                                <span class="MuiTypography-startDecorator flog-span-31"
                                                                     ><svg
                                                                         focusable="false"
                                                                         aria-hidden="true"
@@ -370,8 +382,7 @@
                                                             <p
                                                                 class="MuiTypography-root MuiTypography-body-sm joy-1e395op"
                                                             >
-                                                                <span
-                                                                    class="MuiTypography-startDecorator joy-oqc71l"
+                                                                <span class="MuiTypography-startDecorator flog-span-31"
                                                                     ><svg
                                                                         focusable="false"
                                                                         aria-hidden="true"
@@ -391,8 +402,7 @@
                                                             <p
                                                                 class="MuiTypography-root MuiTypography-body-sm joy-1e395op"
                                                             >
-                                                                <span
-                                                                    class="MuiTypography-startDecorator joy-oqc71l"
+                                                                <span class="MuiTypography-startDecorator flog-span-31"
                                                                     ><svg
                                                                         focusable="false"
                                                                         aria-hidden="true"
@@ -443,19 +453,11 @@
                                         <div class="MuiBox-root joy-1yo53pd">
                                             <span
                                                 role="progressbar"
-                                                style="
-                                                    --CircularProgress-percent: 67;
-                                                "
+                                                style="--CircularProgress-percent: 67"
                                                 class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeSm joy-oz3twp"
-                                                ><svg
-                                                    class="MuiCircularProgress-svg joy-18a5s3t"
-                                                >
-                                                    <circle
-                                                        class="MuiCircularProgress-track joy-1c73xhe"
-                                                    ></circle>
-                                                    <circle
-                                                        class="MuiCircularProgress-progress joy-skc48w"
-                                                    ></circle>
+                                                ><svg class="MuiCircularProgress-svg joy-18a5s3t">
+                                                    <circle class="MuiCircularProgress-track joy-1c73xhe"></circle>
+                                                    <circle class="MuiCircularProgress-progress joy-skc48w"></circle>
                                                 </svg>
                                             </span>
                                         </div>
@@ -476,9 +478,7 @@
                                 >
                                     <div class="e1e6st7u5 css-we1gxf e17lobue1">
                                         <div id="lottie-timer"></div>
-                                        <div
-                                            class="time-units css-hb6k3w e17lobue0"
-                                        >
+                                        <div class="time-units css-hb6k3w e17lobue0">
                                             <span id="hour">--</span>
                                             <span id="minute">--</span>
                                             <span id="second">--</span>
@@ -490,9 +490,7 @@
                                         class="MuiLink-root MuiLink-colorPrimary MuiLink-body-sm MuiLink-underlineNone joy-u5jzww"
                                         href="/@blog"
                                         ><div class="joy-h72smr">
-                                            <h2
-                                                class="MuiTypography-root MuiTypography-title-lg joy-j4zuwg"
-                                            >
+                                            <h2 class="MuiTypography-root MuiTypography-title-lg joy-j4zuwg">
                                                 포스타입 공식 채널
                                             </h2>
                                             <svg
@@ -503,7 +501,7 @@
                                                 height="24"
                                                 fill="none"
                                                 xmlns="http://www.w3.org/2000/svg"
-                                                class="MuiSvgIcon-root MuiSvgIcon-sizeMd joy-s1s0o1"
+                                                class="MuiSvgIcon-root MuiSvgIcon-sizeMd flog-svg-7"
                                             >
                                                 <path
                                                     d="M15.291 11.332a.934.934 0 0 1 0 1.325l-5.25 5.254a.937.937 0 0 1-1.324-1.324L13.303 12l-4.59-4.59a.937.937 0 0 1 1.324-1.324l5.254 5.245Z"
@@ -518,17 +516,14 @@
                                                 <a
                                                     href="/@blog/post/19114287"
                                                     class="MuiLink-root MuiLink-colorPrimary MuiLink-body-md MuiLink-underlineNone joy-151y3tr"
-                                                    ><h2
-                                                        class="MuiTypography-root MuiTypography-title-sm joy-lf9fqo"
-                                                    >
-                                                        3월 수익에 관한 가상
-                                                        출금 정보 제공 안내
+                                                    ><h2 class="MuiTypography-root MuiTypography-title-sm joy-lf9fqo">
+                                                        3월 수익에 관한 가상 출금 정보 제공 안내
                                                     </h2></a
                                                 >
                                                 <div class="joy-cboudr">
                                                     <div class="joy-loaz0u">
                                                         <div
-                                                            class="MuiAvatar-root MuiAvatar-variantSoft MuiAvatar-colorNeutral MuiAvatar-sizeXs2 joy-1fpbmdi"
+                                                            class="MuiAvatar-root MuiAvatar-variantSoft MuiAvatar-colorNeutral MuiAvatar-sizeXs2 flog-div-75"
                                                         >
                                                             <img
                                                                 alt="이용자 포스타입"
@@ -546,21 +541,17 @@
                                                             ></a
                                                         >
                                                     </div>
-                                                    <p
-                                                        class="MuiTypography-root MuiTypography-body-sm joy-zpfz47"
-                                                    >
+                                                    <p class="MuiTypography-root MuiTypography-body-sm joy-zpfz47">
                                                         4일 전
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div
-                                                class="MuiAspectRatio-root joy-1x63z2m"
-                                            >
+                                            <div class="MuiAspectRatio-root joy-1x63z2m">
                                                 <div
                                                     class="MuiAspectRatio-content MuiAspectRatio-variantSoft MuiAspectRatio-colorNeutral joy-1h16"
                                                 >
                                                     <img
-                                                        class="MuiBox-root joy-0"
+                                                        class="MuiBox-root flog-div-82"
                                                         src="https://d3mcojo3jv0dbr.cloudfront.net/2024/04/24/12/55/40be7d13128072962910900921.png?w=100&amp;h=56&amp;q=65"
                                                         alt="포스트 3월 수익에 관한 가상 출금 정보 제공 안내"
                                                         data-first-child=""
@@ -568,25 +559,20 @@
                                                 </div>
                                             </div>
                                         </article>
-                                        <hr
-                                            class="MuiDivider-root MuiDivider-horizontal joy-1txva48"
-                                        />
+                                        <hr class="MuiDivider-root MuiDivider-horizontal joy-1txva48" />
                                         <article class="joy-ht0wgf">
                                             <div class="joy-bco1gb">
                                                 <a
                                                     href="/@blog/post/19143537"
                                                     class="MuiLink-root MuiLink-colorPrimary MuiLink-body-md MuiLink-underlineNone joy-151y3tr"
-                                                    ><h2
-                                                        class="MuiTypography-root MuiTypography-title-sm joy-lf9fqo"
-                                                    >
-                                                        포스타입 프리미엄을
-                                                        출시합니다.
+                                                    ><h2 class="MuiTypography-root MuiTypography-title-sm joy-lf9fqo">
+                                                        포스타입 프리미엄을 출시합니다.
                                                     </h2></a
                                                 >
                                                 <div class="joy-cboudr">
                                                     <div class="joy-loaz0u">
                                                         <div
-                                                            class="MuiAvatar-root MuiAvatar-variantSoft MuiAvatar-colorNeutral MuiAvatar-sizeXs2 joy-1fpbmdi"
+                                                            class="MuiAvatar-root MuiAvatar-variantSoft MuiAvatar-colorNeutral MuiAvatar-sizeXs2 flog-div-75"
                                                         >
                                                             <img
                                                                 alt="이용자 포스타입"
@@ -604,21 +590,17 @@
                                                             ></a
                                                         >
                                                     </div>
-                                                    <p
-                                                        class="MuiTypography-root MuiTypography-body-sm joy-zpfz47"
-                                                    >
+                                                    <p class="MuiTypography-root MuiTypography-body-sm joy-zpfz47">
                                                         5일 전
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div
-                                                class="MuiAspectRatio-root joy-1x63z2m"
-                                            >
+                                            <div class="MuiAspectRatio-root joy-1x63z2m">
                                                 <div
                                                     class="MuiAspectRatio-content MuiAspectRatio-variantSoft MuiAspectRatio-colorNeutral joy-1h16"
                                                 >
                                                     <img
-                                                        class="MuiBox-root joy-0"
+                                                        class="MuiBox-root flog-div-82"
                                                         src="https://d3mcojo3jv0dbr.cloudfront.net/2025/04/01/09/22/90d3e79346899524472783111.png?w=100&amp;h=56&amp;q=65"
                                                         alt="포스트 포스타입 프리미엄을 출시합니다."
                                                         data-first-child=""
@@ -626,28 +608,21 @@
                                                 </div>
                                             </div>
                                         </article>
-                                        <hr
-                                            class="MuiDivider-root MuiDivider-horizontal joy-1txva48"
-                                        />
+                                        <hr class="MuiDivider-root MuiDivider-horizontal joy-1txva48" />
                                         <article class="joy-ht0wgf">
                                             <div class="joy-bco1gb">
                                                 <a
                                                     href="/@blog/post/19108440"
                                                     class="MuiLink-root MuiLink-colorPrimary MuiLink-body-md MuiLink-underlineNone joy-151y3tr"
-                                                    ><h2
-                                                        class="MuiTypography-root MuiTypography-title-sm joy-lf9fqo"
-                                                    >
-                                                        대표 이미지를 20개
-                                                        설정할 수 있고,
-                                                        에디터에서 마우스 없이
-                                                        서식을 적용할 수
-                                                        있습니다.
+                                                    ><h2 class="MuiTypography-root MuiTypography-title-sm joy-lf9fqo">
+                                                        대표 이미지를 20개 설정할 수 있고, 에디터에서 마우스 없이 서식을
+                                                        적용할 수 있습니다.
                                                     </h2></a
                                                 >
                                                 <div class="joy-cboudr">
                                                     <div class="joy-loaz0u">
                                                         <div
-                                                            class="MuiAvatar-root MuiAvatar-variantSoft MuiAvatar-colorNeutral MuiAvatar-sizeXs2 joy-1fpbmdi"
+                                                            class="MuiAvatar-root MuiAvatar-variantSoft MuiAvatar-colorNeutral MuiAvatar-sizeXs2 flog-div-75"
                                                         >
                                                             <img
                                                                 alt="이용자 포스타입"
@@ -665,21 +640,17 @@
                                                             ></a
                                                         >
                                                     </div>
-                                                    <p
-                                                        class="MuiTypography-root MuiTypography-body-sm joy-zpfz47"
-                                                    >
+                                                    <p class="MuiTypography-root MuiTypography-body-sm joy-zpfz47">
                                                         2025. 3. 27.
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div
-                                                class="MuiAspectRatio-root joy-1x63z2m"
-                                            >
+                                            <div class="MuiAspectRatio-root joy-1x63z2m">
                                                 <div
                                                     class="MuiAspectRatio-content MuiAspectRatio-variantSoft MuiAspectRatio-colorNeutral joy-1h16"
                                                 >
                                                     <img
-                                                        class="MuiBox-root joy-0"
+                                                        class="MuiBox-root flog-div-82"
                                                         src="https://d3mcojo3jv0dbr.cloudfront.net/2024/04/24/12/55/40be7d13128072962910900921.png?w=100&amp;h=56&amp;q=65"
                                                         alt="포스트 대표 이미지를 20개 설정할 수 있고, 에디터에서 마우스 없이 서식을 적용할 수 있습니다."
                                                         data-first-child=""
@@ -687,25 +658,20 @@
                                                 </div>
                                             </div>
                                         </article>
-                                        <hr
-                                            class="MuiDivider-root MuiDivider-horizontal joy-1txva48"
-                                        />
+                                        <hr class="MuiDivider-root MuiDivider-horizontal joy-1txva48" />
                                         <article class="joy-ht0wgf">
                                             <div class="joy-bco1gb">
                                                 <a
                                                     href="/@blog/post/19102478"
                                                     class="MuiLink-root MuiLink-colorPrimary MuiLink-body-md MuiLink-underlineNone joy-151y3tr"
-                                                    ><h2
-                                                        class="MuiTypography-root MuiTypography-title-sm joy-lf9fqo"
-                                                    >
-                                                        지금 리퀘스트를 신청하면
-                                                        1,000P를 드려요!
+                                                    ><h2 class="MuiTypography-root MuiTypography-title-sm joy-lf9fqo">
+                                                        지금 리퀘스트를 신청하면 1,000P를 드려요!
                                                     </h2></a
                                                 >
                                                 <div class="joy-cboudr">
                                                     <div class="joy-loaz0u">
                                                         <div
-                                                            class="MuiAvatar-root MuiAvatar-variantSoft MuiAvatar-colorNeutral MuiAvatar-sizeXs2 joy-1fpbmdi"
+                                                            class="MuiAvatar-root MuiAvatar-variantSoft MuiAvatar-colorNeutral MuiAvatar-sizeXs2 flog-div-75"
                                                         >
                                                             <img
                                                                 alt="이용자 포스타입"
@@ -723,21 +689,17 @@
                                                             ></a
                                                         >
                                                     </div>
-                                                    <p
-                                                        class="MuiTypography-root MuiTypography-body-sm joy-zpfz47"
-                                                    >
+                                                    <p class="MuiTypography-root MuiTypography-body-sm joy-zpfz47">
                                                         2025. 3. 26.
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div
-                                                class="MuiAspectRatio-root joy-1x63z2m"
-                                            >
+                                            <div class="MuiAspectRatio-root joy-1x63z2m">
                                                 <div
                                                     class="MuiAspectRatio-content MuiAspectRatio-variantSoft MuiAspectRatio-colorNeutral joy-1h16"
                                                 >
                                                     <img
-                                                        class="MuiBox-root joy-0"
+                                                        class="MuiBox-root flog-div-82"
                                                         src="https://d3mcojo3jv0dbr.cloudfront.net/2025/03/26/16/06/6fe8a010988068916321789154.png?w=100&amp;h=56&amp;q=65"
                                                         alt="포스트 지금 리퀘스트를 신청하면 1,000P를 드려요!"
                                                         data-first-child=""
@@ -760,12 +722,9 @@
                 fetch("../main/footer.html")
                     .then((response) => response.text())
                     .then((data) => {
-                        document.getElementById("footer-container").innerHTML =
-                            data;
+                        document.getElementById("footer-container").innerHTML = data;
                     })
-                    .catch((error) =>
-                        console.error("Error loading footer:", error)
-                    );
+                    .catch((error) => console.error("Error loading footer:", error));
             </script>
             <!-- footer 넣을 곳 -->
         </div>

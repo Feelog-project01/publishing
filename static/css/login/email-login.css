@@ -202,6 +202,27 @@ body {
     height: 18px;
     color: black;
 }
+.flog-div-37 .flog-a-15 {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.flog-div-37 .flog-a-15:hover {
+    background-color: #333333;
+    border-color: #333333;
+    color: #ffffff;
+    transform: scale(1.05);
+}
 @media (min-width: 0px) {
     .flog-div-37 {
         display: none;
@@ -288,11 +309,13 @@ body {
 }
 @media (min-width: 0px) {
     .flog-div-46 {
-        max-width: 100%;
+        margin-left: -50px;
+        max-width: 320px;
     }
 }
 @media (min-width: 744px) {
     .flog-div-46 {
+        margin-left: 0px;
         max-width: 320px;
     }
 }
@@ -392,55 +415,6 @@ body {
     margin: calc(1px * -1);
     box-shadow: #3478ff;
 }
-.joy-f7n8og.FeelogInput-sizeMd {
-    --Input-minHeight: 40px;
-}
-.joy-f7n8og:not([data-skip-inverted-colors]) {
-    --_Input-focusedHighlight: #e74c3c;
-    --Input-focusedHighlight: #e74c3c;
-}
-.joy-f7n8og {
-    --Input-radius: 8px;
-    --Input-gap: 0.5rem;
-    --Input-decoratorColor: #76767f;
-    --Input-focused: 0;
-    --Input-focusedHighlight: #e74c3c;
-    --Input-minHeight: 2.25rem;
-    --Input-paddingInline: 0.75rem;
-    --Input-decoratorChildHeight: min(1.75rem, 2.25rem);
-    --Icon-fontSize: 24px;
-    --Input-decoratorChildOffset: min(calc(0.75rem - (2.25rem - 2 * 1px - 1.75rem) / 2), 0.75rem);
-    --_Input-paddingBlock: max((2.25rem - 2 * 1px - 1.75rem) / 2, 0px);
-    --Input-decoratorChildRadius: max(
-        8px - 1px - var(--_Input-paddingBlock),
-        min(var(--_Input-paddingBlock) + 1px, 8px / 2)
-    );
-    --Button-minHeight: 1.75rem;
-    --Button-paddingBlock: 0px;
-    --IconButton-size: 1.75rem;
-    --Button-radius: var(--Input-decoratorChildRadius);
-    --IconButton-radius: var(--Input-decoratorChildRadius);
-    box-sizing: border-box;
-    min-width: 0px;
-    min-height: 2.25rem;
-    cursor: text;
-    position: relative;
-    display: flex;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #e74c3c;
-    font-weight: 400;
-    --variant-borderWidth: 1px;
-    background-color: #f9f9fa;
-    box-shadow: none;
-    --Input-focusedThickness: 1px;
-    --Input-placeholderColor: #a4a4a8;
-    --Input-placeholderOpacity: 1;
-    padding-inline: 0.75rem;
-    border-radius: 8px;
-    border-color: #f1948a;
-}
 .flog-input-1 {
     border: none;
     min-width: 0px;
@@ -494,7 +468,7 @@ body {
     padding-inline: 0.25rem;
     -webkit-tap-highlight-color: transparent;
     padding-block: 0px;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; /* joy-fontFamily-body */
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-weight: 500;
     margin: auto;
     border-radius: 8px;
@@ -538,18 +512,6 @@ body {
     line-height: 1.42858;
     color: #a4a4a8;
     margin: 0px;
-}
-.joy-1821gv5 {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-.joy-ui1oji {
-    display: flex;
-    gap: 4px;
-    flex-direction: row;
-    -webkit-box-align: center;
-    align-items: center;
 }
 .flog-span-6 {
     font-size: 12px;
@@ -606,24 +568,8 @@ body {
     line-height: 1rem;
     color: #202022;
 }
-.joy-1g74u8a {
-    --Icon-fontSize: calc(1em * 1);
-    margin: var(--Typography-margin, 0px);
-    display: inline;
-    font-size: var(--Typography-fontSize, inherit);
-}
 .flog-span-6 ~ * {
     --FormHelperText-margin: 0 0 0 1.5rem;
-}
-.joy-1ago8wr {
-    margin: 0px;
-    display: block;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-size: 12px;
-    line-height: 1.5;
-    color: #202022;
-    font-weight: 400;
-    text-decoration: underline;
 }
 .flog-div-53 {
     margin-top: 30px;

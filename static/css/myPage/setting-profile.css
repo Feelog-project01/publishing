@@ -380,7 +380,7 @@ body {
         display: flex;
     }
 }
-.joy-1ejuko2 {
+.flog-span-15 {
     min-height: 1.25rem;
     padding-inline: 0.375rem;
     position: relative;
@@ -389,7 +389,7 @@ body {
     flex-shrink: 0;
     box-shadow: 0 0 0 0px #f2f2f3;
 }
-.joy-13y1pdr {
+.flog-span-16 {
     color: currentColor;
     font-size: calc(1em * 1.5);
     display: inline-flex;
@@ -602,7 +602,7 @@ body {
     appearance: none;
     position: relative;
 }
-.joy-p6k0bu {
+.flog-span-18 {
     color: currentColor;
     font-size: calc(1em * 1.5);
     display: inline-flex;
@@ -679,7 +679,7 @@ body {
 @media (min-width: 744px) {
     .flog-nav-2 {
         min-height: 56px;
-        top: 88px;
+        top: 56px;
     }
 }
 .flog-ul-1 {
@@ -802,7 +802,7 @@ body {
 }
 @media (min-width: 744px) {
     .flog-a-7 {
-        height: 56px;
+        height: 60px;
     }
 }
 .flog-a-7:not([hidden]) {
@@ -821,7 +821,7 @@ body {
     white-space: nowrap;
 }
 /* 2단 헤더 여기까지 */
-.joy-1v7lmb8 {
+.flog-main-5 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -838,7 +838,7 @@ body {
     -ms-flex: 1;
     flex: 1;
 }
-.joy-bxjwt6 {
+.flog-form-3 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -850,18 +850,20 @@ body {
     max-width: 640px;
 }
 @media (min-width: 0px) {
-    .joy-bxjwt6 {
+    .flog-form-3 {
+        width: 360px;
         gap: 32px;
-        padding: 20px 16px 64px;
+        padding-top: 80px;
     }
 }
 @media (min-width: 744px) {
-    .joy-bxjwt6 {
+    .flog-form-3 {
+        width: 100%;
         gap: 40px;
-        padding: 40px 0 64px;
+        padding-top: 90px;
     }
 }
-.joy-1f2qzn3 {
+.flog-form-1 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -881,7 +883,7 @@ body {
     flex-direction: column;
     gap: 10px;
 }
-.joy-qd6aj {
+.flog-label-3 {
     font-size: calc(1.25 * 1em);
     -webkit-tap-highlight-color: transparent;
     align-self: flex-start;
@@ -897,7 +899,7 @@ body {
     color: #202022;
     margin: 0px;
 }
-.joy-149sczi {
+.flog-div-114 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -911,7 +913,7 @@ body {
     align-items: center;
     gap: 16px;
 }
-.joy-1sliaen {
+.flog-div-115 {
     width: 96px;
     height: 96px;
     position: relative;
@@ -919,7 +921,7 @@ body {
 .flog-div-59 {
     position: relative;
 }
-.joy-10p5ki6 {
+.flog-div-116 {
     margin-inline-start: 0px;
     box-shadow: none;
     position: relative;
@@ -942,7 +944,7 @@ body {
     height: 100%;
     overflow: hidden;
 }
-.joy-1ot4wts {
+.flog-div-117 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -957,7 +959,7 @@ body {
     flex: 1;
     min-width: 0;
 }
-.joy-3038fr {
+.flog-div-80 {
     background-color: #ffffff;
     position: relative;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
@@ -974,7 +976,7 @@ body {
     border-radius: 8px;
     overflow: hidden;
 }
-.joy-1dfw2up {
+.flog-p-17 {
     font-size: calc(1em * 1.5);
     margin: 0px;
     display: block;
@@ -990,7 +992,7 @@ body {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
 }
-.joy-cqqedx {
+.flog-button-14 {
     margin: initial;
     color: #202022;
     font-size: 14px;
@@ -1015,15 +1017,15 @@ body {
     border-right: none;
     flex-shrink: 0;
 }
-.joy-cqqedx.FeelogButton-sizeMd {
+.flog-button-14.FeelogButton-sizeMd {
     min-height: 40px;
     font-size: 16px;
 }
 
-.joy-1ot4wts > .FeelogStack-root:last-child {
+.flog-div-117 > .FeelogStack-root:last-child {
     width: 100%;
 }
-.joy-1buwhie {
+.flog-div-81 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1042,7 +1044,7 @@ body {
     font-weight: 400;
 }
 .flog-div-49 {
-    width: 645px;
+    width: 100%;
     margin: 0.5rem 0;
     align-self: flex-start;
     color: #d32f2f;
@@ -1055,26 +1057,10 @@ body {
     font-size: 14px;
     line-height: 125%;
 }
-.joy-qd6aj {
-    font-size: calc(1.25 * 1em);
-    -webkit-tap-highlight-color: transparent;
-    align-self: flex-start;
-    display: flex;
-    gap: 2px;
-    align-items: center;
-    flex-wrap: wrap;
-    user-select: none;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.5;
-    color: #202022;
-    margin: 0px;
-}
-.joy-1d2ou3v {
+.flog-label-4 {
     color: #3478ff;
 }
-.joy-128w9vm {
+.flog-div-83 {
     border-radius: 8px;
     box-sizing: border-box;
     box-shadow: none;
@@ -1092,10 +1078,10 @@ body {
     border: 1px solid #dadadc;
     background-color: #ffffff;
 }
-.joy-128w9vm:not([data-skip-inverted-colors]) {
+.flog-div-83:not([data-skip-inverted-colors]) {
     border-color: #dadadc;
 }
-.joy-128w9vm.FeelogInput-sizeMd {
+.flog-div-83.FeelogInput-sizeMd {
     min-height: 40px;
 }
 .flog-input-1 {
@@ -1126,7 +1112,7 @@ body {
     color: #a4a4a8;
     margin: 0px;
 }
-.joy-1bm8vhn {
+.flog-div-118 {
     border-radius: 8px;
     box-sizing: border-box;
     box-shadow: none;
@@ -1146,30 +1132,13 @@ body {
     border: 1px solid #dadadc;
     background-color: #f2f2f3;
 }
-.joy-1bm8vhn:not([data-inverted-colors="false"]) {
+.flog-div-118:not([data-inverted-colors="false"]) {
     border-color: #dadadc;
 }
-.joy-1bm8vhn.FeelogTextarea-variantOutlined {
+.flog-div-118.FeelogTextarea-variantOutlined {
     background-color: transparent;
 }
-.joy-1qmqn4r {
-    resize: none;
-    border: none;
-    min-width: 0;
-    outline: 0;
-    padding: 0;
-    padding-inline-end: 0.75rem;
-    flex: auto;
-    align-self: stretch;
-    color: inherit;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-style: inherit;
-    font-weight: inherit;
-    line-height: inherit;
-}
-.joy-1qmqn4r {
+.flog-textarea-1 {
     resize: none;
     border: none;
     min-width: 0;
@@ -1197,7 +1166,7 @@ body {
     color: #a4a4a8;
     margin: 0px;
 }
-.joy-1bvc4cc {
+.flog-div-119 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1235,14 +1204,14 @@ body {
 }
 
 /* hover */
-.joy-cqqedx:hover {
+.flog-button-14:hover {
     background-color: #e0e0e2; /* 기존 색상보다 살짝 더 진한 색 */
     color: #1a1a1d; /* 글자 색상도 조금 더 진하게 설정 */
 }
 
 /* 포커스 일 때 파란색 */
-.joy-128w9vm.Feelog-focused,
-.joy-1bm8vhn.Feelog-focused {
+.flog-div-83.Feelog-focused,
+.flog-div-118.Feelog-focused {
     border-color: #3478ff;
 }
 

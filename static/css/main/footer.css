@@ -5,7 +5,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 body {
@@ -37,7 +37,7 @@ body {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    background-color: #F9F9FA;
+    background-color: #f9f9fa;
 }
 
 @media (min-width: 1132px) {
@@ -79,11 +79,15 @@ body {
     margin-left: -8px;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
-*, ::before, ::after {
+*,
+::before,
+::after {
     box-sizing: inherit;
 }
 
@@ -103,15 +107,15 @@ div {
     gap: 12px;
 }
 
-.joy-14llzfj.MuiIconButton-sizeMd {
+.footer-button-18.MuiIconButton-sizeMd {
     --Icon-fontSize: calc(40px / 1.667); /* ≈ 24px */
     min-width: 40px;
     min-height: 40px;
 }
 
-.joy-14llzfj {
+.footer-button-18 {
     --Icon-margin: initial;
-    --Icon-color: #76767F;
+    --Icon-color: #76767f;
     --IconButton-size: 40px;
     --Icon-fontSize: calc(40px / 1.5); /* ≈ 26.67px */
     --CircularProgress-size: 20px;
@@ -166,7 +170,7 @@ div {
 
 .joy-43f1ij {
     --Icon-margin: initial;
-    --Icon-color: #76767F;
+    --Icon-color: #76767f;
     --Icon-fontSize: 18px;
     --CircularProgress-size: 20px;
     --CircularProgress-thickness: 2px;
@@ -193,7 +197,7 @@ div {
     --variant-borderWidth: 1px;
     color: #202022;
     border: 1px solid;
-    border-color: #DADADC;
+    border-color: #dadadc;
 }
 
 .joy-w2e6ki {
@@ -263,7 +267,7 @@ div {
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 14px;
     line-height: 1.5;
-    color: #76767F;
+    color: #76767f;
     font-weight: 400;
     -webkit-text-decoration: none;
     text-decoration: none;
@@ -314,7 +318,7 @@ div {
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 14px;
     line-height: 1.5;
-    color: #76767F;
+    color: #76767f;
     font-weight: 600;
     -webkit-text-decoration: none;
     text-decoration: none;
@@ -362,7 +366,7 @@ div {
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 14px;
     line-height: 1.5;
-    color: #76767F;
+    color: #76767f;
     font-weight: 600;
 }
 
@@ -388,7 +392,7 @@ div {
 
 .joy-1cu2i4e {
     --Icon-margin: initial;
-    --Icon-color: #76767F;
+    --Icon-color: #76767f;
     --Icon-fontSize: 18px;
     --CircularProgress-size: 20px;
     --CircularProgress-thickness: 2px;
@@ -415,7 +419,7 @@ div {
     --variant-borderWidth: 1px;
     color: #202022;
     border: 1px solid;
-    border-color: #DADADC;
+    border-color: #dadadc;
     width: 100%;
     padding: 12px;
     margin-top: 24px;
@@ -501,7 +505,7 @@ div {
     flex-wrap: wrap;
 }
 
-.joy-9nvto4 {
+.flog-p-19 {
     --Icon-fontSize: calc(1em * 1.5);
     margin: 0px;
     display: block;
@@ -509,7 +513,7 @@ div {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.5;
-    color: #76767F;
+    color: #76767f;
 }
 
 @media (min-width: 744px) {
@@ -532,88 +536,5 @@ div {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.5;
-    color: #76767F;
+    color: #76767f;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

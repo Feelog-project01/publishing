@@ -9,13 +9,10 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
     background-color: #ffffff;
-    /* padding-top: env(safe-area-inset-top);
-    padding-bottom: env(safe-area-inset-bottom); */
 }
 body {
     margin: 0;
     color: #202022;
-    /* font-family: ; */
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
@@ -358,7 +355,7 @@ body {
         display: flex;
     }
 }
-.joy-1ejuko2 {
+.flog-span-15 {
     min-height: 1.25rem;
     padding-inline: 0.375rem;
     position: relative;
@@ -367,7 +364,7 @@ body {
     flex-shrink: 0;
     box-shadow: 0 0 0 0px #f2f2f3;
 }
-.joy-13y1pdr {
+.flog-span-16 {
     color: currentColor;
     font-size: calc(1em * 1.5);
     display: inline-flex;
@@ -580,7 +577,7 @@ body {
     appearance: none;
     position: relative;
 }
-.joy-p6k0bu {
+.flog-span-18 {
     color: currentColor;
     font-size: calc(1em * 1.5);
     display: inline-flex;
@@ -659,7 +656,7 @@ body {
 @media (min-width: 744px) {
     .flog-nav-2 {
         min-height: 56px;
-        top: 88px;
+        top: 56px;
     }
 }
 .flog-ul-1 {
@@ -992,12 +989,16 @@ body {
 }
 @media (min-width: 0px) {
     .flog-div-16 {
+        width: 360px;
+        margin-top: 40px;
         padding-left: 16px;
         padding-right: 16px;
     }
 }
 @media (min-width: 744px) {
     .flog-div-16 {
+        width: 100%;
+        margin-top: 40px;
         padding-left: 0;
         padding-right: 0;
     }
@@ -1147,17 +1148,17 @@ body {
 
     /* Typography & Layout */
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-size: 16px; /* Assuming --joy-fontSize-md equals 16px */
-    line-height: 1.5; /* Assuming --joy-lineHeight-md equals 1.5 */
-    color: #1976d2; /* Fallback for var(--variant-plainColor, rgba(...)) using a common primary blue */
-    font-weight: 400; /* Assuming --joy-fontWeight-sm equals 400 */
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1976d2;
+    font-weight: 400;
 
     /* Text Decorations */
     -webkit-text-decoration: none;
     text-decoration: none;
     text-decoration-thickness: max(0.08em, 1px);
     text-underline-offset: 0.15em;
-    text-decoration-color: currentcolor; /* The final declaration overrides earlier values */
+    text-decoration-color: currentcolor;
 
     /* Box Model & Display */
     display: inline-flex;
@@ -1167,7 +1168,7 @@ body {
     outline: 0;
     border: 0;
     margin: 0;
-    border-radius: 4px; /* Assuming --joy-radius-xs equals 4px */
+    border-radius: 4px;
     padding: 0;
 
     /* Interaction */
@@ -1188,7 +1189,7 @@ body {
 
     /* 텍스트 관련(내부 아이콘을 위한) */
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-weight: 600; /* --joy-fontWeight-lg의 가정값 */
+    font-weight: 600;
     font-size: calc(var(--Avatar-size) * 0.4); /* 40px * 0.4 = 16px */
     line-height: 1;
     /* softColor fallback: 여기선 진한 회색(#202022)으로 가정 */

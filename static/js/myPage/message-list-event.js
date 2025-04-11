@@ -33,36 +33,36 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // 모달창 메세지 입력창 focus 이벤트
-    document.querySelector(".joy-1qmqn4r").addEventListener("focus", (e) => {
-        document.querySelector(".joy-spcbp9").classList.add("Feelog-focused");
+    document.querySelector(".flog-textarea-1").addEventListener("focus", (e) => {
+        document.querySelector(".flog-div-107").classList.add("Feelog-focused");
     });
-    document.querySelector(".joy-1qmqn4r").addEventListener("blur", (e) => {
-        document.querySelector(".joy-spcbp9").classList.remove("Feelog-focused");
+    document.querySelector(".flog-textarea-1").addEventListener("blur", (e) => {
+        document.querySelector(".flog-div-107").classList.remove("Feelog-focused");
     });
 
     // 모달창 메세지 입력창 입력 이벤트
-    document.querySelector("textarea.joy-1qmqn4r").addEventListener("input", () => {
-        if (document.querySelector("textarea.joy-1qmqn4r").value.trim().length > 0) {
+    document.querySelector("textarea.flog-textarea-1").addEventListener("input", () => {
+        if (document.querySelector("textarea.flog-textarea-1").value.trim().length > 0) {
             // 글자가 있으면 버튼 활성화
-            document.querySelector("button.joy-ut6eac").classList.remove("Feelog-disabled");
-            document.querySelector("button.joy-ut6eac").removeAttribute("disabled");
+            document.querySelector("button.flog-button-22").classList.remove("Feelog-disabled");
+            document.querySelector("button.flog-button-22").removeAttribute("disabled");
         } else {
             // 글자가 없으면 버튼 비활성화
-            document.querySelector("button.joy-ut6eac").classList.add("Feelog-disabled");
-            document.querySelector("button.joy-ut6eac").setAttribute("disabled", "");
+            document.querySelector("button.flog-button-22").classList.add("Feelog-disabled");
+            document.querySelector("button.flog-button-22").setAttribute("disabled", "");
         }
     });
 
     // 입력 버튼 클릭시 이벤트 :: 서버 갔다 온 이후 동작으로 수정
-    document.querySelector(".joy-18i8jzi").addEventListener("click", (e) => {
+    document.querySelector(".flog-div-108").addEventListener("click", (e) => {
         // 새로 생성된 말풍선 만들기
         const speechBubble = document.createElement("div");
-        speechBubble.classList.add("FeelogStack-root", "joy-1udr1jv");
+        speechBubble.classList.add("FeelogStack-root", "flog-div-98");
         speechBubble.innerHTML = `
-            <div class="FeelogStack-root joy-1y9kyp6">
-                <div class="FeelogStack-root joy-e6pf26">
+            <div class="FeelogStack-root flog-div-99">
+                <div class="FeelogStack-root flog-div-100">
                     <button
-                        class="FeelogIconButton-root FeelogIconButton-variantPlain FeelogIconButton-colorNeutral FeelogIconButton-sizeSm joy-ozngwz  delete-button"
+                        class="FeelogIconButton-root FeelogIconButton-variantPlain FeelogIconButton-colorNeutral FeelogIconButton-sizeSm flog-button-20  delete-button"
                         type="button"
                     >
                         <svg
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             height="24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
-                            class="FeelogSvgIcon-root FeelogSvgIcon-sizeMd joy-s1s0o1"
+                            class="FeelogSvgIcon-root FeelogSvgIcon-sizeMd flog-svg-7"
                         >
                             <path
                                 d="M10.168 3.875h3.66a.31.31 0 0 1 .262.14l.742 1.11H9.168l.742-1.11a.319.319 0 0 1 .262-.14h-.004Zm6.918 1.25-1.434-2.152A2.196 2.196 0 0 0 13.832 2h-3.664c-.73 0-1.414.367-1.82.973L6.914 5.125H4.187a.935.935 0 0 0-.937.938c0 .519.418.937.938.937h.453l.937 12.684A2.502 2.502 0 0 0 8.07 22h7.86a2.502 2.502 0 0 0 2.492-2.316L19.359 7h.453c.52 0 .938-.418.938-.938a.935.935 0 0 0-.938-.937h-2.726ZM17.48 7l-.93 12.547a.624.624 0 0 1-.625.578H8.07a.63.63 0 0 1-.625-.578L6.52 7h10.96Z"
@@ -81,16 +81,16 @@ document.addEventListener("DOMContentLoaded", () => {
                             ></path>
                         </svg>
                     </button>
-                    <div class="FeelogBox-root joy-3diwkv">
-                        <span class="FeelogTypography-root FeelogTypography-body-md joy-1kp8wdt">${
-                            document.querySelector("textarea.joy-1qmqn4r").value
+                    <div class="FeelogBox-root flog-div-101">
+                        <span class="FeelogTypography-root FeelogTypography-body-md flog-span-21">${
+                            document.querySelector("textarea.flog-textarea-1").value
                         }</span>
                     </div>
                 </div>
-                 <p class="FeelogTypography-root FeelogTypography-body-xs joy-9nvto4">2025. 4. 2. 15:28</p>
+                 <p class="FeelogTypography-root FeelogTypography-body-xs flog-p-19">2025. 4. 2. 15:28</p>
             </div>`;
         // 새로 생성된 말풍선 삽입
-        document.querySelector(".joy-1fptnyw").appendChild(speechBubble);
+        document.querySelector(".flog-div-95").appendChild(speechBubble);
     });
 
     document.body.addEventListener("click", (e) => {
@@ -214,12 +214,12 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         // 케밥 메뉴 클릭 이벤트 :: 메세지 차단, 대화방 삭제
-        if (e.target.closest(".joy-14llzfj")) {
+        if (e.target.closest(".flog-button-18")) {
             e.preventDefault();
 
-            if (e.target.closest(".joy-14llzfj").classList.contains("expanded")) {
-                document.querySelector(".joy-1pphr02").remove();
-                e.target.closest(".joy-14llzfj").classList.remove("expanded");
+            if (e.target.closest(".flog-button-18").classList.contains("expanded")) {
+                document.querySelector(".flog-ul-2").remove();
+                e.target.closest(".flog-button-18").classList.remove("expanded");
                 return;
             }
 
@@ -230,12 +230,9 @@ document.addEventListener("DOMContentLoaded", () => {
             menuElement.setAttribute("id", ":r19:");
             menuElement.setAttribute(
                 "class",
-                "base-Popper-root FeelogMenu-root Feelog-expanded FeelogMenu-variantPlain FeelogMenu-colorNeutral FeelogMenu-sizeMd joy-1pphr02"
+                "base-Popper-root FeelogMenu-root Feelog-expanded FeelogMenu-variantPlain FeelogMenu-colorNeutral FeelogMenu-sizeMd flog-ul-2"
             );
-            menuElement.setAttribute(
-                "style",
-                "position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(-270px, 101px);"
-            );
+            menuElement.setAttribute("style", "position: absolute; inset: 0px 0px auto auto; margin: 0px; ");
             menuElement.setAttribute("data-popper-placement", "bottom-end");
             menuElement.innerHTML = `
                 <li
@@ -243,7 +240,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     id=":r79:"
                     role="menuitem"
                     data-first-child=""
-                    class="FeelogMenuItem-root FeelogMenuItem-colorNeutral FeelogMenuItem-variantPlain joy-ax57yv"
+                    class="FeelogMenuItem-root FeelogMenuItem-colorNeutral FeelogMenuItem-variantPlain flog-li-1"
                 >
                     메시지 차단
                 </li>
@@ -252,23 +249,23 @@ document.addEventListener("DOMContentLoaded", () => {
                     id=":r7b:"
                     role="menuitem"
                     data-last-child=""
-                    class="FeelogMenuItem-root FeelogMenuItem-colorNeutral FeelogMenuItem-variantPlain joy-16nydwy"
+                    class="FeelogMenuItem-root FeelogMenuItem-colorNeutral FeelogMenuItem-variantPlain flog-li-2"
                 >
                     대화방 삭제
                 </li>`;
 
             // 메세지 차단, 대화방 삭제 모달창 삽입
             document.body.appendChild(menuElement);
-            e.target.closest(".joy-14llzfj").classList.add("expanded");
+            e.target.closest(".flog-button-18").classList.add("expanded");
         }
 
         // 메세지 차단 클릭 이벤트
-        if (e.target.classList.contains("joy-ax57yv")) {
+        if (e.target.classList.contains("flog-li-1")) {
             e.preventDefault();
 
             // 케밥 메뉴 삭제
-            document.querySelector(".joy-1pphr02").remove();
-            document.querySelector(".joy-14llzfj").classList.remove("expanded");
+            document.querySelector(".flog-ul-2").remove();
+            document.querySelector(".flog-button-18").classList.remove("expanded");
 
             // 확인 모달창 생성
             conformModal = document.createElement("div");
@@ -327,12 +324,12 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         // 대화방 삭제 클릭 이벤트
-        if (e.target.classList.contains("joy-16nydwy")) {
+        if (e.target.classList.contains("flog-li-2")) {
             e.preventDefault();
 
             // 케밥 메뉴 삭제
-            document.querySelector(".joy-1pphr02").remove();
-            document.querySelector(".joy-14llzfj").classList.remove("expanded");
+            document.querySelector(".flog-ul-2").remove();
+            document.querySelector(".flog-button-18").classList.remove("expanded");
 
             // 확인 모달창 생성
             conformModal = document.createElement("div");
@@ -390,13 +387,23 @@ document.addEventListener("DOMContentLoaded", () => {
             document.body.appendChild(conformModal);
         }
 
-        // 모달창의 네, 아니요, x 버튼 클릭시  이벤트 :: 모달창 삭제
-        if (e.target.closest(".flog-svg-6") || e.target.closest(".flog-div-44")) {
+        // 모달창(메세지창 포함) 의 네, 아니요, x 버튼 클릭시  이벤트  :: 모달창 삭제
+        if (
+            e.target.closest(".flog-svg-6") ||
+            e.target.closest(".flog-div-44") ||
+            e.target.closest(".flog-button-17")
+        ) {
             // 클릭된 모달화면 전체 삭제
             if (e.target.closest(".FeelogModal-root.flog-div-40").style.display) {
                 document.querySelector(".FeelogModal-root.flog-div-40").style.display = "none";
             } else {
                 e.target.closest(".FeelogModal-root.flog-div-40").remove();
+            }
+
+            // 열려있는 케밥 메뉴 삭제
+            if (document.querySelector(".flog-ul-2")) {
+                document.querySelector(".flog-ul-2").remove();
+                document.querySelector(".flog-button-18").classList.remove("expanded");
             }
         }
 

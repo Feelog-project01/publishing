@@ -295,7 +295,7 @@ body {
     color: #202022;
 }
 
-.joy-oklso3 {
+.flog-button-19 {
     --Icon-margin: initial;
     --Icon-color: #666666;
     --Icon-fontSize: calc(36px / 1.5);
@@ -330,12 +330,12 @@ body {
     right: 0px;
 }
 @media (min-width: 0px) {
-    .joy-oklso3 {
+    .flog-button-19 {
         display: none;
     }
 }
 @media (min-width: 744px) {
-    .joy-oklso3 {
+    .flog-button-19 {
         display: flex;
     }
 }
@@ -406,7 +406,7 @@ body {
         display: flex;
     }
 }
-.joy-1ejuko2 {
+.flog-span-15 {
     min-height: 1.25rem;
     padding-inline: 0.375rem;
     position: relative;
@@ -415,7 +415,7 @@ body {
     flex-shrink: 0;
     box-shadow: 0 0 0 0px #f2f2f3;
 }
-.joy-13y1pdr {
+.flog-span-16 {
     color: currentColor;
     font-size: calc(1em * 1.5);
     display: inline-flex;
@@ -574,7 +574,7 @@ body {
     color: transparent;
     text-indent: 10000px;
 }
-.joy-1wgv3md {
+.flog-p-18 {
     --Icon-fontSize: calc(1em * 1.5);
     margin: 0px;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
@@ -588,14 +588,14 @@ body {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
 }
-.joy-1j6tmez {
+.flog-div-93 {
     display: flex;
     flex-direction: row;
     -webkit-box-align: center;
     align-items: center;
     gap: 8px;
 }
-.joy-14llzfj {
+.flog-button-18 {
     --Icon-margin: initial;
     --Icon-color: #666666;
     --IconButton-size: 36px;
@@ -625,7 +625,7 @@ body {
     --variant-borderWidth: 0px;
     color: #333333;
 }
-.joy-14llzfj.FeelogIconButton-sizeMd {
+.flog-button-18.FeelogIconButton-sizeMd {
     --Icon-fontSize: calc(40px / 1.667);
     min-width: 40px;
     min-height: 40px;
@@ -685,7 +685,7 @@ body {
     appearance: none;
     position: relative;
 }
-.joy-p6k0bu {
+.flog-span-18 {
     color: currentColor;
     font-size: calc(1em * 1.5);
     display: inline-flex;
@@ -764,7 +764,7 @@ body {
 @media (min-width: 744px) {
     .flog-nav-2 {
         min-height: 56px;
-        top: 88px;
+        top: 56px;
     }
 }
 .flog-ul-1 {
@@ -992,6 +992,20 @@ body {
     width: 100%;
     max-width: 640px;
 }
+@media (min-width: 0px) {
+    .flog-div-69 {
+        width : 360px;
+        margin-top: 60px;
+        padding-inline: 16px;
+    }
+}
+@media (min-width: 744px) {
+    .flog-div-69 {
+        width: 100%;
+        margin-top: 60px;
+        padding-inline: 24px;
+    }
+}
 .flog-div-20 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1001,7 +1015,7 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
 }
-.joy-km35io {
+.flog-button-16 {
     --Icon-fontSize: 1.25em;
     --Icon-color: currentColor;
     --CircularProgress-size: 1.25em;
@@ -1087,7 +1101,7 @@ body {
     height: 48px;
     --Avatar-size: 48px;
 }
-.joy-m4qvi5 {
+.flog-div-87 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1098,7 +1112,7 @@ body {
     gap: 2px;
     width: 100%;
 }
-.joy-1xojswp {
+.flog-div-88 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1111,7 +1125,7 @@ body {
     -webkit-justify-content: space-between;
     justify-content: space-between;
 }
-.joy-1vpjpt8 {
+.flog-span-14 {
     --Icon-fontSize: calc(1em * 1.5);
     margin: 0px;
     display: inline;
@@ -1126,7 +1140,7 @@ body {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
 }
-.joy-ybx592 {
+.flog-span-19 {
     --Icon-fontSize: calc(1em * 1.5);
     margin: 0px;
     display: inline;
@@ -1137,7 +1151,7 @@ body {
     color: #b3b3b3;
     white-space: nowrap;
 }
-.joy-1tafbme {
+.flog-div-89 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1154,7 +1168,7 @@ body {
     -ms-flex-align: flex-start;
     align-items: flex-start;
 }
-.joy-1vora7y {
+.flog-span-20 {
     --Icon-fontSize: calc(1em * 1.5);
     margin: 0px;
     display: inline;
@@ -1259,7 +1273,7 @@ body {
 }
 
 /* 목록 hover */
-.joy-km35io:hover {
+.flog-button-16:hover {
     background-color: #e0e0e2; /* 기존 색상보다 살짝 더 진한 색 */
     color: #1a1a1d; /* 글자 색상도 조금 더 진하게 설정 */
 }
@@ -1282,7 +1296,7 @@ body {
     backdrop-filter: none;
     animation: 0.2s ease-in-out 0s 1 normal forwards running animation-os2n7p;
 }
-.joy-l3kvea {
+.flog-div-90 {
     --Icon-color: #666666;
     --Card-childRadius: max((8px - 1px) - 0px, min(0px / 2, (8px - 1px) / 2));
     --AspectRatio-radius: max((8px - 1px) - 0px, min(0px / 2, (8px - 1px) / 2));
@@ -1320,21 +1334,27 @@ body {
     padding: 0px !important;
 }
 @media (min-width: 0px) {
-    .joy-l3kvea {
-        height: 100%;
+    .flog-div-90 {
+        margin-left: -10px;
+        margin-top: 10px;
+        width: 390px;
+        height: min(90%, 800px);
     }
 }
 @media (min-width: 744px) {
-    .joy-l3kvea {
+    .flog-div-90 {
+        margin-top: 10px;
+        width: 500px;
         height: min(90%, 879px);
     }
 }
 @media (min-width: 744px) {
-    .joy-l3kvea.FeelogModalDialog-sizeMd {
+    .flog-div-90.FeelogModalDialog-sizeMd {
+        margin-top: 10px;
         width: 500px;
     }
 }
-.joy-h3xwdq {
+.flog-div-91 {
     display: flex;
     flex-direction: row;
     -webkit-box-pack: justify;
@@ -1343,23 +1363,23 @@ body {
     border-radius: 14px;
 }
 @media (min-width: 0px) {
-    .joy-h3xwdq {
+    .flog-div-91 {
         padding: 4px 8px;
     }
 }
 @media (min-width: 744px) {
-    .joy-h3xwdq {
+    .flog-div-91 {
         padding: 13px 16px 9px 20px;
     }
 }
-.joy-1r5to7m {
+.flog-div-92 {
     display: flex;
     flex-direction: row;
     -webkit-box-align: center;
     align-items: center;
 }
 
-.joy-10qpqor {
+.flog-button-17 {
     --Icon-margin: initial;
     --Icon-color: #666666;
     --Icon-fontSize: calc(36px / 1.5);
@@ -1393,21 +1413,21 @@ body {
     border-image: initial;
 }
 @media (min-width: 0px) {
-    .joy-10qpqor {
+    .flog-button-17 {
         display: flex;
     }
 }
 @media (min-width: 744px) {
-    .joy-10qpqor {
+    .flog-button-17 {
         display: none;
     }
 }
-.joy-10qpqor.FeelogIconButton-sizeMd {
+.flog-button-17.FeelogIconButton-sizeMd {
     --Icon-fontSize: calc(40px / 1.667);
     min-width: 40px;
     min-height: 40px;
 }
-.joy-uv29nh {
+.flog-a-24 {
     --Icon-fontSize: 1.25em;
     --Icon-color: currentColor;
     --CircularProgress-size: 1.25em;
@@ -1552,7 +1572,7 @@ body {
     color: #666666;
 }
 
-.joy-oklso3 {
+.flog-button-19 {
     --Icon-margin: initial;
     --Icon-color: #666666;
     --Icon-fontSize: calc(36px / 1.5);
@@ -1587,16 +1607,16 @@ body {
     right: 0px;
 }
 @media (min-width: 0px) {
-    .joy-oklso3 {
+    .flog-button-19 {
         display: none;
     }
 }
 @media (min-width: 744px) {
-    .joy-oklso3 {
+    .flog-button-19 {
         display: flex;
     }
 }
-.joy-uabdzs {
+.flog-div-94 {
     display: flex;
     flex-direction: column;
     overflow-y: auto;
@@ -1604,17 +1624,17 @@ body {
     flex: 1 1 auto;
     background-color: #f9f9fa;
 }
-.joy-1fptnyw {
+.flog-div-95 {
     display: flex;
     flex-direction: column;
     padding: 20px;
     gap: 16px;
 }
-.joy-1age63q {
+.flog-div-96 {
     width: 100%;
     display: flex;
 }
-.joy-bwcods {
+.flog-div-97 {
     --Divider-thickness: 1px;
     --Divider-lineColor: #e0e0e0;
     margin: 0;
@@ -1638,15 +1658,15 @@ body {
     flex: 1 1 0%;
     margin-block: auto;
 }
-.joy-bwcods::before,
-.joy-bwcods::after {
+.flog-div-97::before,
+.flog-div-97::after {
     position: relative;
     inline-size: initial;
     block-size: initial;
     background-color: #e0e0e0;
     content: "";
 }
-.joy-bwcods::before {
+.flog-div-97::before {
     margin-inline-end: min(initial * 999, initial);
     margin-block-end: initial;
     flex-basis: initial;
@@ -1661,31 +1681,31 @@ body {
     line-height: 1.5;
     color: #808080;
 }
-.joy-1udr1jv {
+.flog-div-98 {
     display: flex;
     flex-flow: row;
     -webkit-box-pack: end;
     justify-content: flex-end;
     width: 100%;
 }
-.joy-1y9kyp6 {
+.flog-div-99 {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 6px;
 }
-.joy-e6pf26 {
+.flog-div-100 {
     display: flex;
     flex-direction: row;
     -webkit-box-align: center;
     align-items: center;
 }
-.joy-ozngwz.FeelogIconButton-sizeSm {
+.flog-button-20.FeelogIconButton-sizeSm {
     --Icon-fontSize: calc(32px / 1.6);
     min-width: 32px;
     min-height: 32px;
 }
-.joy-s1s0o1 {
+.flog-svg-7 {
     user-select: none;
     margin: 0px;
     display: inline-block;
@@ -1696,23 +1716,23 @@ body {
     height: 20px;
     color: currentcolor;
 }
-.joy-3diwkv {
+.flog-div-101 {
     padding: 8px 14px;
     overflow: hidden;
     background-color: #3478ff;
     border-radius: 18px 4px 16px 18px;
 }
 @media (min-width: 0px) {
-    .joy-3diwkv {
+    .flog-div-101 {
         max-width: 230px;
     }
 }
 @media (min-width: 744px) {
-    .joy-3diwkv {
+    .flog-div-101 {
         max-width: 297px;
     }
 }
-.joy-1kp8wdt {
+.flog-span-21 {
     --Icon-fontSize: calc(1em * 1.5);
     margin: 0px;
     display: block;
@@ -1724,7 +1744,7 @@ body {
     white-space: pre-line;
     overflow-wrap: anywhere;
 }
-.joy-9nvto4 {
+.flog-p-19 {
     --Icon-fontSize: calc(1em * 1.5);
     margin: 0px;
     display: block;
@@ -1734,7 +1754,7 @@ body {
     line-height: 1.5;
     color: #808080;
 }
-.joy-ozngwz {
+.flog-button-20 {
     --Icon-margin: initial;
     --Icon-color: #666666;
     --Icon-fontSize: calc(32px / 1.6);
@@ -1767,21 +1787,21 @@ body {
     border-color: initial;
     border-image: initial;
 }
-.joy-e6pf26 button {
+.flog-div-100 button {
     visibility: hidden;
 }
 
-.joy-e6pf26:hover button {
+.flog-div-100:hover button {
     visibility: visible;
 }
-.joy-131bx5v {
+.flog-div-102 {
     display: flex;
     flex-flow: row;
     -webkit-box-pack: start;
     justify-content: flex-start;
     width: 100%;
 }
-.joy-kd81xj {
+.flog-a-25 {
     --Icon-fontSize: 1.25em;
     --Icon-color: currentColor;
     --CircularProgress-size: 1.25em;
@@ -1807,7 +1827,7 @@ body {
     appearance: none;
     position: relative;
 }
-.joy-7tv6fu {
+.flog-div-103 {
     --Icon-color: #666666;
     margin-inline-start: 0;
     box-shadow: none;
@@ -1829,23 +1849,23 @@ body {
     height: 24px;
     --Avatar-size: 24px;
 }
-.joy-6wq7gy {
+.flog-div-105 {
     padding: 8px 14px;
     overflow: hidden;
     background-color: #ffffff;
     border-radius: 4px 18px 18px 16px;
 }
 @media (min-width: 0px) {
-    .joy-6wq7gy {
+    .flog-div-105 {
         max-width: 230px;
     }
 }
 @media (min-width: 744px) {
-    .joy-6wq7gy {
+    .flog-div-105 {
         max-width: 297px;
     }
 }
-.joy-a0hgnt {
+.flog-span-22 {
     --Icon-fontSize: calc(1em * 1.5);
     margin: 0px;
     display: block;
@@ -1857,7 +1877,7 @@ body {
     white-space: pre-line;
     overflow-wrap: anywhere;
 }
-.joy-1dgehg0 {
+.flog-button-21 {
     --Icon-margin: initial;
     --Icon-color: #666666;
     --Icon-fontSize: calc(32px / 1.6);
@@ -1890,12 +1910,12 @@ body {
     border-color: initial;
     border-image: initial;
 }
-.joy-1dgehg0.FeelogIconButton-sizeSm {
+.flog-button-21.FeelogIconButton-sizeSm {
     --Icon-fontSize: calc(32px / 1.6);
     min-width: 32px;
     min-height: 32px;
 }
-.joy-12udg69 {
+.flog-hr-4 {
     --Divider-thickness: 1px;
     --Divider-lineColor: #e0e0e0;
     --_Divider-inset: 0px;
@@ -1911,23 +1931,23 @@ body {
     block-size: 1px;
     margin-inline: 0px;
 }
-.joy-1m2yi2j {
+.flog-div-106 {
     display: flex;
     position: relative;
     flex-direction: row;
     gap: 8px;
 }
 @media (min-width: 0px) {
-    .joy-1m2yi2j {
+    .flog-div-106 {
         padding: 8px 12px;
     }
 }
 @media (min-width: 744px) {
-    .joy-1m2yi2j {
+    .flog-div-106 {
         padding: 12px;
     }
 }
-.joy-spcbp9 {
+.flog-div-107 {
     --Textarea-radius: 4px;
     --Textarea-gap: 0.5rem;
     --Textarea-decoratorColor: #666666;
@@ -1967,17 +1987,17 @@ body {
     width: 100%;
 }
 
-.joy-spcbp9:not([data-inverted-colors="false"]) {
+.flog-div-107:not([data-inverted-colors="false"]) {
     --Textarea-focusedHighlight: #3578e5;
 }
 
-.joy-spcbp9.FeelogTextarea-variantOutlined {
+.flog-div-107.FeelogTextarea-variantOutlined {
     border: 1px solid #cccccc;
     background-color: transparent;
     border-radius: 18px;
 }
 
-.joy-spcbp9::before {
+.flog-div-107::before {
     box-sizing: border-box;
     content: "";
     display: block;
@@ -1989,7 +2009,7 @@ body {
     margin: -1px;
     box-shadow: inset 0 0 0 calc(0 * 1px) #3578e5;
 }
-.joy-1qmqn4r {
+.flog-textarea-1 {
     resize: none;
     border: none;
     min-width: 0px;
@@ -2006,17 +2026,17 @@ body {
     font-weight: inherit;
     line-height: inherit;
 }
-.joy-spcbp9 .FeelogTextarea-textarea {
+.flog-div-107 .FeelogTextarea-textarea {
     padding-top: 8px;
     padding-right: 8px;
     max-height: 120px;
 }
 /* 포커스 일 때 파란색 */
-.joy-spcbp9.Feelog-focused {
+.flog-div-107.Feelog-focused {
     border-color: #3478ff;
 }
 
-.joy-18i8jzi {
+.flog-div-108 {
     display: flex;
     margin-inline-start: calc(16px - 12px); /* 예: paddingBlock = 16px, paddingInline = 12px */
     margin-inline-end: 16px; /* 예: paddingBlock = 16px */
@@ -2024,11 +2044,11 @@ body {
     color: #666;
     cursor: default;
 }
-.joy-spcbp9 .FeelogTextarea-endDecorator {
+.flog-div-107 .FeelogTextarea-endDecorator {
     align-self: flex-end;
     margin: 0px;
 }
-.joy-ut6eac {
+.flog-button-22 {
     --Icon-margin: initial;
     --Icon-color: currentColor;
     --Icon-fontSize: calc(36px / 1.5);
@@ -2057,21 +2077,21 @@ body {
     background-color: #3578e5;
     border-radius: 50%;
 }
-.joy-ut6eac:disabled {
+.flog-button-22:disabled {
     pointer-events: none;
     cursor: default;
     --Icon-color: currentColor;
     color: #b0b0b0;
     background-color: #f0f0f0;
 }
-.joy-ut6eac.FeelogIconButton-sizeMd {
+.flog-button-22.FeelogIconButton-sizeMd {
     --Icon-fontSize: calc(40px / 1.667);
     min-width: 30px;
     min-height: 30px;
     margin-bottom: 2px;
     margin-right: 4px;
 }
-.joy-bwcods {
+.flog-div-97 {
     display: flex;
     align-items: center;
     text-align: center;
@@ -2079,15 +2099,15 @@ body {
     gap: 8px; /* 선과 텍스트 간격 */
 }
 
-.joy-bwcods::before,
-.joy-bwcods::after {
+.flog-div-97::before,
+.flog-div-97::after {
     content: "";
     flex: 1;
     height: 1px;
     background-color: #e0e0e0;
 }
 
-.joy-11cui4a {
+.flog-div-104 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -2205,13 +2225,13 @@ body {
     color: #ffffff;
 }
 .flog-a-13:hover,
-.joy-ax57yv:hover,
-.joy-16nydwy:hover {
+.flog-li-1:hover,
+.flog-li-2:hover {
     background-color: #d6d6d6;
     color: #333333;
 }
 /* 메세지 차단, 대화방 삭제 */
-.joy-1pphr02 {
+.flog-ul-2 {
     margin: initial;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 16px;
@@ -2234,7 +2254,17 @@ body {
     z-index: 1400;
     width: 198px;
 }
-.joy-ax57yv {
+@media (min-width: 0px) {
+    .flog-ul-2 {
+        transform: translate(0%, 110%);
+    }
+}
+@media (min-width: 744px) {
+    .flog-ul-2 {
+        transform: translate(-350%, 110%);
+    }
+}
+.flog-li-1 {
     box-sizing: border-box;
     position: relative;
     font: inherit;
@@ -2259,7 +2289,7 @@ body {
     min-inline-size: 0px;
     color: #333333;
 }
-.joy-16nydwy {
+.flog-li-2 {
     box-sizing: border-box;
     position: relative;
     display: flex;
