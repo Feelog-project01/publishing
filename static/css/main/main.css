@@ -942,6 +942,7 @@ body {
     color: #202022;
 }
 
+
 @media (min-width: 0px) {
     .joy-63nzw0 {
         font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
@@ -950,7 +951,20 @@ body {
         line-height: 1.33334;
         color: #202022;
     }
+
+.joy-63nzw0 {
+    --Icon-fontSize: calc(1em * 1.5);
+    margin: 0px;
+    display: inline;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -0.025em;
+    color: #202022;
+
 }
+
 @media (min-width: 744px) {
     .joy-63nzw0 {
         font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
@@ -961,6 +975,7 @@ body {
         color: #202022;
     }
 }
+
 
 .joy-bxmlpm {
     --Icon-fontSize: calc(1em * 1.5);
