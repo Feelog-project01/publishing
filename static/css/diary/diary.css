@@ -2285,3 +2285,39 @@ body {
     height: 1em;
     color: #3478ff;
 }
+
+.emotion-wrap{
+    margin-top: 10px;
+
+}
+
+.emotion-text{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: -0.025em;
+    color: #202022;
+}
+
+.emotion-emoticon {
+    width: 20px;
+}
+
+.ai-container{
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    border: 1px solid #DDE3E8;
+    height: 100px;
+    width: 93%;
+    padding: 20px;
+}
+
+.ai-think{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.comment-wrap{
+    margin: 20px;
+}

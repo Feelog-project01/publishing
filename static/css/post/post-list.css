@@ -28,7 +28,7 @@ li {
     flex: 1;
     min-width: 0;
 }
-
+/*  */
 .joy-3ys6m0 {
     background-color: #FFFFFF;
     position: relative;
@@ -385,3 +385,76 @@ li {
     }
 }
 
+@media (min-width: 744px) {
+    .joy-v2pzzj {
+        -webkit-box-align: center;
+        align-items: center;
+    }
+}
+
+.joy-1r9kwv0 {
+    display: flex
+;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 4px;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.joy-1ry9yvs {
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #202022;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+@media (min-width: 0px) {
+    .joy-1ry9yvs {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.42858;
+        color: #202022;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1ry9yvs {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #202022;
+    }
+}
+
+.joy-151y3tr {
+    font-size: 16px;
+    line-height: var(--joy-lineHeight-md);
+    color: var(--variant-plainColor, rgba(var(--joy-palette-primary-mainChannel) / 1));
+    font-weight: var(--joy-fontWeight-sm);
+    text-decoration: none max(0.08em, 1px) currentcolor;
+    text-underline-offset: 0.15em;
+    display: inline-flex
+;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    border-radius: var(--joy-radius-xs);
+    padding: 0px;
+    cursor: pointer;
+    appearance: none;
+    position: initial;
+}

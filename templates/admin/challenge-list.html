@@ -108,7 +108,8 @@
                                     class="ProjectInfo_infoButton"
                                     aria-controls="project-info-box"
                                     aria-expanded="false"
-                                    href=""
+                                    th:if="${session.admin == null}"
+                                    href="/admin/adminLogin"
                                 >
                                     <span class="">로그인이 필요합니다.</span
                                     ><svg
@@ -138,7 +139,7 @@
                                         <a
                                             aria-current="page"
                                             class="MenuItems_menu MenuItems_hasSubmenu MenuItems_active"
-                                            href=""
+                                            href="/studio/reward/337882/funding"
                                             ><span class="MenuItems_label"
                                                 ><svg
                                                     viewBox="0 0 24 24"
@@ -163,14 +164,14 @@
                                         >
                                             <a
                                                 class="MenuItems_submenu_adminList"
-                                                href=""
+                                                href="/admin/member-list"
                                                 >회원 목록</a
                                             >
                                         </div>
                                         <a
                                             aria-current="page"
                                             class="MenuItems_menu MenuItems_hasSubmenu MenuItems_active"
-                                            href=""
+                                            href="/studio/reward/337882/funding"
                                             ><span class="MenuItems_label"
                                                 ><svg
                                                     viewBox="0 0 24 24"
@@ -217,7 +218,7 @@
                                         <a
                                             aria-current="page"
                                             class="MenuItems_menu MenuItems_hasSubmenu MenuItems_active"
-                                            href=""
+                                            href="/studio/reward/337882/funding"
                                             ><span class="MenuItems_label"
                                                 ><svg
                                                     viewBox="0 0 24 24"
@@ -245,10 +246,18 @@
                                                 >공지 목록</a
                                             >
                                         </div>
+                                        <div
+                                            class="MenuItems_submenuContainer MenuItems_show Menulist2"
+                                        >
+                                            <a
+                                                class="MenuItems_submenu_adminList noticeList"
+                                                >자주 묻는 질문 목록</a
+                                            >
+                                        </div>
                                         <a
                                             aria-current="page"
                                             class="MenuItems_menu MenuItems_hasSubmenu MenuItems_active"
-                                            href=""
+                                            href="/studio/reward/337882/funding"
                                             ><span class="MenuItems_label"
                                                 ><svg
                                                     viewBox="0 0 24 24"
@@ -281,7 +290,7 @@
                                         >
                                             <a
                                                 class="MenuItems_submenu_adminList adminCourseList"
-                                                >일일 챌린지</a
+                                                >개인 챌린지</a
                                             >
                                         </div>
                                         <div
@@ -289,15 +298,7 @@
                                         >
                                             <a
                                                 class="MenuItems_submenu_adminList adminCourseList"
-                                                >주간 챌린지</a
-                                            >
-                                        </div>
-                                        <div
-                                            class="MenuItems_submenuContainer MenuItems_show Menulist2"
-                                        >
-                                            <a
-                                                class="MenuItems_submenu_adminList adminCourseList"
-                                                >월간 챌린지</a
+                                                >공동 챌린지</a
                                             >
                                         </div>
                                         <a
@@ -328,7 +329,7 @@
                                         >
                                             <a
                                                 class="MenuItems_submenu_adminList"
-                                                href=""
+                                                href="/admin/manage-admin-list"
                                                 >관리자 목록</a
                                             >
                                         </div>
@@ -363,7 +364,7 @@
                                                     display: block;
                                                 "
                                             >
-                                                <div class="">
+                                                <div class="title-wrap">
                                                     <h3>챌린지 목록</h3>
                                                 </div>
                                                 <div class="topsearchandbtn">
@@ -451,75 +452,6 @@
                                                                 <div
                                                                     class="courseIdDiv"
                                                                 >
-                                                                    29
-                                                                </div>
-                                                                <div
-                                                                    class="courseadminNameDiv"
-                                                                >
-                                                                    jfk1
-                                                                </div>
-                                                                <div
-                                                                    class="courseNameDiv"
-                                                                >
-                                                                    전통을
-                                                                    체험하는
-                                                                    유교의 도시
-                                                                </div>
-                                                                <div
-                                                                    class="courseTypeDiv"
-                                                                >
-                                                                    주간 챌린지
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div
-                                                                class="userListDiv"
-                                                            >
-                                                                <label class="">
-                                                                    <input
-                                                                        type="radio"
-                                                                        name="courseSelection"
-                                                                        class="usersRadio"
-                                                                    />
-                                                                </label>
-                                                                <div
-                                                                    class="courseIdDiv"
-                                                                >
-                                                                    28
-                                                                </div>
-                                                                <div
-                                                                    class="courseadminNameDiv"
-                                                                >
-                                                                    jake
-                                                                </div>
-                                                                <div
-                                                                    class="courseNameDiv"
-                                                                >
-                                                                    경남 산불
-                                                                    회복을 위한
-                                                                    4박 5일 봉사
-                                                                    여행 코스
-                                                                </div>
-                                                                <div
-                                                                    class="courseTypeDiv"
-                                                                ></div>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div
-                                                                class="userListDiv"
-                                                            >
-                                                                <label class="">
-                                                                    <input
-                                                                        type="radio"
-                                                                        name="courseSelection"
-                                                                        class="usersRadio"
-                                                                    />
-                                                                </label>
-                                                                <div
-                                                                    class="courseIdDiv"
-                                                                >
                                                                     24
                                                                 </div>
                                                                 <div
@@ -530,15 +462,12 @@
                                                                 <div
                                                                     class="courseNameDiv"
                                                                 >
-                                                                    안동 –
-                                                                    ‘전통을
-                                                                    체험하는
-                                                                    유교의 도시’
+                                                                    개인 챌린지
                                                                 </div>
                                                                 <div
                                                                     class="courseTypeDiv"
                                                                 >
-                                                                    일일 챌린지
+                                                                    개인 챌린지
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -566,15 +495,12 @@
                                                                 <div
                                                                     class="courseNameDiv"
                                                                 >
-                                                                    통영 –
-                                                                    ‘예술이 살아
-                                                                    숨 쉬는
-                                                                    마을’
+                                                                    공동 챌린지
                                                                 </div>
                                                                 <div
                                                                     class="courseTypeDiv"
                                                                 >
-                                                                    월간 챌린지
+                                                                    공동 챌린지
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -693,12 +619,6 @@
                                                                         class="custom-select"
                                                                     >
                                                                         <option
-                                                                            value=""
-                                                                        >
-                                                                            검색
-                                                                            기준
-                                                                        </option>
-                                                                        <option
                                                                             value="natp"
                                                                         >
                                                                             전
@@ -707,26 +627,20 @@
                                                                         <option
                                                                             value="n"
                                                                         >
-                                                                            Course
-                                                                            Name
+                                                                            챌린지
+                                                                            제목
                                                                         </option>
                                                                         <option
                                                                             value="a"
                                                                         >
-                                                                            Admin
-                                                                            Name
-                                                                        </option>
-                                                                        <option
-                                                                            value="t"
-                                                                        >
-                                                                            Course
-                                                                            Theme
+                                                                            관리자
+                                                                            이름
                                                                         </option>
                                                                         <option
                                                                             value="u"
                                                                         >
-                                                                            Using
-                                                                            Course
+                                                                            사용중인
+                                                                            챌린지
                                                                         </option>
                                                                     </select>
                                                                     <input
