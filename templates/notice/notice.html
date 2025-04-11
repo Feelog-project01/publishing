@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>공지사항 상세</title>
         <link rel="stylesheet" href="../../static/css/notice/notice.css" />
+        <link rel="stylesheet" href="../main/header.html" />
         <style>
             @font-face {
                 font-family: "Postype Sans-serif KR";
@@ -18,6 +19,19 @@
         </style>
     </head>
     <body>
+        <div class="feelog-header-mainDiv" id="header-container"></div>
+        <script>
+            // Load header.html and insert it in#header-placeholder
+            fetch("../main/header.html")
+                .then((response) => response.text())
+                .then((data) => {
+                    document.getElementById("header-container").innerHTML =
+                        data;
+                })
+                .catch((error) =>
+                    console.error("Error loading header:", error)
+                );
+        </script>
         <section>
             <div class="section-container">
                 <div class="section-main-container">
@@ -475,4 +489,5 @@
             </div>
         </section>
     </body>
+    <script src="../../static/js/main/main-modal.js"></script>
 </html>

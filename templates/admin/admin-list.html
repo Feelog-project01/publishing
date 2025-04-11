@@ -54,7 +54,7 @@
                     >
                         <div class="AppNavbarLayout_content">
                             <div
-                                class="ProjectInfo_container ProjectInfo_dropDownContainer"
+                                class="ProjectInfo_container AppNavbar_projectInfoPC ProjectInfo_dropDownContainer"
                             >
                                 <a
                                     type="button"
@@ -96,7 +96,7 @@
                                     aria-controls="project-info-box"
                                     aria-expanded="false"
                                     th:if="${session.admin == null}"
-                                    href=""
+                                    href="/admin/adminLogin"
                                 >
                                     <span class="">로그인이 필요합니다.</span
                                     ><svg
@@ -126,7 +126,7 @@
                                         <a
                                             aria-current="page"
                                             class="MenuItems_menu MenuItems_hasSubmenu MenuItems_active"
-                                            href=""
+                                            href="/studio/reward/337882/funding"
                                             ><span class="MenuItems_label"
                                                 ><svg
                                                     viewBox="0 0 24 24"
@@ -151,14 +151,14 @@
                                         >
                                             <a
                                                 class="MenuItems_submenu_adminList"
-                                                href=""
+                                                href="/admin/member-list"
                                                 >회원 목록</a
                                             >
                                         </div>
                                         <a
                                             aria-current="page"
                                             class="MenuItems_menu MenuItems_hasSubmenu MenuItems_active"
-                                            href=""
+                                            href="/studio/reward/337882/funding"
                                             ><span class="MenuItems_label"
                                                 ><svg
                                                     viewBox="0 0 24 24"
@@ -205,7 +205,7 @@
                                         <a
                                             aria-current="page"
                                             class="MenuItems_menu MenuItems_hasSubmenu MenuItems_active"
-                                            href=""
+                                            href="/studio/reward/337882/funding"
                                             ><span class="MenuItems_label"
                                                 ><svg
                                                     viewBox="0 0 24 24"
@@ -231,6 +231,14 @@
                                             <a
                                                 class="MenuItems_submenu_adminList noticeList"
                                                 >공지 목록</a
+                                            >
+                                        </div>
+                                        <div
+                                            class="MenuItems_submenuContainer MenuItems_show Menulist2"
+                                        >
+                                            <a
+                                                class="MenuItems_submenu_adminList noticeList"
+                                                >자주 묻는 질문 목록</a
                                             >
                                         </div>
                                         <a
@@ -269,7 +277,7 @@
                                         >
                                             <a
                                                 class="MenuItems_submenu_adminList adminCourseList"
-                                                >일일 챌린지</a
+                                                >개인 챌린지</a
                                             >
                                         </div>
                                         <div
@@ -277,21 +285,13 @@
                                         >
                                             <a
                                                 class="MenuItems_submenu_adminList adminCourseList"
-                                                >주간 챌린지</a
-                                            >
-                                        </div>
-                                        <div
-                                            class="MenuItems_submenuContainer MenuItems_show Menulist2"
-                                        >
-                                            <a
-                                                class="MenuItems_submenu_adminList adminCourseList"
-                                                >월간 챌린지</a
+                                                >공동 챌린지</a
                                             >
                                         </div>
                                         <a
                                             aria-current="page"
                                             class="MenuItems_menu MenuItems_hasSubmenu MenuItems_active"
-                                            href=""
+                                            href="/studio/reward/337882/funding"
                                             ><span class="MenuItems_label"
                                                 ><svg
                                                     viewBox="0 0 24 24"
@@ -316,7 +316,7 @@
                                         >
                                             <a
                                                 class="MenuItems_submenu_adminList"
-                                                href=""
+                                                href="/admin/manage-admin-list"
                                                 >관리자 목록</a
                                             >
                                         </div>

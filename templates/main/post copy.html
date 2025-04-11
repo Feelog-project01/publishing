@@ -96,8 +96,13 @@
                                 </p>
                             </div>
                             <div class="MuiStack-root joy-2j5iyq">
-                                <p class="MuiTypography-root MuiTypography-body-xs joy-1mff26x">
-                                    0<span class="MuiTypography-endDecorator joy-styn74">자</span>
+                                <p
+                                    class="MuiTypography-root MuiTypography-body-xs joy-1mff26x"
+                                >
+                                    0<span
+                                        class="MuiTypography-endDecorator joy-styn74"
+                                        >자</span
+                                    >
                                 </p>
                                 <div class="MuiStack-root joy-1u5xrkq">
                                     <button
@@ -148,9 +153,10 @@
                                 </div>
                                 <div class="MuiStack-root joy-1u5xrkq">
                                     <button
-                                        class="next-btn MuiButton-root MuiButton-variantSolid MuiButton-colorNeutral MuiButton-sizeSm joy-3oxsei"
+                                        class="preview-btn MuiButton-root MuiButton-variantSolid MuiButton-colorNeutral MuiButton-sizeSm joy-3oxsei"
                                         type="button"
                                         style="display: block"
+                                        id="preview-btn"
                                     >
                                         다음
                                     </button>
@@ -165,7 +171,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div
                         class="keep-editor-selection-zone MuiBox-root joy-2l1lnm"
                     >
@@ -300,6 +305,7 @@
                 <div id=":r2k:" class="MuiDialogContent-root joy-6e2g87">
                     <div class="MuiStack-root joy-rkuzwa">
                         <div
+                            id="preview-section"
                             style="
                                 height: 315px;
                                 width: 100%;
@@ -409,7 +415,7 @@
                                 <p
                                     class="MuiTypography-root MuiTypography-title-md joy-1vu460e"
                                 >
-                                    공개 설정
+                                    포스트 타입
                                 </p>
                             </div>
                             <div class="MuiBox-root joy-1rr4qq7">
@@ -422,7 +428,7 @@
                                             type="button"
                                             class="MuiFormLabel-root joy-eq4nw9"
                                         >
-                                            공개 설정
+                                            포스트 타입
                                         </button>
                                         <div
                                             class="MuiSelect-root MuiSelect-variantOutlined MuiSelect-colorNeutral MuiSelect-sizeMd joy-1y14eq7"
@@ -502,7 +508,7 @@
                                                 aria-selected="false"
                                                 class="MuiOption-root joy-1m461fr"
                                             >
-                                                전체 공개
+                                                포스트
                                             </li>
                                             <li
                                                 tabindex="-1"
@@ -511,16 +517,7 @@
                                                 aria-selected="false"
                                                 class="MuiOption-root joy-1m461fr"
                                             >
-                                                구독자에게만 공개
-                                            </li>
-                                            <li
-                                                tabindex="-1"
-                                                id=":r3a:"
-                                                role="option"
-                                                aria-selected="false"
-                                                class="MuiOption-root joy-1m461fr"
-                                            >
-                                                비공개
+                                                응원글
                                             </li>
                                         </ul>
                                     </div>
@@ -556,7 +553,7 @@
             <div tabindex="0" data-testid="sentinelEnd"></div>
         </div>
     </body>
-    <script src="../../static/js/main/mind-log.js"></script>
+    <script src="../../static/js/main/post-edit.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -608,6 +605,12 @@
                         });
                     },
                 },
+            });
+            $("#preview-btn").on("click", function () {
+                const content = $(".summernote").summernote("code");
+                $("#editor-section").hide(); // 에디터 전체 숨기기
+                $("#preview-content").html(content); // 작성한 HTML 삽입
+                $("#preview-section").show(); // 미리보기 보이기
             });
         });
     </script>

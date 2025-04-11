@@ -28,7 +28,7 @@ li {
     flex: 1;
     min-width: 0;
 }
-
+/*  */
 .joy-3ys6m0 {
     background-color: #FFFFFF;
     position: relative;
@@ -210,4 +210,251 @@ li {
     .joy-65n013 {
         padding-bottom: 24px;
     }
+}
+
+.joy-1eriol4 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(52 120 255 / 1);
+    font-weight: 400;
+    text-decoration: none max(0.08em, 1px) currentcolor;
+    text-underline-offset: 0.15em;
+    display: inline-flex
+;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    border-radius: 6px;
+    padding: 4px 0px 0px;
+    cursor: pointer;
+    appearance: none;
+    position: relative;
+    z-index: 1;
+}
+
+@media (min-width: 0px) {
+    .joy-1eriol4 {
+        display: none;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1eriol4 {
+        display: flex
+;
+    }
+}
+
+.joy-1stxrp2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+    color: #202022;
+    position: relative;
+    display: flex
+;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 50%;
+    user-select: none;
+    width: 40px;
+    height: 40px;
+}
+
+.joy-1hy9t21 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    object-fit: cover;
+    color: transparent;
+    text-indent: 10000px;
+}
+
+.joy-17arh4m {
+    display: flex
+;
+    flex-direction: row;
+    gap: 8px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    z-index: 1;
+    padding-bottom: 4px;
+}
+
+@media (min-width: 0px) {
+    .joy-17arh4m {
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-17arh4m {
+        -webkit-box-align: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 0px) {
+    .joy-17arh4m {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-17arh4m {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+.joy-xb6gjk {
+    display: flex
+;
+    flex-direction: row;
+    gap: 8px;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.joy-1vomu2x {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+    color: #202022;
+    position: relative;
+    display: flex
+;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: var(--Avatar-radius, 50%);
+    user-select: none;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+@media (min-width: 0px) {
+    .joy-1vomu2x {
+        display: flex
+;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1vomu2x {
+        display: none;
+    }
+}
+
+.joy-v2pzzj {
+    display: flex
+;
+    flex-flow: column wrap;
+    column-gap: 8px;
+}
+
+@media (min-width: 0px) {
+    .joy-v2pzzj {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-v2pzzj {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 0px) {
+    .joy-v2pzzj {
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-v2pzzj {
+        -webkit-box-align: center;
+        align-items: center;
+    }
+}
+
+.joy-1r9kwv0 {
+    display: flex
+;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 4px;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.joy-1ry9yvs {
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #202022;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+@media (min-width: 0px) {
+    .joy-1ry9yvs {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.42858;
+        color: #202022;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1ry9yvs {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #202022;
+    }
+}
+
+.joy-151y3tr {
+    font-size: 16px;
+    line-height: var(--joy-lineHeight-md);
+    color: var(--variant-plainColor, rgba(var(--joy-palette-primary-mainChannel) / 1));
+    font-weight: var(--joy-fontWeight-sm);
+    text-decoration: none max(0.08em, 1px) currentcolor;
+    text-underline-offset: 0.15em;
+    display: inline-flex
+;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    border-radius: var(--joy-radius-xs);
+    padding: 0px;
+    cursor: pointer;
+    appearance: none;
+    position: initial;
 }

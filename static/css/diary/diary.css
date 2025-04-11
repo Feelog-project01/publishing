@@ -5,7 +5,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
 }
 
 body {
@@ -74,12 +74,14 @@ body {
     }
 }
 
+
+
 .joy-18lu9f5 {
     position: sticky;
     z-index: 499;
     border-bottom: 1px solid;
     border-color: rgba(118, 118, 127, 0.15);
-    background-color: #ffffff;
+    background-color: #FFFFFF;
 }
 
 @media (min-width: 0px) {
@@ -95,6 +97,8 @@ body {
         padding: 0 24px;
     }
 }
+
+
 
 .joy-1wegxv0 {
     display: -webkit-box;
@@ -139,6 +143,8 @@ body {
     }
 }
 
+
+
 .joy-1xzjzsf {
     --Icon-fontSize: calc(1em * 1.5);
     margin: 0px;
@@ -165,15 +171,11 @@ body {
     background-color: #202022;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
     box-sizing: inherit;
 }
 
-*,
-::before,
-::after {
+*, ::before, ::after {
     box-sizing: inherit;
 }
 
@@ -207,6 +209,8 @@ body {
     }
 }
 
+
+
 .joy-10c7stv {
     --Icon-fontSize: calc(1em * 1.5);
     margin: 0px;
@@ -214,7 +218,7 @@ body {
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #76767f;
+    color: #76767F;
     font-weight: 400;
     align-items: center;
     padding: 0 4px;
@@ -245,6 +249,8 @@ body {
         max-width: 1081px;
     }
 }
+
+
 
 .joy-11dfn0q {
     display: -webkit-box;
@@ -283,8 +289,10 @@ body {
     }
 }
 
+
+
 .joy-1l8egul {
-    --Icon-color: #76767f;
+    --Icon-color: #76767F;
     --Card-childRadius: max((12px - 1px) - 1rem, min(1rem / 2, (12px - 1px) / 2));
     --AspectRatio-radius: max((12px - 1px) - 1rem, min(1rem / 2, (12px - 1px) / 2));
     --unstable_actionMargin: -1px;
@@ -298,7 +306,7 @@ body {
     gap: 0.75rem 1rem;
     padding: 1rem;
     border-radius: 12px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -309,7 +317,7 @@ body {
     font-weight: 400;
     --variant-borderWidth: 1px;
     border: 1px solid;
-    border-color: #dadadc;
+    border-color: #DADADC;
     height: 172px;
     margin-top: 20px;
 }
@@ -377,6 +385,8 @@ body {
     }
 }
 
+
+
 .joy-eo56yu {
     display: -webkit-box;
     display: -webkit-flex;
@@ -407,10 +417,10 @@ body {
 }
 
 .joy-szbwwm {
-    color: #ffffff;
+    color: #FFFFFF;
     border-width: 1px;
     border-style: solid;
-    border-color: #a4a4a8;
+    border-color: #A4A4A8;
     border-radius: 18.5px;
     padding-left: 15px;
     padding-right: 9px;
@@ -419,6 +429,8 @@ body {
     display: flex;
     align-items: center;
 }
+
+
 
 .joy-o2mt47 {
     --Icon-fontSize: calc(1em * 1.33334);
@@ -429,7 +441,7 @@ body {
     font-size: 24px;
     line-height: 1.33334;
     letter-spacing: -0.025em;
-    color: #ffffff;
+    color: #FFFFFF;
     white-space: pre-line;
 }
 
@@ -441,7 +453,7 @@ body {
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-size: 13px;
     line-height: 1;
-    color: #ffffff;
+    color: #FFFFFF;
     font-weight: 500;
     -webkit-text-decoration: none;
     text-decoration: none;
@@ -508,6 +520,8 @@ body {
     }
 }
 
+
+
 .joy-65n013 {
     display: flex;
     flex-direction: row;
@@ -521,18 +535,6 @@ body {
     border-bottom: 1px solid;
     border-bottom-color: rgba(118, 118, 127, 0.15);
 }
-
-@media (min-width: 0px) {
-    .joy-1eriol4 {
-        display: none;
-    }
-}
-@media (min-width: 744px) {
-    .joy-1eriol4 {
-        display: flex;
-    }
-}
-
 
 .joy-1eriol4 {
     --Icon-fontSize: 1.25em;
@@ -573,7 +575,7 @@ body {
 }
 
 .joy-1stxrp2 {
-    --Icon-color: #76767f;
+    --Icon-color: #76767F;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-weight: 600;
     font-size: calc(40px * 0.4);
@@ -627,6 +629,7 @@ body {
     }
 }
 
+
 @media (min-width: 0px) {
     .joy-17arh4m {
         align-items: flex-start;
@@ -639,17 +642,6 @@ body {
     }
 }
 
-.joy-17arh4m {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    z-index: 1;
-    padding-bottom: 4px;
-}
-
-
 .joy-xb6gjk {
     display: flex;
     flex-direction: row;
@@ -660,19 +652,8 @@ body {
     overflow: hidden;
 }
 
-@media (min-width: 0px) {
-    .joy-1vomu2x {
-        display: flex;
-    }
-}
-@media (min-width: 744px) {
-    .joy-1vomu2x {
-        display: none;
-    }
-}
-
 .joy-1vomu2x {
-    --Icon-color: #76767f;
+    --Icon-color: #76767F;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     font-weight: 600;
     font-size: calc(32px * 0.4375); /* = 14px */
@@ -736,11 +717,6 @@ body {
 }
 
 
-.joy-v2pzzj {
-    display: flex;
-    /* flex-flow: column wrap; */
-    column-gap: 8px;
-}
 
 
 .joy-1r9kwv0 {
@@ -795,23 +771,6 @@ body {
 }
 
 
-.joy-1ry9yvs {
-    --Icon-fontSize: calc(1em * 1.5);
-    margin: 0px;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #202022;
-    overflow: hidden;
-    overflow-wrap: anywhere;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
-}
-
-
-
 
 
 
@@ -848,7 +807,7 @@ body {
     font-size: 14px;
     line-height: 1.5;
     font-weight: 400;
-    color: #76767f;
+    color: #76767F;
     overflow: hidden;
     overflow-wrap: anywhere;
     display: -webkit-box;
@@ -891,7 +850,7 @@ body {
 
 .joy-1caho3t {
     --Icon-margin: initial;
-    --Icon-color: #76767f;
+    --Icon-color: #76767F;
     --Icon-fontSize: calc(32px / 1.6); /* = 20px */
     --CircularProgress-size: 20px;
     --CircularProgress-thickness: 2px;
@@ -915,7 +874,7 @@ body {
     position: relative;
     --variant-borderWidth: 0px;
     --IconButton-size: 32px;
-    color: #76767f;
+    color: #76767F;
 }
 
 .joy-4rp8fm {
@@ -971,17 +930,6 @@ body {
     }
 }
 
-
-.joy-1ka30t1 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-}
-
 .joy-63nzw0 {
     --Icon-fontSize: calc(1em * 1.5);
     margin: 0px;
@@ -993,8 +941,6 @@ body {
     letter-spacing: -0.025em;
     color: #202022;
 }
-
-
 
 @media (min-width: 0px) {
     .joy-63nzw0 {
@@ -1004,7 +950,6 @@ body {
         line-height: 1.33334;
         color: #202022;
     }
-
 }
 @media (min-width: 744px) {
     .joy-63nzw0 {
@@ -1016,32 +961,6 @@ body {
         color: #202022;
     }
 }
-
-
-.joy-63nzw0 {
-    --Icon-fontSize: calc(1em * 1.5);
-    margin: 0px;
-    display: inline;
-    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.5;
-    letter-spacing: -0.025em;
-    color: #202022;
-
-}
-
-@media (min-width: 744px) {
-    .joy-63nzw0 {
-        font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 1.5;
-        letter-spacing: -0.025em;
-        color: #202022;
-    }
-}
-
 
 .joy-bxmlpm {
     --Icon-fontSize: calc(1em * 1.5);
@@ -1050,7 +969,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
-    color: #3e3e43;
+    color: #3E3E43;
     overflow: hidden;
     overflow-wrap: anywhere;
     display: -webkit-box;
@@ -1079,17 +998,8 @@ body {
     }
 }
 
-
-.joy-1r6jpu3 {
-    display: flex;
-    flex-flow: wrap;
-    gap: 4px;
-    overflow: hidden;
-    z-index: 1;
-}
-
 .joy-c0nc3d.MuiChip-colorNeutral.MuiChip-variantSoft:not(.Mui-disabled) {
-    color: #76767f;
+    color: #76767F;
 }
 
 .joy-c0nc3d.MuiChip-sizeSm {
@@ -1110,15 +1020,11 @@ body {
     }
 }
 
+
+
 .joy-c0nc3d {
-    --Chip-decoratorChildOffset: min(
-        calc(8px - (24px - 2 * 0px - 20px) / 2),
-        8px
-    ); /* = min(calc(8px - 2px), 8px) = min(6px, 8px) = 6px */
-    --Chip-decoratorChildRadius: max(
-        1.5rem - 0px - 2px,
-        min(2px + 0px, 1.5rem / 2)
-    ); /* = max(1.5rem - 2px, min(2px, 0.75rem)) */
+    --Chip-decoratorChildOffset: min(calc(8px - (24px - 2 * 0px - 20px) / 2), 8px); /* = min(calc(8px - 2px), 8px) = min(6px, 8px) = 6px */
+    --Chip-decoratorChildRadius: max(1.5rem - 0px - 2px, min(2px + 0px, 1.5rem / 2)); /* = max(1.5rem - 2px, min(2px, 0.75rem)) */
     --Chip-deleteRadius: var(--Chip-decoratorChildRadius);
     --Chip-deleteSize: 20px;
     --Avatar-radius: var(--Chip-decoratorChildRadius);
@@ -1144,7 +1050,7 @@ body {
     box-sizing: border-box;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     line-height: 1.5;
-    background-color: #f2f2f3;
+    background-color: #F2F2F3;
     --variant-borderWidth: 0px;
     color: #202022;
     font-size: 14px;
@@ -1164,7 +1070,7 @@ body {
 }
 
 .joy-7upex7.MuiChip-colorNeutral.MuiChip-variantSoft:not(.Mui-disabled) {
-    color: #76767f;
+    color: #76767F;
 }
 @media (min-width: 0px) {
     .joy-7upex7 {
@@ -1176,6 +1082,8 @@ body {
         display: flex;
     }
 }
+
+
 
 .joy-7upex7 {
     --Chip-decoratorChildOffset: min(calc(8px - (24px - 2 * 0px - 20px) / 2), 8px); /* = min(6px, 8px) */
@@ -1205,7 +1113,7 @@ body {
     box-sizing: border-box;
     font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
     line-height: 1.5;
-    background-color: #f2f2f3;
+    background-color: #F2F2F3;
     --variant-borderWidth: 0px;
     color: #202022;
     font-size: 14px;
@@ -1231,13 +1139,6 @@ body {
         padding-left: 0px;
         padding-right: 0px;
     }
-}
-
-
-.joy-8a80tx {
-    position: relative;
-    --navigation-opacity: 0;
-    z-index: 1;
 }
 
 
@@ -1287,35 +1188,9 @@ body {
     user-select: none;
 }
 
-@media (min-width: 0px) {
-    .joy-1d38qr0 {
-        left: 24px;
-        display: none;
-    }
-}
-@media (min-width: 1132px) {
-    .joy-1d38qr0 {
-        left: -24px;
-    }
-}
-
-@media (min-width: 744px) {
-    .joy-1d38qr0 {
-        left: 16px;
-        display: flex;
-    }
-}
-
-.joy-1d38qr0.MuiIconButton-sizeLg {
-    --Icon-fontSize: calc(48px / 1.714); /* ≈ 28px */
-    min-width: 48px;
-    min-height: 48px;
-}
-
-
 .joy-1d38qr0 {
     --Icon-margin: initial;
-    --Icon-color: #a4a4a8;
+    --Icon-color: #A4A4A8;
     --Icon-fontSize: calc(48px / 1.571); /* ≈ 30.55px */
     --CircularProgress-size: 28px;
     --CircularProgress-thickness: 4px;
@@ -1340,7 +1215,7 @@ body {
     top: calc(50% - 24px);
     position: absolute;
     border-radius: 50%;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     box-shadow: 0 0 #000, 0px 2px 8px -2px rgba(21, 21, 21, 0.08), 0px 6px 12px -2px rgba(21, 21, 21, 0.08);
     z-index: 1;
     visibility: hidden;
@@ -1392,6 +1267,8 @@ body {
     }
 }
 
+
+
 .joy-dvzf43.MuiIconButton-sizeLg {
     --Icon-fontSize: calc(48px / 1.714); /* ≈ 28px */
     min-width: 48px;
@@ -1400,7 +1277,7 @@ body {
 
 .joy-dvzf43 {
     --Icon-margin: initial;
-    --Icon-color: #a4a4a8;
+    --Icon-color: #A4A4A8;
     --Icon-fontSize: calc(48px / 1.571); /* ≈ 30.55px */
     --CircularProgress-size: 28px;
     --CircularProgress-thickness: 4px;
@@ -1425,7 +1302,7 @@ body {
     top: calc(50% - 24px);
     position: absolute;
     border-radius: 50%;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     box-shadow: 0 0 #000, 0px 2px 8px -2px rgba(21, 21, 21, 0.08), 0px 6px 12px -2px rgba(21, 21, 21, 0.08);
     z-index: 1;
     visibility: visible;
@@ -1453,14 +1330,6 @@ body {
     }
 }
 
-
-.joy-1ribkjo {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-
 .joy-1it29ig {
     display: flex;
     flex-direction: row;
@@ -1483,12 +1352,12 @@ body {
     font-size: 14px;
     line-height: 1.5;
     font-weight: 400;
-    color: #76767f;
+    color: #76767F;
     --Icon-fontSize: 16px;
     --Typography-gap: 3px;
 }
 
-.flog-span-31 {
+.joy-oqc71l {
     display: inline-flex;
     margin-inline-end: clamp(4px, 0.375em, 0.75rem);
 }
@@ -1501,7 +1370,7 @@ body {
 
 .joy-ashs5q {
     --Icon-margin: initial;
-    --Icon-color: #a4a4a8;
+    --Icon-color: #A4A4A8;
     --Icon-fontSize: calc(32px / 1.6); /* ≈ 20px */
     --CircularProgress-size: 20px;
     --CircularProgress-thickness: 2px;
@@ -1526,7 +1395,7 @@ body {
     --variant-borderWidth: 0px;
     --IconButton-size: 32px;
     z-index: 1;
-    color: #76767f;
+    color: #76767F;
 }
 @media (min-width: 0px) {
     .joy-17wd1bi {
@@ -1540,6 +1409,8 @@ body {
         padding-right: 0px;
     }
 }
+
+
 
 .joy-17wd1bi {
     display: flex;
@@ -1557,8 +1428,8 @@ body {
 
 .joy-oz3twp {
     --Icon-fontSize: calc(0.4 * 24px);
-    --CircularProgress-trackColor: #f2f2f3;
-    --CircularProgress-progressColor: #3478ff;
+    --CircularProgress-trackColor: #F2F2F3;
+    --CircularProgress-progressColor: #3478FF;
     --CircularProgress-percent: 67;
     --CircularProgress-linecap: round;
     --_root-size: 24px;
@@ -1578,7 +1449,7 @@ body {
     align-items: center;
     flex-shrink: 0;
     position: relative;
-    color: #145ff5;
+    color: #145FF5;
     --variant-borderWidth: 0px;
 }
 
@@ -1598,7 +1469,7 @@ body {
     r: calc(12px - 3px / 2 + min(0px, 0px / 2)); /* => 12px - 1.5px + 0px = 10.5px */
     fill: transparent;
     stroke-width: 3px;
-    stroke: #f2f2f3;
+    stroke: #F2F2F3;
 }
 
 .joy-skc48w {
@@ -1609,7 +1480,7 @@ body {
     r: 10.5px;
     fill: transparent;
     stroke-width: 3px;
-    stroke: #3478ff;
+    stroke: #3478FF;
     stroke-linecap: round;
     stroke-dasharray: 65.9734px;
     stroke-dashoffset: calc(65.9734px - 67 * 65.9734px / 100); /* ≒ 21.771px */
@@ -1637,7 +1508,7 @@ body {
     border-radius: 8px;
     margin: var(--Button-margin);
     border: none;
-    background-color: #f2f2f3;
+    background-color: #F2F2F3;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -1664,6 +1535,8 @@ body {
     }
 }
 
+
+
 .joy-8cxh2n {
     /* display: flex; */
     flex-direction: column;
@@ -1672,7 +1545,7 @@ body {
     padding-top: 75px;
     padding-bottom: 32px;
     padding-left: 40px;
-    border-left: 1px solid #e5e5ea;
+    border-left: 1px solid #E5E5EA;
 }
 
 .joy-1myle5f {
@@ -1693,7 +1566,7 @@ body {
     gap: 0.75rem 1rem;
     padding: 1rem;
     border-radius: 8px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -1702,7 +1575,7 @@ body {
     line-height: 1.5;
     color: #323232;
     font-weight: 500;
-    border: 1px solid #dde3e8;
+    border: 1px solid #DDE3E8;
     height: 172px;
 }
 @media (min-width: 0px) {
@@ -1715,6 +1588,8 @@ body {
         gap: 12px;
     }
 }
+
+
 
 .joy-sa8ghx {
     display: -webkit-box;
@@ -1738,7 +1613,7 @@ body {
     font-size: 24px;
     line-height: 1.25;
     letter-spacing: -0.025em;
-    color: #ffffff;
+    color: #FFFFFF;
     text-align: center;
     white-space: pre-line;
 }
@@ -1771,13 +1646,7 @@ body {
     --Icon-color: currentColor;
     --CircularProgress-size: 1.25em;
     --CircularProgress-thickness: 3px;
-    font-family: var(
-        --joy-fontFamily-body,
-        "Postype Sans-serif KR",
-        "Apple SD Gothic Neo",
-        "Malgun Gothic",
-        sans-serif
-    );
+    font-family: var(--joy-fontFamily-body, "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif);
     font-size: var(--joy-fontSize-sm);
     line-height: var(--joy-lineHeight-md);
     color: var(--variant-plainColor, rgba(var(--joy-palette-primary-mainChannel) / 1));
@@ -1802,10 +1671,7 @@ body {
     border-radius: var(--joy-radius-xs);
     padding: 0;
     cursor: pointer;
-    text-decoration-color: var(
-        --variant-outlinedBorder,
-        rgba(var(--joy-palette-primary-mainChannel) / var(--Link-underlineOpacity, 0.72))
-    );
+    text-decoration-color: var(--variant-outlinedBorder, rgba(var(--joy-palette-primary-mainChannel) / var(--Link-underlineOpacity, 0.72)));
     -moz-appearance: none;
     -webkit-appearance: none;
     position: relative;
@@ -1843,7 +1709,7 @@ body {
     color: #202022;
 }
 
-.flog-svg-7 {
+.joy-s1s0o1 {
     user-select: none;
     margin: 0;
     display: inline-block;
@@ -1918,9 +1784,9 @@ body {
     align-items: center;
 }
 
-.flog-div-75 {
+.joy-1fpbmdi {
     margin-inline-start: 0;
-    box-shadow: 0 0 0 2px #fff;
+    box-shadow: 0 0 0 2px #FFF;
     position: relative;
     display: flex;
     align-items: center;
@@ -1983,7 +1849,7 @@ body {
     position: relative;
     border-radius: inherit;
     height: 0;
-    padding-bottom: calc(var(--AspectRatio-paddingBottom) - 2 * 0px);
+    padding-bottom: calc(var(--AspectRatio-paddingBottom) - 2* 0px);
     overflow: hidden;
     -webkit-transition: inherit;
     transition: inherit;
@@ -1993,7 +1859,7 @@ body {
     color: #656667; /* Adjusted based on --joy-palette-neutral-softColor */
     font-weight: 400; /* Adjusted based on --joy-fontWeight-sm */
     --variant-borderWidth: 0px;
-    background-color: #f2f2f3; /* Adjusted based on --joy-palette-neutral-softBg */
+    background-color: #F2F2F3; /* Adjusted based on --joy-palette-neutral-softBg */
 }
 
 .joy-1h16 [data-first-child] {
@@ -2049,6 +1915,7 @@ body {
     margin: 0 auto;
 }
 
+
 .feelog-header-mainHeader {
     position: -webkit-sticky;
     position: sticky;
@@ -2083,6 +1950,8 @@ body {
     position: fixed;
     z-index: 11111;
 }
+
+
 
 /* *************************시계**************************** */
 
@@ -2131,7 +2000,6 @@ body {
     right: -11px;
     font-size: 25px;
 }
-
 
 .joy-3ys6m0 {
     background-color: #FFFFFF;
@@ -2418,3 +2286,38 @@ body {
     color: #3478ff;
 }
 
+.emotion-wrap{
+    margin-top: 10px;
+
+}
+
+.emotion-text{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: -0.025em;
+    color: #202022;
+}
+
+.emotion-emoticon {
+    width: 20px;
+}
+
+.ai-container{
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    border: 1px solid #DDE3E8;
+    height: 100px;
+    width: 93%;
+    padding: 20px;
+}
+
+.ai-think{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.comment-wrap{
+    margin: 20px;
+}
