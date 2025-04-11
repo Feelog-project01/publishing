@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const nextBtn = document.querySelector(".next-btn");
+    const nextBtn = document.querySelector(".preview-btn");
     const postBtn = document.querySelector(".post-btn");
     const cancelBtn = document.querySelector(".cancel-bnt");
     const editorZone = document.querySelector(".keep-editor-selection-zone");

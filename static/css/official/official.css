@@ -1,0 +1,4031 @@
+body {
+    margin: 0;
+    min-width: 320px;
+    height: 100dvh;
+    font-family: "Postype Sans-serif KR", Apple SD Gothic Neo, Malgun Gothic, sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #FFFFFF;
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+}
+
+body {
+    margin: 0px;
+    color: #202022;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    background-color: #FFFFFF;
+}
+
+body {
+    margin: 0;
+    color: #202022;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    background-color: #FFFFFF;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.joy-5635ou {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media (min-width: 0px) {
+    .joy-5635ou {
+        /* height: calc(100dvh - 60px); */
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-5635ou {
+        /* height: 100dvh; */
+    }
+}
+
+.joy-155l5r7 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    max-height: 100%;
+    background-color: transparent;
+}
+
+.joy-nta7m6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.joy-8atqhb {
+    width: 100%;
+}
+
+.joy-1l6o5ws {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 500;
+    background-color: var(--joy-palette-background-body);
+    -webkit-transition: top 0.3s;
+    transition: top 0.3s;
+}
+
+.joy-sb9nnc {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    max-width: 1144px;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+@media (min-width: 0px) {
+    .joy-sb9nnc {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 8px;
+        padding-right: 8px;
+        height: 48px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-sb9nnc {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 32px;
+        padding-right: 32px;
+        height: 64px;
+    }
+}
+
+.joy-fqr8x6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.joy-u0ikfp {
+    cursor: pointer;
+    padding: 4px 8px 4px 0;
+}
+
+@media (min-width: 0px) {
+    .joy-u0ikfp {
+        display: none;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-u0ikfp {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+.joy-18ex8e9 {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 24px;
+    color: black;
+}
+
+.joy-18ex8e9 g > rect {
+    fill: black;
+}
+
+.joy-18ex8e9 g > path {
+    fill: white;
+}
+
+.joy-18ex8e9 clipPath rect {
+    fill: white;
+}
+
+.joy-o2qig1 {
+    cursor: pointer;
+    padding: 8px;
+}
+
+@media (min-width: 0px) {
+    .joy-o2qig1 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-o2qig1 {
+        display: none;
+    }
+}
+
+.joy-c0fd9p {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 24px;
+    color: black;
+}
+
+.joy-c0fd9p g > rect {
+    fill: black;
+}
+
+.joy-c0fd9p g > path {
+    fill: white;
+}
+
+.joy-c0fd9p clipPath rect {
+    fill: white;
+}
+
+.joy-19qxa9f {
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(52, 120, 255, 1);
+    font-weight: 400;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    text-decoration-thickness: max(0.08em, 1px);
+    text-underline-offset: 0.15em;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 6px;
+    padding: 0;
+    cursor: pointer;
+    text-decoration-color: currentcolor;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    display: none;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+@media (min-width: 0px) {
+    .joy-19qxa9f {
+        padding: 0px 4px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-19qxa9f {
+        padding: 8px 12px;
+    }
+}
+
+.joy-lj52fq {
+    margin: 0px;
+    display: -webkit-box;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -0.025em;
+    color: #202022;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+@media (min-width: 0px) {
+    .joy-lj52fq {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-lj52fq {
+        font-size: 20px;
+    }
+}
+
+.joy-1ppe23c {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+@media (min-width: 0px) {
+    .joy-1ppe23c {
+        gap: 4px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1ppe23c {
+        gap: 8px;
+    }
+}
+
+@media (min-width: 0px) {
+    .joy-1pelmf7 {
+        display: none;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1pelmf7 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+.joy-46rdsn {
+    min-height: 2.25rem;
+    font-size: 16px;
+    padding-block: 0.375rem;
+    padding-inline: 1rem;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 0;
+    border: none;
+    background-color: #F2F2F3;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #202022;
+}
+
+.joy-46rdsn.MuiMenuButton-sizeMd {
+    min-height: 40px;
+}
+
+.joy-zcktug {
+    display: inherit;
+    margin-right: 0.5rem;
+}
+
+.joy-4rp8fm {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 24px;
+    color: currentColor;
+}
+
+.joy-xrh13s {
+    min-width: 2.25rem;
+    min-height: 2.25rem;
+    font-size: 16px;
+    padding-inline: 0.25rem;
+    -webkit-tap-highlight-color: transparent;
+    padding-block: 0;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    color: #202022;
+}
+
+.joy-xrh13s.MuiIconButton-sizeMd {
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.joy-hp68mp {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 8px;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.joy-vii58x {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 8px;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@media (min-width: 0px) {
+    .joy-vii58x {
+        display: none;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-vii58x {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+.joy-fucy34 {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.joy-cvdrot {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    box-sizing: border-box;
+    box-shadow: none;
+    line-height: 1.5;
+    padding: 0 calc(0.375rem - 0px);
+    min-height: 0.75rem;
+    min-width: 0.75rem;
+    border-radius: 0.75rem;
+    z-index: 1;
+    background-color: #D41724;
+    top: 0;
+    right: 0;
+    -webkit-transform: scale(1) translateX(50%) translateY(-50%);
+    -moz-transform: scale(1) translateX(50%) translateY(-50%);
+    -ms-transform: scale(1) translateX(50%) translateY(-50%);
+    transform: scale(1) translateX(50%) translateY(-50%);
+    transform-origin: 100% 0%;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.joy-cvdrot.MuiBadge-invisible {
+    -webkit-transform: scale(0) translateX(50%) translateY(-50%);
+    -moz-transform: scale(0) translateX(50%) translateY(-50%);
+    -ms-transform: scale(0) translateX(50%) translateY(-50%);
+    transform: scale(0) translateX(50%) translateY(-50%);
+}
+
+.joy-akorg6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@media (min-width: 0px) {
+    .joy-1c4f13u {
+        display: none;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1c4f13u {
+        display: initial;
+    }
+}
+
+.joy-t47jog {
+    min-height: 2rem;
+    font-size: 14px;
+    padding-block: 0.25rem;
+    padding-inline: 0.75rem;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #202022;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.joy-t47jog.MuiMenuButton-sizeSm {
+    min-height: 32px;
+}
+
+.joy-vl6dak {
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1;
+    color: #202022;
+    width: 32px;
+    height: 32px;
+    -webkit-margin-start: 0;
+    margin-inline-start: 0;
+    box-shadow: none;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.joy-1hy9t21 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    object-fit: cover;
+    color: transparent;
+    text-indent: 10000px;
+}
+
+@media (min-width: 0px) {
+    .joy-174j8o {
+        display: initial;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-174j8o {
+        display: none;
+    }
+}
+
+.joy-k9mukw {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.joy-18ontzg {
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(52, 120, 255, 1);
+    font-weight: 400;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    text-decoration-thickness: max(0.08em, 1px);
+    text-underline-offset: 0.15em;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 6px;
+    padding: 0;
+    cursor: pointer;
+    text-decoration-color: currentcolor;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+}
+
+.joy-dp6dm4 {
+    -webkit-margin-start: 0;
+    margin-inline-start: 0;
+    box-shadow: none;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    line-height: 1;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #202022;
+    width: 24px;
+    height: 24px;
+}
+
+.joy-z2ygw7.MuiBadge-invisible {
+    -webkit-transform: scale(0) translateX(50%) translateY(-50%);
+    -moz-transform: scale(0) translateX(50%) translateY(-50%);
+    -ms-transform: scale(0) translateX(50%) translateY(-50%);
+    transform: scale(0) translateX(50%) translateY(-50%);
+}
+
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
+.joy-bs3mrn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1144px;
+}
+
+.joy-1l9tbu6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 100%;
+    gap: 12px;
+}
+
+@media (min-width: 0px) {
+    .joy-1l9tbu6 {
+        padding: 16px 16px 4px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1l9tbu6 {
+        padding: 24px 32px 8px;
+    }
+}
+
+.joy-9jay18 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.joy-16v1edh {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 0;
+}
+
+@media (min-width: 0px) {
+    .joy-16v1edh {
+        gap: 10px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-16v1edh {
+        gap: 16px;
+    }
+}
+
+.joy-1gi51ua {
+    overflow: hidden;
+}
+
+@media (min-width: 0px) {
+    .joy-1gi51ua {
+        width: 64px;
+        min-width: 64px;
+        height: 64px;
+        border-radius: 8px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1gi51ua {
+        width: 96px;
+        min-width: 96px;
+        height: 96px;
+        border-radius: 12px;
+    }
+}
+
+.joy-2v1uk4 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.joy-1dgzupb {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+@media (min-width: 0px) {
+    .joy-1dgzupb {
+        gap: 2px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1dgzupb {
+        gap: 4px;
+    }
+}
+
+.joy-1yh0ndl {
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(52, 120, 255, 1);
+    font-weight: 400;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    text-decoration-thickness: max(0.08em, 1px);
+    text-underline-offset: 0.15em;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 6px;
+    padding: 0;
+    cursor: pointer;
+    text-decoration-color: currentcolor;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+}
+
+.joy-1hzx3ae {
+    margin: 0px;
+    display: -webkit-box;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.33334;
+    letter-spacing: -0.025em;
+    color: #202022;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+@media (min-width: 0px) {
+    .joy-1hzx3ae {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1hzx3ae {
+        font-size: 30px;
+    }
+}
+
+.joy-1frzndx {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 4px;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media (min-width: 0px) {
+    .joy-1frzndx {
+        height: 18px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1frzndx {
+        height: 26px;
+    }
+}
+
+.joy-1ntyri5 {
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(52, 120, 255, 1);
+    font-weight: 400;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    text-decoration-thickness: max(0.08em, 1px);
+    text-underline-offset: 0.15em;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 6px;
+    padding: 0;
+    cursor: pointer;
+    text-decoration-color: currentcolor;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.joy-867kah {
+    margin: 0px;
+    display: -webkit-box;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #202022;
+    font-weight: 400;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+@media (min-width: 0px) {
+    .joy-867kah {
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-867kah {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+.joy-pknn8w {
+    margin: 0px;
+    display: block;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #76767F;
+    font-weight: 400;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+@media (min-width: 0px) {
+    .joy-pknn8w {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-pknn8w {
+        font-size: 14px;
+    }
+}
+
+.joy-1apg8ro {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media (min-width: 744px) {
+    .joy-1apg8ro {
+        height: 26px;
+    }
+}
+
+.joy-11b7qhk {
+    margin: 0px;
+    display: -webkit-box;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #76767F;
+    font-weight: 400;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+@media (min-width: 0px) {
+    .joy-11b7qhk {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-11b7qhk {
+        font-size: 14px;
+    }
+}
+
+.joy-1uq22jq {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 24px;
+    color: #76767F;
+}
+
+@media (min-width: 0px) {
+    .joy-1uq22jq {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1uq22jq {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+.joy-odf186 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 6px;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    height: 40px;
+}
+
+@media (min-width: 0px) {
+    .joy-odf186 {
+        display: none;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-odf186 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+.joy-1e1rsw9 {
+    min-height: 2.25rem;
+    font-size: 14px;
+    padding-block: 0.375rem;
+    padding-inline: 1rem;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 0;
+    border: none;
+    background-color: #202022;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+@media (min-width: 0px) {
+    .joy-1e1rsw9 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1e1rsw9 {
+        width: 96px;
+    }
+}
+
+.joy-1e1rsw9.MuiButton-sizeMd {
+    min-height: 40px;
+    font-size: 16px;
+}
+
+.joy-1h3evr4 {
+    min-width: 40px;
+    min-height: 40px;
+    font-size: 16px;
+    padding-inline: 0.25rem;
+    -webkit-tap-highlight-color: transparent;
+    padding-block: 0;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    background-color: #F2F2F3;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    color: #202022;
+}
+
+@media (min-width: 0px) {
+    .joy-1h3evr4 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1h3evr4 {
+        display: none;
+    }
+}
+
+.joy-1h3evr4.MuiIconButton-sizeMd {
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.joy-1i8nhlx {
+    min-width: 40px;
+    min-height: 40px;
+    font-size: 16px;
+    padding-inline: 0.25rem;
+    -webkit-tap-highlight-color: transparent;
+    padding-block: 0;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    background-color: #F2F2F3;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    color: #202022;
+}
+
+@media (min-width: 0px) {
+    .joy-1i8nhlx {
+        display: none;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1i8nhlx {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+.joy-1i8nhlx.MuiIconButton-sizeMd {
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.joy-j33vsx {
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(52, 120, 255, 1);
+    font-weight: 400;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    vertical-align: bottom;
+    text-decoration-thickness: max(0.08em, 1px);
+    text-underline-offset: 0.15em;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 6px;
+    padding: 0;
+    cursor: pointer;
+    text-decoration-color: currentcolor;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    gap: 4px;
+}
+
+.joy-1x9hco4 {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+}
+
+.joy-5szcm {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 30px;
+    color: #202022;
+}
+
+.joy-10knsyv {
+    margin: 0px;
+    display: -webkit-box;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #202022;
+    font-weight: 400;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+@media (min-width: 0px) {
+    .joy-10knsyv {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-10knsyv {
+        font-size: 16px;
+    }
+}
+
+.joy-ge2k61 {
+    margin: 0px;
+    display: -webkit-box;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #202022;
+    font-weight: 400;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    min-width: -webkit-max-content;
+    min-width: -moz-max-content;
+    min-width: max-content;
+}
+
+@media (min-width: 0px) {
+    .joy-ge2k61 {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-ge2k61 {
+        font-size: 16px;
+        margin-left: 2px;
+    }
+}
+
+.joy-nm557z {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 6px;
+    width: 100%;
+}
+
+@media (min-width: 0px) {
+    .joy-nm557z {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-nm557z {
+        display: none;
+    }
+}
+
+.joy-1hdub61 {
+    min-height: 2rem;
+    font-size: 14px;
+    padding-block: 0.25rem;
+    padding-inline: 0.75rem;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 0;
+    border: none;
+    background-color: #202022;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+@media (min-width: 0px) {
+    .joy-1hdub61 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1hdub61 {
+        width: 96px;
+    }
+}
+
+.joy-1hdub61.MuiButton-sizeSm {
+    min-height: 32px;
+    font-size: 14px;
+}
+
+.joy-100vsse {
+    min-width: 32px;
+    min-height: 32px;
+    font-size: 14px;
+    padding-inline: 2px;
+    -webkit-tap-highlight-color: transparent;
+    padding-block: 0;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    background-color: #F2F2F3;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    color: #202022;
+}
+
+@media (min-width: 0px) {
+    .joy-100vsse {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-100vsse {
+        display: none;
+    }
+}
+
+.joy-100vsse.MuiIconButton-sizeSm {
+    min-width: 32px;
+    min-height: 32px;
+}
+
+.joy-5lxrv5 {
+    min-width: 32px;
+    min-height: 32px;
+    font-size: 14px;
+    padding-inline: 2px;
+    -webkit-tap-highlight-color: transparent;
+    padding-block: 0;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    background-color: #F2F2F3;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    color: #202022;
+}
+
+@media (min-width: 0px) {
+    .joy-5lxrv5 {
+        display: none;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-5lxrv5 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+.joy-5lxrv5.MuiIconButton-sizeSm {
+    min-width: 32px;
+    min-height: 32px;
+}
+
+.joy-b8eqj {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    z-index: 500;
+    background-color: #FFFFFF;
+    width: 100%;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+@media (min-width: 0px) {
+    .joy-b8eqj {
+        top: 47px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-b8eqj {
+        top: 63px;
+    }
+}
+
+.joy-crzgw0 {
+    margin: 0;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #202022;
+    font-weight: 400;
+    padding-block: 0.375rem;
+    padding-inline: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    position: relative;
+    justify-content: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+    background-color: #FFFFFF;
+    overflow: auto;
+}
+
+@media (min-width: 0px) {
+    .joy-crzgw0 {
+        height: 48px;
+        padding: 0 16px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-crzgw0 {
+        height: 56px;
+        padding: 0 32px;
+    }
+}
+
+.joy-9rvcue {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 0.625rem;
+    margin-inline: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+    display: block;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    list-style-type: disc;
+    position: relative;
+    padding-block-start: 0.25rem;
+    padding-block-end: 0.25rem;
+    -webkit-padding-start: 0.75rem;
+    padding-inline-start: 0.75rem;
+    -webkit-padding-end: 0.75rem;
+    padding-inline-end: 0.75rem;
+    min-block-size: 2.25rem;
+    color: #202022;
+    height: 100%;
+    padding-block: 0;
+    padding: 0;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #202022;
+}
+
+.joy-b61o4v {
+    margin: 0px;
+    display: block;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #202022;
+    font-weight: 400;
+}
+
+.joy-9rvcue span {
+    font-weight: 600;
+    color: #202022;
+}
+
+.joy-19cwwul {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 0.625rem;
+    margin-inline: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+    display: block;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    list-style-type: disc;
+    position: relative;
+    padding-block-start: 0.25rem;
+    padding-block-end: 0.25rem;
+    -webkit-padding-start: 0.75rem;
+    padding-inline-start: 0.75rem;
+    -webkit-padding-end: 0.75rem;
+    padding-inline-end: 0.75rem;
+    margin-block-start: 0;
+    min-block-size: 2.25rem;
+    color: #202022;
+    height: 100%;
+    padding-block: 0;
+    padding: 0;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #FFFFFF;
+}
+
+.joy-19cwwul span {
+    font-weight: 500;
+    color: #76767F;
+}
+
+.joy-dqchmy {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 30px;
+    color: #202022;
+}
+
+.joy-w2e6ki {
+    --Divider-thickness: 1px;
+    --Divider-lineColor: #DADADC;
+    margin: 0;
+    margin-inline: 0;
+    margin-block: 0;
+    position: relative;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border: none;
+    list-style: none;
+    background-color: #DADADC;
+    inline-size: 100%;
+    block-size: 1px;
+}
+
+.joy-1wuse7i {
+    width: 100%;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    max-width: 1144px;
+}
+
+@media (min-width: 0px) {
+    .joy-1wuse7i {
+        padding: 0 0 40px 0;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1wuse7i {
+        padding: 0 32px 80px;
+    }
+}
+
+.joy-1ofqig9 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+}
+
+.joy-cloxzd {
+    width: 100%;
+}
+
+@media (min-width: 0px) {
+    .joy-cloxzd {
+        padding-top: 20px;
+        padding-bottom: 28px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-cloxzd {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+.joy-1y0x8l8 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media (min-width: 0px) {
+    .joy-1y0x8l8 {
+        gap: 0;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1y0x8l8 {
+        gap: 24px;
+    }
+}
+
+.joy-19ov3j5 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@media (min-width: 0px) {
+    .joy-19ov3j5 {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-19ov3j5 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.joy-1k47tyc {
+    margin: 0px;
+    display: block;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33334;
+    letter-spacing: -0.025em;
+    color: #202022;
+}
+
+@media (min-width: 0px) {
+    .joy-1k47tyc {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1k47tyc {
+        font-size: 24px;
+    }
+}
+
+.joy-qmw0re {
+    --Icon-fontSize: 1em;
+    margin: 0px;
+    display: inline;
+    font-size: inherit;
+    color: #76767F;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+@media (min-width: 0px) {
+    .joy-qmw0re {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-qmw0re {
+        font-size: 16px;
+    }
+}
+
+.joy-3acr6q {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+}
+
+@media (min-width: 0px) {
+    .joy-3acr6q {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-3acr6q {
+        margin-left: -12px;
+        margin-right: -11px;
+    }
+}
+
+.slick-slider {
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list, .slick-slider {
+    position: relative;
+    display: block;
+}
+
+.slick-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-slider .slick-list, .slick-slider .slick-track {
+    transform: translateZ(0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slick-track:after, .slick-track:before {
+    display: table;
+    content: "";
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.joy-nruknm {
+    padding: 0 12px 0 12px;
+}
+
+@media (min-width: 0px) {
+    .joy-nruknm {
+        display: none;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-nruknm {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+.joy-1i7psr7 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+@media (min-width: 0px) {
+    .joy-1i7psr7 {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1i7psr7 {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 344px;
+    }
+}
+
+.joy-1doa5ik {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+@media (min-width: 0px) {
+    .joy-1doa5ik {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #DADADC;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1doa5ik {
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+}
+
+.joy-pnjqrc {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+@media (min-width: 0px) {
+    .joy-pnjqrc {
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-pnjqrc {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+.joy-8pli86 {
+    --AspectRatio-paddingBottom: clamp(0px, calc(100% / 1.7777777777777777), 9999px);
+    --AspectRatio-maxHeight: 9999px;
+    --AspectRatio-minHeight: 0px;
+    --Icon-color: #76767F;
+    border-radius: 0;
+    display: block;
+    flex: initial;
+    flex-direction: column;
+    margin: 0;
+    cursor: pointer;
+    height: max-content;
+    min-width: 112px;
+    overflow: hidden;
+    background-color: #F2F2F3;
+    position: relative;
+    aspect-ratio: 16 / 9;
+}
+
+@media (min-width: 0px) {
+    .joy-8pli86 {
+        width: 112px;
+        border-radius: 8px;
+        -webkit-order: 2;
+        -ms-flex-order: 2;
+        order: 2;
+        margin-top: 4px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-8pli86 {
+        width: 100%;
+        border-radius: 12px;
+        -webkit-order: 1;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+}
+
+.joy-1h16 {
+    flex: 1;
+    position: relative;
+    border-radius: inherit;
+    height: 100%;
+    padding-bottom: calc(0px - 2 * 0px);
+    overflow: hidden;
+    transition: inherit;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #A4A4A8;
+    font-weight: 400;
+    background-color: #F2F2F3;
+}
+
+.joy-1h16 [data-first-child] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.joy-8pli86:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: inherit;
+    border: 1px solid rgba(0, 0, 0, 7.5%);
+}
+
+.joy-izk0jg {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: 100%;
+    cursor: pointer;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+}
+
+@media (min-width: 0px) {
+    .joy-izk0jg {
+        -webkit-order: 1;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-izk0jg {
+        -webkit-order: 2;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+}
+
+.joy-2zp5r6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+@media (min-width: 0px) {
+    .joy-2zp5r6 {
+        gap: 4px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-2zp5r6 {
+        gap: 6px;
+    }
+}
+
+@media (min-width: 0px) {
+    .joy-2zp5r6 {
+        min-height: 68px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-2zp5r6 {
+        min-height: -webkit-max-content;
+        min-height: -moz-max-content;
+        min-height: max-content;
+    }
+}
+
+.joy-mxs4ac {
+    margin: 0px;
+    display: block;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33334;
+    color: #202022;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+@media (min-width: 0px) {
+    .joy-mxs4ac {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-mxs4ac {
+        font-size: 18px;
+    }
+}
+
+.joy-efnxaq {
+    margin: 0px;
+    display: block;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #76767F;
+    font-weight: 400;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+@media (min-width: 0px) {
+    .joy-efnxaq {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-efnxaq {
+        font-size: 16px;
+    }
+}
+
+.joy-j7qwjs {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.joy-5rg2pa {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    row-gap: 8px;
+    -webkit-column-gap: 4px;
+    column-gap: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    overflow: auto;
+    line-height: 28px;
+    scrollbar-width: none;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@media (min-width: 0px) {
+    .joy-5rg2pa {
+        height: 20px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-5rg2pa {
+        height: 24px;
+    }
+}
+
+.joy-c0nc3d {
+    gap: 3px;
+    min-height: 24px;
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+    padding-inline: 8px;
+    border-radius: 1.5rem;
+    position: relative;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    white-space: nowrap;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    vertical-align: middle;
+    box-sizing: border-box;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #202022;
+    background-color: #F2F2F3;
+    text-align: center;
+    min-width: 40px;
+}
+
+@media (min-width: 0px) {
+    .joy-c0nc3d {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-c0nc3d {
+        display: none;
+    }
+}
+
+.joy-c0nc3d.MuiChip-sizeSm {
+    --Chip-paddingInline: 6px;
+    --_Chip-minHeight: 20px;
+    --Chip-decoratorChildHeight: 18px;
+    font-size: 12px;
+    min-width: 32px;
+}
+
+.joy-c0nc3d.MuiChip-colorNeutral.MuiChip-variantSoft:not(.Mui-disabled) {
+    color: #76767F;
+}
+
+.joy-tymi7a {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    min-inline-size: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.joy-7upex7 {
+    gap: 0.25rem;
+    min-height: 24px;
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+    padding-inline: 8px;
+    border-radius: 1.5rem;
+    position: relative;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    white-space: nowrap;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    vertical-align: middle;
+    box-sizing: border-box;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #202022;
+    background-color: #F2F2F3;
+    text-align: center;
+    min-width: 40px;
+}
+
+@media (min-width: 0px) {
+    .joy-7upex7 {
+        display: none;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-7upex7 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+.joy-7upex7.MuiChip-colorNeutral.MuiChip-variantSoft:not(.Mui-disabled) {
+    color: #76767F;
+}
+
+.joy-rfw04i {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 12px;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    display: inherit;
+}
+
+@media (min-width: 0px) {
+    .joy-rfw04i {
+        height: 21px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-rfw04i {
+        height: 35px;
+    }
+}
+
+.joy-11jdcyo {
+    margin: 0px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #76767F;
+    font-weight: 400;
+    min-width: -webkit-max-content;
+    min-width: -moz-max-content;
+    min-width: max-content;
+}
+
+@media (min-width: 0px) {
+    .joy-11jdcyo {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-11jdcyo {
+        font-size: 14px;
+    }
+}
+
+.joy-t6avop {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-margin-end: 4px;
+    margin-inline-end: 4px;
+}
+
+.joy-2ysv9a {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0px; 
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 24px; 
+    color: #76767F; 
+}
+
+
+.joy-js3z9i {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 4px;
+    height: 32px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.joy-nknx3c {
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px; /* Assuming --joy-fontSize-md is 16px */
+    line-height: 1.5; /* Assuming --joy-lineHeight-md is 1.5 */
+    color: rgba(52, 120, 255, 1); /* Assuming --joy-palette-primary-mainChannel is (52, 120, 255) */
+    font-weight: 400; /* Assuming --joy-fontWeight-sm is 400 */
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    text-decoration-thickness: max(0.08em, 1px);
+    text-underline-offset: 0.15em;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 6px; /* Assuming --joy-radius-xs is 6px */
+    padding: 0;
+    cursor: pointer;
+    text-decoration-color: rgba(52, 120, 255, 0.72); /* Assuming --joy-palette-primary-mainChannel with --Link-underlineOpacity */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    text-decoration-color: currentcolor;
+    margin-right: 4px;
+}
+
+.joy-1fpbmdi {
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+    box-shadow: 0 0 0 2px rgba(21, 21, 21, 0.08);
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    line-height: 1;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #76767F;
+    background-color: #F2F2F3;
+    width: 20px;
+    height: 20px;
+}
+
+.joy-1jd7el2 {
+    margin: 0px;
+    display: -webkit-box;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #202022;
+    font-weight: 400;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+@media (min-width: 0px) {
+    .joy-1jd7el2 {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1jd7el2 {
+        font-size: 14px;
+    }
+}
+
+.joy-12qhz0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 4px;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.joy-1r9kwv0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 4px;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.joy-ktwjae {
+    margin: 0px;
+    display: block;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #76767F;
+    font-weight: 400;
+}
+
+@media (min-width: 0px) {
+    .joy-ktwjae {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-ktwjae {
+        font-size: 14px;
+    }
+}
+
+.joy-baexh4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 4px;
+    background-color: #FFFFFF;
+    height: 32px;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@media (min-width: 0px) {
+    .joy-baexh4 {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-baexh4 {
+        visibility: hidden;
+    }
+}
+
+.joy-1ja7f1b {
+    min-width: 32px;
+    min-height: 32px;
+    font-size: 14px;
+    padding-inline: 2px;
+    -webkit-tap-highlight-color: transparent;
+    padding-block: 0;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 500;
+    margin: 0px;
+    border-radius: 8px; /* Assuming --joy-radius-sm is 8px */
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    color: #202022;
+}
+
+.joy-1ja7f1b.MuiIconButton-sizeSm {
+    --Icon-fontSize: 20px;
+    min-width: 32px;
+    min-height: 32px;
+}
+
+.joy-17bmg2t {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 24px;
+    color: #76767F;
+}
+
+.joy-aadkxt {
+    min-width: 32px;
+    min-height: 32px;
+    font-size: 14px;
+    padding-inline: 2px;
+    -webkit-tap-highlight-color: transparent;
+    padding-block: 0;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 500;
+    margin: 0px;
+    border-radius: 8px; /* Assuming --joy-radius-sm is 8px */
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    color: #202022;
+}
+
+@media (min-width: 0px) {
+    .joy-aadkxt {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-aadkxt {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+.joy-aadkxt.MuiIconButton-sizeSm {
+    --Icon-fontSize: 20px;
+    min-width: 32px;
+    min-height: 32px;
+}
+
+.joy-151ep5g {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0px;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 24px;
+    color: #76767F;
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.joy-1yqy26p {
+    position: absolute;
+    z-index: 10;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: -10px;
+}
+
+@media (min-width: 0px) {
+    .joy-1yqy26p {
+        display: none;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1yqy26p {
+        display: block;
+        top: calc(100vw * (1 / 7) * 0.5 + 20px);
+    }
+}
+
+@media (min-width: 1132px) {
+    .joy-1yqy26p {
+        top: 104px;
+    }
+}
+
+.joy-nf1a52 {
+    min-width: 36px;
+    min-height: 36px;
+    font-size: 16px;
+    padding-inline: 0.25rem;
+    -webkit-tap-highlight-color: transparent;
+    padding-block: 0;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 500;
+    margin: 0px;
+    border-radius: 8px; /* Assuming --joy-radius-sm is 8px */
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    color: #202022;
+    background-color: #F2F2F3; /* Assuming --joy-palette-background-popup is #F2F2F3 */
+    border-radius: 50%;
+    box-shadow: 0px 2px 8px -2px rgba(21, 21, 21, 0.08), 0px 6px 12px -2px rgba(21, 21, 21, 0.08); /* Assuming --joy-shadow-md is this value */
+}
+
+.joy-nf1a52.MuiIconButton-sizeMd {
+    --Icon-fontSize: 24px;
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.joy-1w4q56z {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 24px;
+    color: currentcolor;
+}
+
+.joy-1evnnx0 {
+    padding-bottom: 16px;
+}
+
+@media (min-width: 0px) {
+    .joy-1evnnx0 {
+        display: initial;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1evnnx0 {
+        display: none;
+    }
+}
+
+.joy-1klfm0m {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+@media (min-width: 0px) {
+    .joy-1klfm0m {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1klfm0m {
+        display: none;
+    }
+}
+
+.joy-1oxrhpy {
+    overflow: hidden;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+}
+
+.joy-w6y1ub {
+    gap: 3px;
+    min-height: 24px;
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+    padding-inline: 8px;
+    border-radius: 1.5rem;
+    position: relative;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    white-space: nowrap;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    vertical-align: middle;
+    box-sizing: border-box;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #202022;
+    background-color: #F2F2F3;
+    color: #D41724;
+    text-align: center;
+    min-width: 40px;
+}
+
+.joy-w6y1ub.MuiChip-sizeSm {
+    --Chip-paddingInline: 6px;
+    --_Chip-minHeight: 20px;
+    --Chip-decoratorChildHeight: 18px;
+    font-size: 12px;
+    min-width: 32px;
+}
+
+.joy-1xam0kh {
+    margin: 0px;
+    display: -webkit-box;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33334;
+    color: #202022;
+    color: #76767F;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+@media (min-width: 0px) {
+    .joy-1xam0kh {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1xam0kh {
+        font-size: 18px;
+    }
+}
+
+.joy-cvvlbq {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    row-gap: 8px;
+    -webkit-column-gap: 4px;
+    column-gap: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    overflow: auto;
+    line-height: 28px;
+    scrollbar-width: none;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    display: none;
+}
+
+@media (min-width: 0px) {
+    .joy-cvvlbq {
+        height: 20px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-cvvlbq {
+        height: 24px;
+    }
+}
+
+.joy-lux3u6 {
+    position: absolute;
+    z-index: 10;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+    right: -10px;
+}
+
+@media (min-width: 0px) {
+    .joy-lux3u6 {
+        display: none;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-lux3u6 {
+        display: block;
+    }
+}
+
+.joy-10jnt48 {
+    margin: initial;
+    margin-inline: 0px;
+    margin-block: initial;
+    position: relative;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border: none;
+    list-style: none;
+    background-color: rgba(118, 118, 127, 0.15);
+    inline-size: initial;
+    block-size: 1px;
+}
+
+@media (min-width: 0px) {
+    .joy-10jnt48 {
+        height: 8px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-10jnt48 {
+        height: 1px;
+    }
+}
+
+.joy-d85mb6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+@media (min-width: 0px) {
+    .joy-d85mb6 {
+        padding-top: 20px;
+        padding-bottom: 28px;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-d85mb6 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        overflow: visible;
+    }
+}
+
+.joy-crmri9 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+@media (min-width: 0px) {
+    .joy-crmri9 {
+        gap: 12px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-crmri9 {
+        gap: 12px;
+    }
+}
+
+.joy-1skhroz {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: flex-end;
+    -webkit-box-align: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+}
+
+@media (min-width: 0px) {
+    .joy-1skhroz {
+        padding: 0 16px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1skhroz {
+        padding: 0;
+    }
+}
+
+.joy-3uoinf {
+    margin: 0px;
+    display: block;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #202022;
+    font-weight: 600;
+}
+
+@media (min-width: 0px) {
+    .joy-3uoinf {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-3uoinf {
+        font-size: 24px;
+    }
+}
+
+.joy-18puca4 {
+    margin: 0px;
+    display: inline;
+    font-size: inherit;
+    color: #76767F;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+@media (min-width: 0px) {
+    .joy-18puca4 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-18puca4 {
+        font-size: 16px;
+    }
+}
+
+.joy-hmlm9v {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    min-width: 0;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    margin: 0px 0px;
+    overflow: auto;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+    scrollbar-width: none;
+}
+
+@media (min-width: 0px) {
+    .joy-hmlm9v {
+        -webkit-column-gap: 12px;
+        column-gap: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: -6px;
+        margin-bottom: -6px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-hmlm9v {
+        -webkit-column-gap: 24px;
+        column-gap: 24px;
+        padding-left: 28px;
+        padding-right: 28px;
+        margin-top: -12px;
+        margin-bottom: -12px;
+        display: none;
+    }
+}
+
+@media (min-width: 0px) {
+    .joy-hmlm9v {
+        margin-top: -6px;
+        margin-bottom: -6px;
+        padding-left: 16px;
+        padding-right: 16px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-hmlm9v {
+        margin-top: -12px;
+        margin-bottom: -12px;
+        padding-left: 28px;
+        padding-right: 28px;
+        display: none;
+    }
+}
+
+@media (min-width: 0px) {
+    .joy-1hysr2j {
+        display: none;
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-1hysr2j {
+        display: block;
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+}
+
+.joy-1d7j7g2 {
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-basis: auto;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    width: 25%;
+    min-width: 190px;
+    max-width: 300px;
+    box-sizing: border-box;
+    padding: 0px 0px;
+}
+
+@media (min-width: 0px) {
+    .joy-1d7j7g2 {
+        padding: 12px;
+    }
+}
+
+@media (min-width: 992px) {
+    .joy-1d7j7g2 {
+        padding: 12px;
+    }
+}
+
+.joy-kynq33 {
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(52, 120, 255, 1);
+    font-weight: 400;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    text-decoration-thickness: max(0.08em, 1px);
+    text-underline-offset: 0.15em;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 6px;
+    padding: 0;
+    cursor: pointer;
+    text-decoration-color: rgba(52, 120, 255, 0.72);
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    text-decoration-color: currentcolor;
+    width: 100%;
+}
+
+.joy-1b7qjrb {
+    border-radius: 12px;
+    display: block;
+    -webkit-flex: initial;
+    -ms-flex: initial;
+    flex: initial;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0px;
+    position: relative;
+    aspect-ratio: 1;
+}
+
+.joy-1h16 [data-first-child]>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.joy-1b7qjrb:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: inherit;
+    border: 1px solid rgba(0, 0, 0, 7.5%);
+}
+
+.joy-7kyv3z {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 6px;
+}
+
+@media (min-width: 0px) {
+    .joy-7kyv3z {
+        padding-top: 12px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-7kyv3z {
+        padding-top: 16px;
+    }
+}
+
+.joy-it4ufn {
+    margin: 0px;
+    display: -webkit-box;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33334;
+    color: #202022;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+@media (min-width: 0px) {
+    .joy-it4ufn {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-it4ufn {
+        font-size: 18px;
+    }
+}
+
+.joy-xiq7hi {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.joy-16rh41f {
+    margin: 0px;
+    display: inline;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #202022;
+    font-weight: 400;
+}
+
+@media (min-width: 0px) {
+    .joy-16rh41f {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-16rh41f {
+        font-size: 14px;
+    }
+}
+
+.joy-yvyoz1 {
+    margin: 0px;
+    display: inline;
+    font-family: "Postype Sans-serif KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #76767F;
+    font-weight: 400;
+}
+
+@media (min-width: 0px) {
+    .joy-yvyoz1 {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-yvyoz1 {
+        font-size: 14px;
+    }
+}
+
+.joy-1v1rp2n {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 4px;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-top: 6px;
+}
+
+.joy-z3nuvs {
+    position: absolute;
+    z-index: 10;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: -10px;
+}
+
+@media (min-width: 0px) {
+    .joy-z3nuvs {
+        display: none;
+    }
+}
+
+@media (min-width: 744px) {
+    .joy-z3nuvs {
+        display: block;
+        top: calc(100vw * (1 / 10) + 20px);
+    }
+}
+
+@media (min-width: 1132px) {
+    .joy-z3nuvs {
+        top: 140px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

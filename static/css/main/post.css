@@ -1384,7 +1384,6 @@ div.fr-toolbar.fr-basic {
     outline: 0px;
     border-width: 0px;
     gap: 0px;
-    height: 635px;
 }
 
 .joy-u4p24i {
@@ -2431,18 +2430,10 @@ div.fr-toolbar.fr-basic {
     cursor: pointer;
   }
 
-  .note-editable {
-    background-color: #f9f9f9; /* 은은한 회색 */
-    color: #202022; /* 텍스트 컬러도 조정 가능 */
-    padding: 16px;
-    border-radius: 8px;
+  #select-toggle {
+    position: relative;
   }
-
-  .note-fontname{
-    width: 130px;
-  }
-
-
+  
   #select-options {
     position: absolute;
     top: 100%;
@@ -2460,9 +2451,18 @@ div.fr-toolbar.fr-basic {
     pointer-events: auto; 
   }
 
-  .note-editor-hidden {
-    display: none !important;
+  .note-editable {
+    background-color: #f9f9f9; /* 은은한 회색 */
+    color: #202022; /* 텍스트 컬러도 조정 가능 */
+    padding: 16px;
+    border-radius: 8px;
   }
+
+  .note-fontname{
+    width: 130px;
+  }
+
+
 
 
 
